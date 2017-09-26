@@ -363,3 +363,6 @@ eelgr %>%
   theme(axis.text.x = element_text(angle=45, hjust=1))
 
 #next step is fixing up abundance and biomass graphs!!
+
+setwd("~/Eelgrass Project")
+#in order to commit to Github and track saves and changes and etc!
