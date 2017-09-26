@@ -1,0 +1,1896 @@
+ID,Species,Site,Eelgrass,GFI,Group,Detail,Abundance,Biomass
+BCHUM1,Chum,Qualicum,Eelgrass,75-100%,Insect,Formicidae,1,0.1
+BCHUM1,Chum,Qualicum,Eelgrass,75-100%,Cumacean,Cumacea,1,0.5
+BCHUM1,Chum,Qualicum,Eelgrass,75-100%,Barnacle,Balanus glandula,2,0.1
+BCHUM1,Chum,Qualicum,Eelgrass,75-100%,Euphausiid,Euphausiidae,1,0.2
+BCHUM1,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Calanus marshallae,2,2.1
+BCHUM1,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Calanus pacificus,2,1.3
+BCHUM1,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Calanus,4,3.1
+BCHUM1,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Calanidae,2,1.6
+BCHUM1,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Calanoida,1,1.9
+BCHUM1,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,4,0.5
+BCHUM1,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,4,0.2
+BCHUM1,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Parathalestris bulbiseta,1,0.1
+BCHUM1,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Parathalestris bulbiseta,3,0.2
+BCHUM1,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Dactylopusia,5,0.1
+BCHUM1,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,223,5.6
+BCHUM1,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,41,0.4
+BCHUM1,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,9,0.1
+BCHUM1,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,5,0.1
+BCHUM1,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,9,0.1
+BCHUM1,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,39,0.2
+BCHUM1,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,17,0.7
+BCHUM1,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,152,3.8
+BCHUM2,Chum,Qualicum,Eelgrass,75-100%,Barnacle,Balanus glandula,2,0.1
+BCHUM2,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,8,0.6
+BCHUM2,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium patellarum,1,0.1
+BCHUM2,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Calanus marshallae,2,2.1
+BCHUM2,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Calanus,5,1.5
+BCHUM2,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Calanoida,1,1.7
+BCHUM2,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Dactylopusia,1,0.1
+BCHUM2,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,3,0.1
+BCHUM2,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,261,2.2
+BCHUM2,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,18,0.1
+BCHUM2,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,2,0.1
+BCHUM2,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,2,0.1
+BCHUM2,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,22,0.1
+BCHUM2,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,8,0.1
+BCHUM2,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,280,0.1
+BCHUM3,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Parathalestris bulbiseta,5,0.4
+BCHUM3,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Parathalestris bulbiseta,4,0.1
+BCHUM3,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Dactylopusia,2,0.1
+BCHUM3,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,2,0.2
+BCHUM3,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,6,0.6
+BCHUM3,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium patellarum,2,0.1
+BCHUM3,Chum,Qualicum,Eelgrass,75-100%,Cyclopoid/Poecilostomatoid,Oncaea borealis,1,0.1
+BCHUM3,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,9,0.3
+BCHUM3,Chum,Qualicum,Eelgrass,75-100%,Cumacean,Cumacea,2,0.6
+BCHUM3,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Calanus pacificus,1,0.6
+BCHUM3,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,149,4.4
+BCHUM3,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,199,6.3
+BCHUM3,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,37,0.1
+BCHUM3,Chum,Qualicum,Eelgrass,75-100%,Fish,Neopterygii,2,0.1
+BCHUM3,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,7,0.1
+BCHUM3,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,4,0.1
+BCHUM3,Chum,Qualicum,Eelgrass,75-100%,Barnacle,Balanus glandula,2,0.1
+BCHUM3,Chum,Qualicum,Eelgrass,75-100%,Barnacle,Balanomorpha,5,0.1
+BCHUM3,Chum,Qualicum,Eelgrass,75-100%,Detritus,Phaeophyceae,1,0.1
+BCHUM3,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,27,0.5
+BCHUM4,Chum,Qualicum,Noneelgrass,50-75%,Fish,Neopterygii,6,13.1
+BCHUM4,Chum,Qualicum,Noneelgrass,50-75%,Harpacticoid,Harpacticus,5,0.5
+BCHUM4,Chum,Qualicum,Noneelgrass,50-75%,Calanoid,Neocalanus plumchrus,1,1.6
+BCHUM4,Chum,Qualicum,Noneelgrass,50-75%,Gammarid,Cyphocaris,1,0.1
+BCHUM4,Chum,Qualicum,Noneelgrass,50-75%,Harpacticoid,Tisbe,5,0.1
+BCHUM4,Chum,Qualicum,Noneelgrass,50-75%,Harpacticoid,Tisbe,11,0.4
+BCHUM4,Chum,Qualicum,Noneelgrass,50-75%,Harpacticoid,Harpacticoida,6,0.1
+BCHUM4,Chum,Qualicum,Noneelgrass,50-75%,Harpacticoid,Harpacticoida,7,0.1
+BCHUM5,Chum,Qualicum,Noneelgrass,25-50%,Gammarid,Cyphocaris,1,0.1
+BCHUM5,Chum,Qualicum,Noneelgrass,25-50%,Harpacticoid,Harpacticus,1,0.4
+BCHUM5,Chum,Qualicum,Noneelgrass,25-50%,Fish,Neopterygii,1,10.2
+BCHUM6,Chum,Qualicum,Noneelgrass,50-75%,Harpacticoid,Tisbe,3,0.1
+BCHUM6,Chum,Qualicum,Noneelgrass,50-75%,Fish,Neopterygii,1,12.2
+BCHUM6,Chum,Qualicum,Noneelgrass,50-75%,Harpacticoid,Ectinosoma melaniceps,2,0.1
+BCHUM6,Chum,Qualicum,Noneelgrass,50-75%,Harpacticoid,Harpacticus,44,5.7
+BCHUM6,Chum,Qualicum,Noneelgrass,50-75%,Harpacticoid,Harpacticus,19,0.1
+BCHUM6,Chum,Qualicum,Noneelgrass,50-75%,Barnacle,Balanomorpha,1,0.1
+BCHUM7,Chum,Qualicum,Noneelgrass,0-25%,Digested food,Digested food,1,1.9
+BCHUM8,Chum,Qualicum,Eelgrass,75-100%,Cyclopoid/Poecilostomatoid,Ditrichocorycaeus anglicus,1,0.1
+BCHUM8,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Dactylopusia,1,0.1
+BCHUM8,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,5,0.1
+BCHUM8,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Diosaccus spinatus,1,0.1
+BCHUM8,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Sarsamphiascus,1,0.1
+BCHUM8,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Microsetella norvegica,1,0.1
+BCHUM8,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,2,0.1
+BCHUM8,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,84,3.2
+BCHUM8,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,144,2
+BCHUM8,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,36,0.4
+BCHUM8,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,44,0.4
+BCHUM8,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,8,0.4
+BCHUM8,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,72,5.6
+BCHUM8,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,48,0.4
+BCHUM8,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,328,5.6
+BCHUM9,Chum,Qualicum,Eelgrass,75-100%,Cyclopoid/Poecilostomatoid,Ditrichocorycaeus anglicus,1,0.1
+BCHUM9,Chum,Qualicum,Eelgrass,75-100%,Detritus,Rocks/Plastic,1,0.1
+BCHUM9,Chum,Qualicum,Eelgrass,75-100%,Gammarid,Gammaridea,1,0.1
+BCHUM9,Chum,Qualicum,Eelgrass,75-100%,Gammarid,Gammaridea,1,0.1
+BCHUM9,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,3,0.1
+BCHUM9,Chum,Qualicum,Eelgrass,75-100%,Cyclopoid/Poecilostomatoid,Oncaea borealis,1,0.1
+BCHUM9,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,22,0.1
+BCHUM9,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,7,0.1
+BCHUM9,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,7,0.1
+BCHUM9,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,18,0.1
+BCHUM9,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,2,0.1
+BCHUM9,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,14,0.1
+BCHUM9,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,35,2.1
+BCHUM9,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,105,1.4
+BCHUM9,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Eurytemora affinis,1,0.1
+BCHUM9,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Calanoida,2,0.6
+BCHUM9,Chum,Qualicum,Eelgrass,75-100%,Insect,Insecta,2,0.8
+BCHUM9,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,3,0.1
+BCHUM9,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Sarsamphiascus,1,0.1
+BCHUM9,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Microsetella norvegica,2,0.1
+BCHUM9,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,6,0.1
+BCHUM9,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Dactylopusia,1,0.1
+BCHUM9,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,2,0.1
+BCHUM9,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Amphiascus,1,0.1
+BCHUM9,Chum,Qualicum,Eelgrass,75-100%,Euphausiid,Euphausiidae,1,0.1
+BCHUM9,Chum,Qualicum,Eelgrass,75-100%,Euphausiid,Euphausiidae,1,0.1
+BCHUM9,Chum,Qualicum,Eelgrass,75-100%,Euphausiid,Euphausiidae,1,0.1
+BCHUM9,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,192,2.6
+BCHUM10,Chum,Qualicum,Eelgrass,75-100%,Euphausiid,Euphausiidae,1,0.1
+BCHUM10,Chum,Qualicum,Eelgrass,75-100%,Euphausiid,Euphausiidae,1,0.1
+BCHUM10,Chum,Qualicum,Eelgrass,75-100%,Insect,Insecta,1,0.4
+BCHUM10,Chum,Qualicum,Eelgrass,75-100%,Insect,Simuliidae,1,0.6
+BCHUM10,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Scolecithricella minor,1,0.1
+BCHUM10,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,1,0.1
+BCHUM10,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Orthopsyllus linearis,1,0.1
+BCHUM10,Chum,Qualicum,Eelgrass,75-100%,Isopod,Isopoda,1,0.1
+BCHUM10,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,2,0.1
+BCHUM10,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,4,0.4
+BCHUM10,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,4,0.4
+BCHUM10,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,36,2
+BCHUM10,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,12,0.4
+BCHUM10,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Dactylopusia,8,0.4
+BCHUM10,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,72,0.4
+BCHUM10,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,20,0.4
+BCHUM10,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,84,0.4
+BCHUM10,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,320,8
+BCHUM10,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,156,4
+BCHUM10,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,276,8.8
+BCHUM11,Chum,Qualicum,Eelgrass,50-75%,Calanoid,Calanoida,1,0.1
+BCHUM11,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Scutellidium,1,0.1
+BCHUM11,Chum,Qualicum,Eelgrass,50-75%,Insect,Insecta,1,0.1
+BCHUM11,Chum,Qualicum,Eelgrass,50-75%,Cyclopoid/Poecilostomatoid,Ditrichocorycaeus anglicus,1,0.1
+BCHUM11,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Ectinosoma melaniceps,1,0.1
+BCHUM11,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Sarsamphiascus,1,0.1
+BCHUM11,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Harpacticus,28,3.2
+BCHUM11,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Harpacticus,4,0.4
+BCHUM11,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Pseudobradya,4,0.4
+BCHUM11,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Tisbe,144,2
+BCHUM11,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Tisbe,72,0.4
+BCHUM11,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Zaus,44,0.4
+BCHUM11,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Zaus,36,0.4
+BCHUM11,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Harpacticoida,24,0.4
+BCHUM11,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Harpacticoida,272,2.4
+BCHUM12,Chum,Qualicum,Eelgrass,75-100%,Barnacle,Balanus glandula,1,0.1
+BCHUM12,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,1,0.1
+BCHUM12,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,35,2.1
+BCHUM12,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,14,1
+BCHUM12,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,4,0.1
+BCHUM12,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,2,0.1
+BCHUM12,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,16,0.2
+BCHUM12,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,11,0.1
+BCHUM12,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,89,3.2
+BCHUM12,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,55,0.8
+BCHUM12,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,1,0.1
+BCHUM12,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,26,0.1
+BCHUM12,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,78,1.8
+BCHUM29,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,1,0.1
+BCHUM29,Chum,Qualicum,Eelgrass,75-100%,Insect,Insecta,1,0.1
+BCHUM29,Chum,Qualicum,Eelgrass,75-100%,Isopod,Isopoda,1,0.4
+BCHUM29,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Dactylopusia tisboides,1,0.1
+BCHUM29,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,2,0.1
+BCHUM29,Chum,Qualicum,Eelgrass,75-100%,Euphausiid,Euphausiidae,2,0.1
+BCHUM29,Chum,Qualicum,Eelgrass,75-100%,Cyphonaut,Bryozoa,1,0.1
+BCHUM29,Chum,Qualicum,Eelgrass,75-100%,Gammarid,Gammaridea,1,0.1
+BCHUM29,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Calanoida,2,0.2
+BCHUM29,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Sarsamphiascus,4,0.1
+BCHUM29,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Amphiascus,1,0.1
+BCHUM29,Chum,Qualicum,Eelgrass,75-100%,Euphausiid,Euphausiidae,1,0.1
+BCHUM29,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,1,0.1
+BCHUM29,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,19,1.3
+BCHUM29,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,3,0.1
+BCHUM29,Chum,Qualicum,Eelgrass,75-100%,Crustacean,Crustacea,4,0.1
+BCHUM29,Chum,Qualicum,Eelgrass,75-100%,Barnacle,Balanomorpha,2,0.1
+BCHUM29,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,25,0.1
+BCHUM29,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,10,0.1
+BCHUM29,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,3,0.1
+BCHUM29,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,7,0.1
+BCHUM29,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,6,0.1
+BCHUM29,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,178,4.3
+BCHUM29,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,55,1.4
+BCHUM29,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,302,7.2
+BCHUM29,Chum,Qualicum,Eelgrass,75-100%,Detritus,Rocks/Plastic,1,0.1
+BCHUM30,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Calanus marshallae,1,1
+BCHUM30,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,5,0.2
+BCHUM30,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Dactylopusia,1,0.1
+BCHUM30,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Amphiascopsis cinctus,1,0.1
+BCHUM30,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,4,0.1
+BCHUM30,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,1,0.1
+BCHUM30,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Sarsamphiascus,3,0.1
+BCHUM30,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Microsetella norvegica,1,0.1
+BCHUM30,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,1,0.1
+BCHUM30,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Amphiascus,1,0.1
+BCHUM30,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,1,0.1
+BCHUM30,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,16,0.4
+BCHUM30,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,20,0.4
+BCHUM30,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,220,2.4
+BCHUM30,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,48,0.4
+BCHUM30,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,20,0.4
+BCHUM30,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,428,5.2
+BCHUM31,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Dactylopusia,3,0.1
+BCHUM31,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticus,49,4
+BCHUM31,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticus,16,0.8
+BCHUM31,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticus,6,0.2
+BCHUM31,Chum,Qualicum,Eelgrass,100%,Calanoid,Calanoida,1,0.4
+BCHUM31,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Sarsamphiascus,7,0.1
+BCHUM31,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Amphiascopsis,4,0.1
+BCHUM31,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Amphiascus,1,0.1
+BCHUM31,Chum,Qualicum,Eelgrass,100%,Barnacle,Balanus glandula,1,0.1
+BCHUM31,Chum,Qualicum,Eelgrass,100%,Ostracod,Ostracoda,3,0.1
+BCHUM31,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Pseudobradya,6,0.1
+BCHUM31,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Ectinosoma melaniceps,1,0.1
+BCHUM31,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Microsetella rosea,1,0.1
+BCHUM31,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Thalestris longimanna,2,0.1
+BCHUM31,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Zaus,16,0.4
+BCHUM31,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,220,1.6
+BCHUM31,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Tisbe,404,14
+BCHUM31,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Tisbe,144,4.4
+BCHUM31,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Scutellidium,28,0.4
+BCHUM31,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,348,8.4
+BCHUM32,Chum,Qualicum,Eelgrass,75-100%,Gammarid,Gammaridea,3,0.1
+BCHUM32,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,35,3.2
+BCHUM32,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,3,0.1
+BCHUM32,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,7,0.4
+BCHUM32,Chum,Qualicum,Eelgrass,75-100%,Euphausiid,Euphausiidae,1,0.1
+BCHUM32,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,4,0.1
+BCHUM32,Chum,Qualicum,Eelgrass,75-100%,Insect,Insecta,2,0.4
+BCHUM32,Chum,Qualicum,Eelgrass,75-100%,Isopod,Isopoda,1,0.1
+BCHUM32,Chum,Qualicum,Eelgrass,75-100%,Euphausiid,Euphausiidae,6,0.4
+BCHUM32,Chum,Qualicum,Eelgrass,75-100%,Cyclopoid/Poecilostomatoid,Oncaea borealis,1,0.1
+BCHUM32,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,1,0.1
+BCHUM32,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Sarsamphiascus,1,0.1
+BCHUM32,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Microsetella rosea,1,0.1
+BCHUM32,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,52,0.4
+BCHUM32,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,308,9.2
+BCHUM32,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,56,0.4
+BCHUM32,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,16,0.4
+BCHUM32,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,16,0.4
+BCHUM32,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,328,6.8
+BCHUM33,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticus,17,1.1
+BCHUM33,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Parathalestris bulbiseta,1,0.3
+BCHUM33,Chum,Qualicum,Eelgrass,100%,Ostracod,Ostracoda,1,0.1
+BCHUM33,Chum,Qualicum,Eelgrass,100%,Cyphonaut,Bryozoa,2,0.1
+BCHUM33,Chum,Qualicum,Eelgrass,100%,Cyclopoid/Poecilostomatoid,Ditrichocorycaeus anglicus,1,0.1
+BCHUM33,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Sarsamphiascus,2,0.1
+BCHUM33,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Amphiascopsis,1,0.1
+BCHUM33,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,1,0.1
+BCHUM33,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticus,1,0.1
+BCHUM33,Chum,Qualicum,Eelgrass,100%,Insect,Insecta,1,0.1
+BCHUM33,Chum,Qualicum,Eelgrass,100%,Barnacle,Balanus crenatus,2,0.1
+BCHUM33,Chum,Qualicum,Eelgrass,100%,Barnacle,Balanus glandula,1,0.1
+BCHUM33,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Pseudobradya,14,0.6
+BCHUM33,Chum,Qualicum,Eelgrass,100%,Cladoceran,Evadne tergestina,1,0.1
+BCHUM33,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Microsetella norvegica,1,0.1
+BCHUM33,Chum,Qualicum,Eelgrass,100%,Pteropod,Gastropoda,3,0.1
+BCHUM33,Chum,Qualicum,Eelgrass,100%,Gammarid,Gammaridea,7,0.4
+BCHUM33,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Ectinosoma melaniceps,4,0.1
+BCHUM33,Chum,Qualicum,Eelgrass,100%,Diatom,Coscinodiscophycidae,1,0.1
+BCHUM33,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Microsetella rosea,1,0.1
+BCHUM33,Chum,Qualicum,Eelgrass,100%,Bivalve,Kellia suborbicularis,1,0.1
+BCHUM33,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,100,0.4
+BCHUM33,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Scutellidium,24,0.4
+BCHUM33,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Zaus,36,0.4
+BCHUM33,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Tisbe,580,11.2
+BCHUM33,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Tisbe,144,2.8
+BCHUM33,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,652,16
+BCHUM44,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,2,0.1
+BCHUM44,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Microsetella rosea,2,0.1
+BCHUM44,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Sarsamphiascus,1,0.1
+BCHUM44,Chum,Qualicum,Eelgrass,75-100%,Barnacle,Balanus crenatus,2,0.1
+BCHUM44,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,3,0.1
+BCHUM44,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,24,2.1
+BCHUM44,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,32,0.6
+BCHUM44,Chum,Qualicum,Eelgrass,75-100%,Gammarid,Gammaridea,19,0.9
+BCHUM44,Chum,Qualicum,Eelgrass,75-100%,Gammarid,Gammaridea,1,1.1
+BCHUM44,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Dactylopusia,2,0.1
+BCHUM44,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,2,0.1
+BCHUM44,Chum,Qualicum,Eelgrass,75-100%,Cumacean,Cumacea,1,0.1
+BCHUM44,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Amphiascopsis,2,0.1
+BCHUM44,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Calanus marshallae,2,1.2
+BCHUM44,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Calanus,2,1
+BCHUM44,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Calanoida,1,1
+BCHUM44,Chum,Qualicum,Eelgrass,75-100%,Detritus,Phaeophyceae,2,0.1
+BCHUM44,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,16,0.4
+BCHUM44,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,184,2.8
+BCHUM44,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,468,11.6
+BCHUM44,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,212,6.4
+BCHUM44,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,44,0.4
+BCHUM44,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,764,16.4
+BCHUM45,Chum,Qualicum,Eelgrass,75-100%,Gammarid,Gammaridea,2,1
+BCHUM45,Chum,Qualicum,Eelgrass,75-100%,Gammarid,Gammaridea,5,1.6
+BCHUM45,Chum,Qualicum,Eelgrass,75-100%,Gammarid,Gammaridea,2,1.3
+BCHUM45,Chum,Qualicum,Eelgrass,75-100%,Insect,Insecta,1,0.1
+BCHUM45,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Eurytemora affinis,1,0.1
+BCHUM45,Chum,Qualicum,Eelgrass,75-100%,Barnacle,Balanus glandula,1,0.1
+BCHUM45,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,5,0.1
+BCHUM45,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,12,0.1
+BCHUM45,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,139,5.5
+BCHUM45,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,62,2.2
+BCHUM45,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,130,5.5
+BCHUM45,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,49,0.6
+BCHUM45,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,2,0.1
+BCHUM45,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,1,0.1
+BCHUM45,Chum,Qualicum,Eelgrass,75-100%,Detritus,Rocks/Plastic,2,0.1
+BCHUM45,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Dactylopusia,1,0.1
+BCHUM45,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Parathalestris bulbiseta,1,0.1
+BCHUM45,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Parathalestris,2,0.1
+BCHUM45,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,22,2.3
+BCHUM45,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,1,0.1
+BCHUM45,Chum,Qualicum,Eelgrass,75-100%,Crustacean,Crustacea,1,1.4
+BCHUM46,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticus,4,0.1
+BCHUM46,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticus,1,0.1
+BCHUM46,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Dactylopusia,3,0.1
+BCHUM46,Chum,Qualicum,Eelgrass,100%,Gammarid,Gammaridea,5,0.4
+BCHUM46,Chum,Qualicum,Eelgrass,100%,Detritus,Rocks/Plastic,6,0.1
+BCHUM46,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Tigriopus,2,0.1
+BCHUM46,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Ectinosoma melaniceps,4,0.1
+BCHUM46,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Sarsamphiascus,1,0.1
+BCHUM46,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Zaus,8,0.1
+BCHUM46,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Zaus,6,0.1
+BCHUM46,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Amphiascopsis,1,0.1
+BCHUM46,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Scutellidium,2,0.1
+BCHUM46,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Pseudobradya,1,0.1
+BCHUM46,Chum,Qualicum,Eelgrass,100%,Decapod,Pachygrapsus crasipes,1,0.1
+BCHUM46,Chum,Qualicum,Eelgrass,100%,Decapod,Brachyura,1,0.1
+BCHUM46,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Tisbe,248,4.4
+BCHUM46,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,404,7.2
+BCHUM46,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,112,0.4
+BCHUM46,Chum,Qualicum,Eelgrass,100%,Harpacticoid,Tisbe,172,4
+BCHUM47,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,44,1.2
+BCHUM47,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,39,0.7
+BCHUM47,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,15,1.4
+BCHUM47,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,7,0.6
+BCHUM47,Chum,Qualicum,Eelgrass,75-100%,Barnacle,Balanus improvisus,1,0.1
+BCHUM47,Chum,Qualicum,Eelgrass,75-100%,Barnacle,Balanus glandula,3,0.1
+BCHUM47,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,5,0.1
+BCHUM47,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Microsetella rosea,2,0.1
+BCHUM47,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,7,0.1
+BCHUM47,Chum,Qualicum,Eelgrass,75-100%,Detritus,Rocks/Plastic,2,0.1
+BCHUM47,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,9,0.1
+BCHUM47,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,8,0.1
+BCHUM47,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,8,0.1
+BCHUM47,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,5,0.1
+BCHUM47,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Sarsamphiascus,2,0.1
+BCHUM47,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Calanus pacificus,1,0.5
+BCHUM47,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Pseudocalanus minutus,1,0.2
+BCHUM47,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Eurytemora affinis,2,0.1
+BCHUM47,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Calanus pacificus,2,1
+BCHUM47,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Calanoida,6,2.1
+BCHUM47,Chum,Qualicum,Eelgrass,75-100%,Insect,Insecta,1,0.1
+BCHUM47,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,1,0.1
+BCHUM47,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Dactylopusia,2,0.1
+BCHUM47,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,151,2.7
+BCHUM47,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,171,6.1
+BCHUM47,Chum,Qualicum,Eelgrass,75-100%,Digested food,Digested food,1,2.5
+BCHUM47,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,2,0.1
+BCHUM47,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Calanus marshallae,3,2.8
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,2,0.1
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Cumacean,Cumacea,3,1
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Cumacean,Cumacea,4,0.8
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,38,3.7
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,8,0.8
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Parathalestris bulbiseta,1,0.1
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Parathalestris,3,0.1
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Detritus,Phaeophyceae,2,0.1
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,2,0.1
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Dactylopusia,1,0.1
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,2,0.1
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Detritus,Rocks/Plastic,3,0.1
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,14,0.1
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Amphiascopsis,1,0.1
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Sarsamphiascus,1,0.1
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Barnacle,Balanus glandula,1,0.1
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Microsetella rosea,1,0.1
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Thalestridae,1,0.1
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Euphausiid,Euphausiidae,2,0.1
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Gammarid,Gammaridea,5,0.3
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Eurytemora affinis,2,0.4
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Calanus marshallae,1,1.7
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Mesocalanus tenuicornis,3,0.4
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Calanoida,4,1.4
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Calanoida,1,2.1
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Fish,Neopterygii,1,1.2
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,177,2.5
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,306,9.7
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,92,3
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,175,4.7
+BCHUM48,Chum,Qualicum,Eelgrass,75-100%,Digested food,Digested food,1,1.5
+BCHUM49,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Thalestridae,2,0.1
+BCHUM49,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,12,0.9
+BCHUM49,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,7,0.4
+BCHUM49,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,2,0.1
+BCHUM49,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Dactylopusia,1,0.1
+BCHUM49,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,34,0.7
+BCHUM49,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Sarsamphiascus,1,0.1
+BCHUM49,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Amphiascopsis,1,0.1
+BCHUM49,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,22,0.1
+BCHUM49,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosomatidae,5,0.1
+BCHUM49,Chum,Qualicum,Eelgrass,75-100%,Detritus,Rocks/Plastic,7,0.1
+BCHUM49,Chum,Qualicum,Eelgrass,75-100%,Barnacle,Balanus crenatus,2,0.1
+BCHUM49,Chum,Qualicum,Eelgrass,75-100%,Detritus,Phaeophyceae,2,0.1
+BCHUM49,Chum,Qualicum,Eelgrass,75-100%,Polychaete,Polychaeta,1,0.2
+BCHUM49,Chum,Qualicum,Eelgrass,75-100%,Gammarid,Gammaridea,1,0.1
+BCHUM49,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Calanoida,1,0.1
+BCHUM49,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Calanoida,1,0.6
+BCHUM49,Chum,Qualicum,Eelgrass,75-100%,Malacostracan,Eumalacostraca,1,0.1
+BCHUM49,Chum,Qualicum,Eelgrass,75-100%,Crustacean,Crustacea,1,0.4
+BCHUM49,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,8,0.4
+BCHUM49,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,12,0.4
+BCHUM49,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,84,0.8
+BCHUM49,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,320,6.8
+BCHUM49,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,164,3.2
+BCHUM49,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,296,4.4
+BCHUM50,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,4,0.1
+BCHUM50,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,5,0.1
+BCHUM50,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Microsetella norvegica,1,0.1
+BCHUM50,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Sarsamphiascus,1,0.1
+BCHUM50,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Sarsamphiascus,1,0.1
+BCHUM50,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Amphiascopsis,1,0.1
+BCHUM50,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Dactylopusia,1,0.1
+BCHUM50,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,6,0.4
+BCHUM50,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,5,0.4
+BCHUM50,Chum,Qualicum,Eelgrass,75-100%,Gammarid,Gammaridea,3,0.6
+BCHUM50,Chum,Qualicum,Eelgrass,75-100%,Gammarid,Gammaridea,6,0.2
+BCHUM50,Chum,Qualicum,Eelgrass,75-100%,Calanoid,Calanidae,1,0.5
+BCHUM50,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,304,6.8
+BCHUM50,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,20,0.4
+BCHUM50,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,8,0.4
+BCHUM50,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,24,0.4
+BCHUM50,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,68,0.4
+BCHUM50,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,252,4.8
+BCHUM50,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,160,2
+BCHUM53,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Microsetella rosea,1,0.1
+BCHUM53,Chum,Qualicum,Eelgrass,25-50%,Calanoid,Eurytemora affinis,1,0.1
+BCHUM53,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Scutellidium,1,0.1
+BCHUM53,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Harpacticus,1,0.1
+BCHUM53,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Harpacticoida,2,0.1
+BCHUM53,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Tisbe,3,0.1
+BCHUM53,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Tisbe,2,0.1
+BCHUM53,Chum,Qualicum,Eelgrass,25-50%,Copepod,Copepoda,1,0.3
+BCHUM53,Chum,Qualicum,Eelgrass,25-50%,Ostracod,Ostracoda,3,2.7
+BCHUM53,Chum,Qualicum,Eelgrass,25-50%,Fish,Neopterygii,1,0.9
+BCHUM53,Chum,Qualicum,Eelgrass,25-50%,Fish,Neopterygii,1,2.5
+BCHUM54,Chum,Qualicum,Eelgrass,25-50%,Barnacle,Balanomorpha,9,0.7
+BCHUM54,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Harpacticoida,18,0.1
+BCHUM54,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Tisbe,31,1.7
+BCHUM54,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Tisbe,20,0.8
+BCHUM54,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Scutellidium,5,0.3
+BCHUM54,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Dactylopusia,1,0.1
+BCHUM54,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Zaus,5,0.1
+BCHUM54,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Ectinosoma melaniceps,1,0.1
+BCHUM54,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Ectinosomatidae,1,0.1
+BCHUM54,Chum,Qualicum,Eelgrass,25-50%,Cyclopoid/Poecilostomatoid,Oncaea borealis,2,0.1
+BCHUM54,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Harpacticus,1,0.1
+BCHUM54,Chum,Qualicum,Eelgrass,25-50%,Ostracod,Ostracoda,1,0.7
+BCHUM54,Chum,Qualicum,Eelgrass,25-50%,Insect,Insecta,4,1.1
+BCHUM54,Chum,Qualicum,Eelgrass,25-50%,Gammarid,Gammaridea,1,0.7
+BCHUM54,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Harpacticoida,13,0.1
+BCHUM54,Chum,Qualicum,Eelgrass,25-50%,Crustacean,Maxillopoda,12,0.3
+BCHUM54,Chum,Qualicum,Eelgrass,25-50%,Gammarid,Gammaridea,1,0.6
+BCHUM55,Chum,Qualicum,Eelgrass,50-75%,Ostracod,Ostracoda,1,0.9
+BCHUM55,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Scutellidium,4,0.1
+BCHUM55,Chum,Qualicum,Eelgrass,50-75%,Cladoceran,Cladocera,2,0.1
+BCHUM55,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Zaus,17,0.7
+BCHUM55,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Amphiascopsis,1,0.1
+BCHUM55,Chum,Qualicum,Eelgrass,50-75%,Hyperiid,Hyperiidea,1,0.1
+BCHUM55,Chum,Qualicum,Eelgrass,50-75%,Barnacle,Balanus glandula,2,0.1
+BCHUM55,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Harpacticus,8,1
+BCHUM55,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Harpacticus,1,0.1
+BCHUM55,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Ectinosoma melaniceps,6,0.1
+BCHUM55,Chum,Qualicum,Eelgrass,50-75%,Cyclopoid/Poecilostomatoid,Oncaea borealis,2,0.1
+BCHUM55,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Harpacticoida,11,0.3
+BCHUM55,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Harpacticoida,36,1.2
+BCHUM55,Chum,Qualicum,Eelgrass,50-75%,Barnacle,Balanomorpha,5,0.3
+BCHUM55,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Tisbe,43,1.7
+BCHUM55,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Tisbe,11,0.4
+BCHUM55,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Tigriopus,3,0.1
+BCHUM55,Chum,Qualicum,Eelgrass,50-75%,Calanoid,Calanoida,1,0.1
+BCHUM55,Chum,Qualicum,Eelgrass,50-75%,Digested food,Digested food,1,2.7
+BCHUM55,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Tigriopus,4,0.1
+BCHUM55,Chum,Qualicum,Eelgrass,50-75%,Detritus,Phaeophyceae,1,0.1
+BCHUM55,Chum,Qualicum,Eelgrass,50-75%,Calanoid,Calanus marshallae,2,1.6
+BCHUM56,Chum,Qualicum,Eelgrass,0-25%,Harpacticoid,Harpacticus,1,0.1
+BCHUM56,Chum,Qualicum,Eelgrass,0-25%,Harpacticoid,Amphiascopsis,1,0.1
+BCHUM56,Chum,Qualicum,Eelgrass,0-25%,Harpacticoid,Zaus,4,0.1
+BCHUM56,Chum,Qualicum,Eelgrass,0-25%,Harpacticoid,Tisbe,8,0.1
+BCHUM56,Chum,Qualicum,Eelgrass,0-25%,Harpacticoid,Tisbe,2,0.1
+BCHUM56,Chum,Qualicum,Eelgrass,0-25%,Harpacticoid,Harpacticoida,7,0.1
+BCHUM56,Chum,Qualicum,Eelgrass,0-25%,Malacostracan,Eumalacostraca,1,0.1
+BCHUM57,Chum,Qualicum,Eelgrass,50-75%,Insect,Insecta,1,3
+BCHUM57,Chum,Qualicum,Eelgrass,50-75%,Insect,Insecta,3,2.4
+BCHUM57,Chum,Qualicum,Eelgrass,50-75%,Insect,Insecta,2,7.1
+BCHUM57,Chum,Qualicum,Eelgrass,50-75%,Gammarid,Gammaridea,1,1
+BCHUM57,Chum,Qualicum,Eelgrass,50-75%,Gammarid,Gammaridea,1,0.3
+BCHUM57,Chum,Qualicum,Eelgrass,50-75%,Gammarid,Gammaridea,1,0.1
+BCHUM57,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Tisbe,4,0.1
+BCHUM57,Chum,Qualicum,Eelgrass,50-75%,Digested food,Digested food,1,4.2
+BCHUM57,Chum,Qualicum,Eelgrass,50-75%,Barnacle,Balanomorpha,1,0.1
+BCHUM58,Chum,Qualicum,Eelgrass,25-50%,Insect,Insecta,2,0.7
+BCHUM58,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Tisbe,4,0.4
+BCHUM58,Chum,Qualicum,Eelgrass,25-50%,Gammarid,Gammaridea,1,0.4
+BCHUM58,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Zaus,1,0.1
+BCHUM58,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Harpacticus,4,0.3
+BCHUM58,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Pseudobradya,1,0.1
+BCHUM58,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Scutellidium,1,0.1
+BCHUM58,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Tisbe,7,0.6
+BCHUM58,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Harpacticoida,7,0.4
+BCHUM59,Chum,Qualicum,Eelgrass,75-100%,Gammarid,Gammaridea,2,0.1
+BCHUM59,Chum,Qualicum,Eelgrass,75-100%,Gammarid,Gammaridea,5,0.5
+BCHUM59,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,5,0.1
+BCHUM59,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,124,2.6
+BCHUM59,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,84,1.6
+BCHUM59,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,57,0.1
+BCHUM59,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,56,1.2
+BCHUM59,Chum,Qualicum,Eelgrass,75-100%,Detritus,Phaeophyceae,2,0.1
+BCHUM59,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,24,0.6
+BCHUM59,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,22,0.8
+BCHUM59,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,5,0.1
+BCHUM59,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,15,0.2
+BCHUM59,Chum,Qualicum,Eelgrass,75-100%,Cyclopoid/Poecilostomatoid,Oncaea borealis,1,0.1
+BCHUM59,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Sarsamphiascus,1,0.1
+BCHUM59,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,3,0.1
+BCHUM59,Chum,Qualicum,Eelgrass,75-100%,Detritus,Rocks/Plastic,1,0.1
+BCHUM59,Chum,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,3,0.5
+BCHUM59,Chum,Qualicum,Eelgrass,75-100%,Fish,Neopterygii,2,1.2
+BCHUM59,Chum,Qualicum,Eelgrass,75-100%,Ostracod,Ostracoda,1,0.7
+BCHUM59,Chum,Qualicum,Eelgrass,75-100%,Barnacle,Balanomorpha,1,0.1
+BCHUM59,Chum,Qualicum,Eelgrass,75-100%,Euphausiid,Euphausiidae,2,0.4
+BCHUM59,Chum,Qualicum,Eelgrass,75-100%,Insect,Insecta,1,0.5
+BCHUM59,Chum,Qualicum,Eelgrass,75-100%,Fish,Neopterygii,4,2
+BCHUM60,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Scutellidium,16,0.7
+BCHUM60,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Ectinosoma melaniceps,2,0.1
+BCHUM60,Chum,Qualicum,Eelgrass,50-75%,Cyphonaut,Bryozoa,2,0.1
+BCHUM60,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Tigriopus,1,0.1
+BCHUM60,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Microsetella rosea,1,0.1
+BCHUM60,Chum,Qualicum,Eelgrass,50-75%,Barnacle,Balanus improvisus,1,0.1
+BCHUM60,Chum,Qualicum,Eelgrass,50-75%,Barnacle,Balanomorpha,2,0.1
+BCHUM60,Chum,Qualicum,Eelgrass,50-75%,Barnacle,Balanus glandula,1,0.1
+BCHUM60,Chum,Qualicum,Eelgrass,50-75%,Detritus,Rocks/Plastic,1,0.1
+BCHUM60,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Harpacticus,8,0.8
+BCHUM60,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Harpacticus,3,0.1
+BCHUM60,Chum,Qualicum,Eelgrass,50-75%,Gammarid,Gammaridea,1,2.1
+BCHUM60,Chum,Qualicum,Eelgrass,50-75%,Insect,Insecta,4,1
+BCHUM60,Chum,Qualicum,Eelgrass,50-75%,Insect,Insecta,2,1
+BCHUM60,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Thalestridae,3,0.1
+BCHUM60,Chum,Qualicum,Eelgrass,50-75%,Hyperiid,Hyperiidea,3,0.5
+BCHUM60,Chum,Qualicum,Eelgrass,50-75%,Detritus,Phaeophyceae,1,0.1
+BCHUM60,Chum,Qualicum,Eelgrass,50-75%,Cyclopoid/Poecilostomatoid,Oncaea borealis,2,0.1
+BCHUM60,Chum,Qualicum,Eelgrass,50-75%,Gammarid,Gammaridea,2,0.1
+BCHUM60,Chum,Qualicum,Eelgrass,50-75%,Calanoid,Pseudocalanus,2,0.1
+BCHUM60,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Zaus,39,0.6
+BCHUM60,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Harpacticoida,143,3.6
+BCHUM60,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Tisbe,75,2.2
+BCHUM60,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Tisbe,32,0.9
+BCHUM60,Chum,Qualicum,Eelgrass,50-75%,Harpacticoid,Harpacticoida,53,0.6
+BCHUM60,Chum,Qualicum,Eelgrass,50-75%,Digested food,Digested food,1,5.5
+BCHUM61,Chum,Qualicum,Eelgrass,25-50%,Gammarid,Gammaridea,2,1
+BCHUM61,Chum,Qualicum,Eelgrass,25-50%,Calanoid,Calanus pacificus,1,0.4
+BCHUM61,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Ectinosoma melaniceps,2,0.1
+BCHUM61,Chum,Qualicum,Eelgrass,25-50%,Cyclopoid/Poecilostomatoid,Oncaea borealis,1,0.1
+BCHUM61,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Sarsamphiascus,2,0.1
+BCHUM61,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Parathalestris bulbiseta,1,0.1
+BCHUM61,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Zaus,5,0.1
+BCHUM61,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Scutellidium,2,0.1
+BCHUM61,Chum,Qualicum,Eelgrass,25-50%,Barnacle,Balanomorpha,1,0.1
+BCHUM61,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Tisbe,38,1
+BCHUM61,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Harpacticoida,15,0.1
+BCHUM61,Chum,Qualicum,Eelgrass,25-50%,Harpacticoid,Harpacticoida,86,1.2
+BCHUM61,Chum,Qualicum,Eelgrass,25-50%,Digested food,Digested food,1,0.9
+BPIN1,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,1,0.1
+BPIN1,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,4,0.1
+BPIN1,Pink,Qualicum,Eelgrass,75-100%,Barnacle,Balanus crenatus,2,0.1
+BPIN1,Pink,Qualicum,Eelgrass,75-100%,Barnacle,Balanus balanus,1,0.1
+BPIN1,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,10,0.1
+BPIN1,Pink,Qualicum,Eelgrass,75-100%,Barnacle,Balanomorpha,2,0.1
+BPIN1,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,2,0.1
+BPIN1,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Amphiascus,1,0.1
+BPIN1,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Sarsamphiascus,1,0.1
+BPIN1,Pink,Qualicum,Eelgrass,75-100%,Pteropod,Gastropoda,2,0.1
+BPIN1,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium patellarum,2,0.1
+BPIN1,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,6,0.1
+BPIN1,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,10,0.1
+BPIN1,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,5,0.1
+BPIN1,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,6,0.1
+BPIN1,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,457,3.7
+BPIN1,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,174,3.3
+BPIN1,Pink,Qualicum,Eelgrass,75-100%,Calanoid,Calanus pacificus,2,0.7
+BPIN1,Pink,Qualicum,Eelgrass,75-100%,Calanoid,Calanus marshallae,1,0.8
+BPIN1,Pink,Qualicum,Eelgrass,75-100%,Calanoid,Calanoida,9,0.1
+BPIN1,Pink,Qualicum,Eelgrass,75-100%,Crustacean,Crustacea,1,3.4
+BPIN1,Pink,Qualicum,Eelgrass,75-100%,Calanoid,Eurytemora affinis,2,0.1
+BPIN1,Pink,Qualicum,Eelgrass,75-100%,Calanoid,Pseudocalanus,1,0.1
+BPIN1,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Parathalestris bulbiseta,1,0.1
+BPIN1,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,1,0.1
+BPIN2,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticus,2,0.3
+BPIN2,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticus,12,0.8
+BPIN2,Pink,Qualicum,Eelgrass,100%,Euphausiid,Euphausiidae,1,0.1
+BPIN2,Pink,Qualicum,Eelgrass,100%,Pteropod,Gastropoda,1,0.1
+BPIN2,Pink,Qualicum,Eelgrass,100%,Pteropod,Gastropoda,4,0.1
+BPIN2,Pink,Qualicum,Eelgrass,100%,Pteropod,Gastropoda,2,0.1
+BPIN2,Pink,Qualicum,Eelgrass,100%,Barnacle,Balanus glandula,2,0.1
+BPIN2,Pink,Qualicum,Eelgrass,100%,Barnacle,Balanus crenatus,1,0.1
+BPIN2,Pink,Qualicum,Eelgrass,100%,Barnacle,Semibalanus balanoides,1,0.1
+BPIN2,Pink,Qualicum,Eelgrass,100%,Barnacle,Balanus improvisus,1,0.1
+BPIN2,Pink,Qualicum,Eelgrass,100%,Barnacle,Balanus balanus,1,0.1
+BPIN2,Pink,Qualicum,Eelgrass,100%,Calanoid,Calanoida,7,1.8
+BPIN2,Pink,Qualicum,Eelgrass,100%,Calanoid,Calanus marshallae,1,0.7
+BPIN2,Pink,Qualicum,Eelgrass,100%,Calanoid,Calanus marshallae,3,2.2
+BPIN2,Pink,Qualicum,Eelgrass,100%,Calanoid,Calanus pacificus,2,0.7
+BPIN2,Pink,Qualicum,Eelgrass,100%,Copepod,Copepoda,10,1.1
+BPIN2,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Zaus,8,0.2
+BPIN2,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Zaus,11,0.1
+BPIN2,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Pseudobradya,3,0.1
+BPIN2,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Pseudobradya,1,0.1
+BPIN2,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Ectinosoma melaniceps,17,0.1
+BPIN2,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Sarsamphiascus,7,0.1
+BPIN2,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tigriopus,20,0.4
+BPIN2,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tigriopus,23,0.3
+BPIN2,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Scutellidium,7,0.1
+BPIN2,Pink,Qualicum,Eelgrass,100%,Detritus,Rocks/Plastic,12,0.1
+BPIN2,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,17,0.1
+BPIN2,Pink,Qualicum,Eelgrass,100%,Barnacle,Balanomorpha,4,0.1
+BPIN2,Pink,Qualicum,Eelgrass,100%,Fish,Neopterygii,1,0.1
+BPIN2,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,14,0.1
+BPIN2,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tisbe,37,1.1
+BPIN2,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tisbe,986,12.5
+BPIN2,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,451,11.3
+BPIN2,Pink,Qualicum,Eelgrass,100%,Digested food,Digested food,1,6.9
+BPIN2,Pink,Qualicum,Eelgrass,100%,Cladoceran,Evadne tergestina,1,0.1
+BPIN2,Pink,Qualicum,Eelgrass,100%,Gammarid,Gammaridea,1,0.1
+BPIN2,Pink,Qualicum,Eelgrass,100%,Calanoid,Pseudocalanus newmani,1,0.1
+BPIN3,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,35,0.9
+BPIN3,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,33,0.5
+BPIN3,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Zaus,31,0.2
+BPIN3,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Zaus,21,0.1
+BPIN3,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Ectinosoma melaniceps,14,0.6
+BPIN3,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Scutellidium,10,0.1
+BPIN3,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Scutellidium,6,0.1
+BPIN3,Pink,Qualicum,Eelgrass,100%,Barnacle,Balanomorpha,4,0.4
+BPIN3,Pink,Qualicum,Eelgrass,100%,Barnacle,Balanus crenatus,8,0.9
+BPIN3,Pink,Qualicum,Eelgrass,100%,Barnacle,Balanus glandula,37,2.4
+BPIN3,Pink,Qualicum,Eelgrass,100%,Barnacle,Semibalanus balanoides,3,0.7
+BPIN3,Pink,Qualicum,Eelgrass,100%,Calanoid,Eurytemora,1,0.2
+BPIN3,Pink,Qualicum,Eelgrass,100%,Gammarid,Polycheria,6,0.8
+BPIN3,Pink,Qualicum,Eelgrass,100%,Gammarid,Polycheria,6,0.1
+BPIN3,Pink,Qualicum,Eelgrass,100%,Decapod,Pleocyemata,3,0.1
+BPIN3,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticus,18,1.2
+BPIN3,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticus,6,0.3
+BPIN3,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tigriopus,12,0.1
+BPIN3,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tigriopus,11,0.1
+BPIN3,Pink,Qualicum,Eelgrass,100%,Detritus,Zostera,3,0.1
+BPIN3,Pink,Qualicum,Eelgrass,100%,Fish,Neopterygii,1,0.1
+BPIN3,Pink,Qualicum,Eelgrass,100%,Detritus,Rocks/Plastic,6,0.1
+BPIN3,Pink,Qualicum,Eelgrass,100%,Barnacle,Balanomorpha,13,0.4
+BPIN3,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Pseudobradya,16,0.5
+BPIN3,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Sarsamphiascus,4,0.1
+BPIN3,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Sarsamphiascus,1,0.1
+BPIN3,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Dactylopusia,1,0.1
+BPIN3,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Parathalestris bulbiseta,2,0.1
+BPIN3,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,2,0.7
+BPIN3,Pink,Qualicum,Eelgrass,100%,Pteropod,Gastropoda,1,0.1
+BPIN3,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tisbe,35,1.6
+BPIN3,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tisbe,362,7.9
+BPIN3,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,641,18.3
+BPIN4,Pink,Qualicum,Eelgrass,100%,Cyclopoid/Poecilostomatoid,Oncaea borealis,1,0.1
+BPIN4,Pink,Qualicum,Eelgrass,100%,Detritus,Zostera,1,0.1
+BPIN4,Pink,Qualicum,Eelgrass,100%,Cnidarian,Aglantha,1,0.3
+BPIN4,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Dactylopusia,2,0.2
+BPIN4,Pink,Qualicum,Eelgrass,100%,Pteropod,Gastropoda,1,0.4
+BPIN4,Pink,Qualicum,Eelgrass,100%,Pteropod,Gastropoda,1,0.1
+BPIN4,Pink,Qualicum,Eelgrass,100%,Detritus,Phaeophyceae,1,0.1
+BPIN4,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,144,0.8
+BPIN4,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tisbe,172,2.4
+BPIN4,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Zaus,100,0.8
+BPIN4,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tisbe,436,9.2
+BPIN4,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tigriopus,20,0.8
+BPIN4,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Pseudobradya,40,1.2
+BPIN4,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tigriopus,4,0.4
+BPIN4,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Sarsamphiascus,8,0.4
+BPIN4,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Scutellidium,16,0.4
+BPIN4,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Diosaccus spinatus,4,0.4
+BPIN4,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Ectinosoma melaniceps,44,2
+BPIN4,Pink,Qualicum,Eelgrass,100%,Gammarid,Cyphocaris,4,0.4
+BPIN4,Pink,Qualicum,Eelgrass,100%,Detritus,Rocks/Plastic,20,0.4
+BPIN4,Pink,Qualicum,Eelgrass,100%,Gammarid,Polycheria,16,0.4
+BPIN4,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Zaus,28,0.4
+BPIN4,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticus,44,2.4
+BPIN4,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticus,8,0.4
+BPIN4,Pink,Qualicum,Eelgrass,100%,Barnacle,Balanus crenatus,4,0.4
+BPIN4,Pink,Qualicum,Eelgrass,100%,Calanoid,Calanoida,12,0.4
+BPIN4,Pink,Qualicum,Eelgrass,100%,Gammarid,Polycheria,8,0.8
+BPIN4,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,96,0.4
+BPIN4,Pink,Qualicum,Eelgrass,100%,Diatom,Coscinodiscophycidae,4,0.4
+BPIN4,Pink,Qualicum,Eelgrass,100%,Barnacle,Balanus glandula,36,2
+BPIN4,Pink,Qualicum,Eelgrass,100%,Digested food,Digested food,4,8.4
+BPIN4,Pink,Qualicum,Eelgrass,100%,Barnacle,Balanomorpha,20,0.4
+BPIN4,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,656,12.8
+BPIN4,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Scutellidium,20,0.4
+BPIN4,Pink,Qualicum,Eelgrass,100%,Gammarid,Cyphocaris,4,0.4
+BPIN5,Pink,Qualicum,Eelgrass,75-100%,Calanoid,Calanus marshallae,1,0.7
+BPIN5,Pink,Qualicum,Eelgrass,75-100%,Calanoid,Calanus pacificus,1,0.4
+BPIN5,Pink,Qualicum,Eelgrass,75-100%,Euphausiid,Euphausiidae,8,0.1
+BPIN5,Pink,Qualicum,Eelgrass,75-100%,Detritus,Rocks/Plastic,44,0.4
+BPIN5,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,16,0.4
+BPIN5,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,4,0.4
+BPIN5,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Amphiascus,4,0.4
+BPIN5,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Sarsamphiascus,12,0.4
+BPIN5,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,64,0.4
+BPIN5,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,12,0.4
+BPIN5,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,16,0.4
+BPIN5,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,128,0.4
+BPIN5,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,364,3.2
+BPIN5,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,40,0.4
+BPIN5,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,24,0.4
+BPIN5,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,72,0.4
+BPIN5,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,4,0.4
+BPIN5,Pink,Qualicum,Eelgrass,75-100%,Gammarid,Polycheria,12,0.4
+BPIN5,Pink,Qualicum,Eelgrass,75-100%,Gammarid,Polycheria,8,0.4
+BPIN5,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,36,0.4
+BPIN5,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,8,0.4
+BPIN5,Pink,Qualicum,Eelgrass,75-100%,Cyphonaut,Bryozoa,16,0.4
+BPIN5,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,416,8
+BPIN5,Pink,Qualicum,Eelgrass,75-100%,Digested food,Digested food,4,8
+BPIN6,Pink,Qualicum,Eelgrass,75-100%,Cumacean,Cumacea,1,0.5
+BPIN6,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,152,2
+BPIN6,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,44,0.4
+BPIN6,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,24,0.4
+BPIN6,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,8,0.4
+BPIN6,Pink,Qualicum,Eelgrass,75-100%,Barnacle,Balanus glandula,4,0.4
+BPIN6,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,580,8.4
+BPIN6,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Microsetella rosea,4,0.4
+BPIN6,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,4,0.4
+BPIN6,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,4,0.4
+BPIN6,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,12,0.4
+BPIN6,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,8,0.8
+BPIN6,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Sarsamphiascus,4,0.4
+BPIN6,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,48,1.2
+BPIN6,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,380,3.6
+BPIN6,Pink,Qualicum,Eelgrass,75-100%,Digested food,Digested food,4,2.4
+BPIN7,Pink,Qualicum,Eelgrass,75-100%,Calanoid,Calanus marshallae,1,1.1
+BPIN7,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Dactylopusia,3,0.1
+BPIN7,Pink,Qualicum,Eelgrass,75-100%,Barnacle,Balanus glandula,2,0.1
+BPIN7,Pink,Qualicum,Eelgrass,75-100%,Calanoid,Calanoida,1,0.3
+BPIN7,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,3,0.1
+BPIN7,Pink,Qualicum,Eelgrass,75-100%,Pteropod,Gastropoda,1,0.1
+BPIN7,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Sarsamphiascus,1,0.1
+BPIN7,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,2,0.1
+BPIN7,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,112,1.6
+BPIN7,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,12,0.4
+BPIN7,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,4,0.4
+BPIN7,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,24,0.4
+BPIN7,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,24,0.4
+BPIN7,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,24,0.4
+BPIN7,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,16,6.8
+BPIN7,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,432,0.4
+BPIN7,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,476,6
+BPIN7,Pink,Qualicum,Eelgrass,75-100%,Digested food,Digested food,4,2.4
+BPIN7,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,4,0.4
+BPIN8,Pink,Qualicum,Eelgrass,100%,Fish,Neopterygii,1,0.1
+BPIN8,Pink,Qualicum,Eelgrass,100%,Pteropod,Gastropoda,1,0.1
+BPIN8,Pink,Qualicum,Eelgrass,100%,Detritus,Rocks/Plastic,1,0.1
+BPIN8,Pink,Qualicum,Eelgrass,100%,Gammarid,Gammaridea,3,0.1
+BPIN8,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Sarsamphiascus,2,0.1
+BPIN8,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Pseudobradya,1,0.1
+BPIN8,Pink,Qualicum,Eelgrass,100%,Barnacle,Balanus glandula,2,0.1
+BPIN8,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticus,2,0.1
+BPIN8,Pink,Qualicum,Eelgrass,100%,Pteropod,Gastropoda,2,0.5
+BPIN8,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Scutellidium,4,0.1
+BPIN8,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Zaus,24,0.4
+BPIN8,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Zaus,28,0.4
+BPIN8,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,84,0.4
+BPIN8,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tisbe,92,2.4
+BPIN8,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tisbe,256,3.2
+BPIN8,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Ectinosoma melaniceps,8,0.4
+BPIN8,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tigriopus,8,0.4
+BPIN8,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,620,7.6
+BPIN9,Pink,Qualicum,Eelgrass,100%,Calanoid,Calanoida,1,0.2
+BPIN9,Pink,Qualicum,Eelgrass,100%,Insect,Insecta,1,0.3
+BPIN9,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Dactylopusia,1,0.1
+BPIN9,Pink,Qualicum,Eelgrass,100%,Fish,Neopterygii,1,0.1
+BPIN9,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Pseudobradya,1,0.1
+BPIN9,Pink,Qualicum,Eelgrass,100%,Isopod,Isopoda,1,0.1
+BPIN9,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticus,4,0.9
+BPIN9,Pink,Qualicum,Eelgrass,100%,Gammarid,Gammaridea,1,0.1
+BPIN9,Pink,Qualicum,Eelgrass,100%,Pteropod,Gastropoda,1,1.3
+BPIN9,Pink,Qualicum,Eelgrass,100%,Barnacle,Semibalanus balanoides,1,0.1
+BPIN9,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Sarsamphiascus,2,0.1
+BPIN9,Pink,Qualicum,Eelgrass,100%,Detritus,Rocks/Plastic,2,0.1
+BPIN9,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Pseudobradya,1,0.1
+BPIN9,Pink,Qualicum,Eelgrass,100%,Gammarid,Cyphocaris,1,0.1
+BPIN9,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Ectinosoma melaniceps,21,0.3
+BPIN9,Pink,Qualicum,Eelgrass,100%,Barnacle,Balanus glandula,18,1.2
+BPIN9,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tisbe,336,6.3
+BPIN9,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tisbe,108,0.3
+BPIN9,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tigriopus,15,0.3
+BPIN9,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tigriopus,9,0.3
+BPIN9,Pink,Qualicum,Eelgrass,100%,Digested food,Digested food,3,1.2
+BPIN9,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Zaus,30,0.3
+BPIN9,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Zaus,6,0.3
+BPIN9,Pink,Qualicum,Eelgrass,100%,Barnacle,Balanomorpha,3,0.3
+BPIN9,Pink,Qualicum,Eelgrass,100%,Barnacle,Balanus crenatus,6,0.3
+BPIN9,Pink,Qualicum,Eelgrass,100%,Barnacle,Balanomorpha,3,0.3
+BPIN9,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,66,0.3
+BPIN9,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,414,6.6
+BPIN10,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Microsetella norvegica,1,0.1
+BPIN10,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,1,0.1
+BPIN10,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,7,0.1
+BPIN10,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,6,0.1
+BPIN10,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,7,0.1
+BPIN10,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,6,0.1
+BPIN10,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Sarsamphiascus,1,0.1
+BPIN10,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,9,0.1
+BPIN10,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,3,0.1
+BPIN10,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,2,0.1
+BPIN10,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,2,0.1
+BPIN10,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,3,0.1
+BPIN10,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,196,4.8
+BPIN10,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,56,1.2
+BPIN10,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,28,0.4
+BPIN10,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,312,6.8
+BPIN10,Pink,Qualicum,Eelgrass,75-100%,Digested food,Digested food,4,1.2
+BPIN11,Pink,Qualicum,Eelgrass,50-75%,Polychaete,Polychaeta,1,0.1
+BPIN11,Pink,Qualicum,Eelgrass,50-75%,Barnacle,Balanomorpha,2,0.1
+BPIN11,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Scutellidium,1,0.1
+BPIN11,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Scutellidium,2,0.1
+BPIN11,Pink,Qualicum,Eelgrass,50-75%,Barnacle,Balanus crenatus,1,0.1
+BPIN11,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Diosaccus spinatus,1,0.1
+BPIN11,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Harpacticus,1,0.1
+BPIN11,Pink,Qualicum,Eelgrass,50-75%,Cyphonaut,Bryozoa,25,0.3
+BPIN11,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Tigriopus,3,0.1
+BPIN11,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Pseudobradya,4,0.1
+BPIN11,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Zaus,6,0.1
+BPIN11,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Tisbe,43,0.6
+BPIN11,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Tisbe,23,0.4
+BPIN11,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Ectinosoma melaniceps,13,0.1
+BPIN11,Pink,Qualicum,Eelgrass,50-75%,Barnacle,Balanus glandula,6,0.3
+BPIN11,Pink,Qualicum,Eelgrass,50-75%,Detritus,Rocks/Plastic,9,0.1
+BPIN11,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Sarsamphiascus,2,0.1
+BPIN11,Pink,Qualicum,Eelgrass,50-75%,Digested food,Digested food,1,1.6
+BPIN11,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Harpacticoida,61,0.8
+BPIN12,Pink,Qualicum,Eelgrass,75-100%,Malacostracan,Eumalacostraca,1,0.1
+BPIN12,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,5,0.1
+BPIN12,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,2,0.1
+BPIN12,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,6,0.1
+BPIN12,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,3,0.7
+BPIN12,Pink,Qualicum,Eelgrass,75-100%,Pteropod,Gastropoda,1,0.1
+BPIN12,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,4,0.1
+BPIN12,Pink,Qualicum,Eelgrass,75-100%,Barnacle,Balanus glandula,2,0.1
+BPIN12,Pink,Qualicum,Eelgrass,75-100%,Calanoid,Calanoida,2,0.2
+BPIN12,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,11,0.1
+BPIN12,Pink,Qualicum,Eelgrass,75-100%,Pteropod,Gastropoda,1,0.1
+BPIN12,Pink,Qualicum,Eelgrass,75-100%,Gammarid,Gammaridea,2,0.1
+BPIN12,Pink,Qualicum,Eelgrass,75-100%,Detritus,Rocks/Plastic,5,0.1
+BPIN12,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,6,0.1
+BPIN12,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,1,0.1
+BPIN12,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Dactylopusia,1,0.1
+BPIN12,Pink,Qualicum,Eelgrass,75-100%,Barnacle,Balanomorpha,5,0.1
+BPIN12,Pink,Qualicum,Eelgrass,75-100%,Pteropod,Gastropoda,6,0.1
+BPIN12,Pink,Qualicum,Eelgrass,75-100%,Pteropod,Gastropoda,1,0.8
+BPIN12,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,22,0.2
+BPIN12,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,65,0.9
+BPIN12,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,53,0.7
+BPIN12,Pink,Qualicum,Eelgrass,75-100%,Digested food,Digested food,1,1.4
+BPIN12,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Amphiascus,1,0.1
+BPIN12,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,1,0.1
+BPIN13,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,1,0.1
+BPIN13,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,2,0.1
+BPIN13,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,3,0.1
+BPIN13,Pink,Qualicum,Eelgrass,75-100%,Barnacle,Balanomorpha,1,0.1
+BPIN13,Pink,Qualicum,Eelgrass,75-100%,Isopod,Isopoda,2,0.1
+BPIN13,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,5,0.1
+BPIN13,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,4,0.1
+BPIN13,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,3,0.1
+BPIN13,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,4,0.1
+BPIN13,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,3,0.1
+BPIN13,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,14,0.1
+BPIN13,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,5,0.1
+BPIN13,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,41,0.6
+BPIN13,Pink,Qualicum,Eelgrass,75-100%,Pteropod,Gastropoda,7,1
+BPIN13,Pink,Qualicum,Eelgrass,75-100%,Digested food,Digested food,1,3.9
+BPIN14,Pink,Qualicum,Eelgrass,50-75%,Gammarid,Polycheria,1,0.3
+BPIN14,Pink,Qualicum,Eelgrass,50-75%,Cumacean,Cumacea,2,0.7
+BPIN14,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Harpacticus,2,0.1
+BPIN14,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Harpacticus,4,0.1
+BPIN14,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Scutellidium,9,0.1
+BPIN14,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Scutellidium,7,0.1
+BPIN14,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Tisbe,33,1
+BPIN14,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Ectinosoma melaniceps,8,0.1
+BPIN14,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Pseudobradya,2,0.1
+BPIN14,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Zaus,6,0.1
+BPIN14,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Harpacticoida,17,0.1
+BPIN14,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Sarsamphiascus,1,0.1
+BPIN14,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Tigriopus,3,0.1
+BPIN14,Pink,Qualicum,Eelgrass,50-75%,Insect,Insecta,1,0.1
+BPIN14,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Amphiascus,1,0.1
+BPIN14,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Harpacticoida,3,0.1
+BPIN14,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Tisbe,23,0.7
+BPIN14,Pink,Qualicum,Eelgrass,50-75%,Calanoid,Calanus pacificus,1,0.1
+BPIN14,Pink,Qualicum,Eelgrass,50-75%,Cyclopoid/Poecilostomatoid,Spinoncaea ivlevi,2,0.1
+BPIN14,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Harpacticoida,3,0.9
+BPIN14,Pink,Qualicum,Eelgrass,50-75%,Digested food,Digested food,1,2.1
+BPIN15,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Zaus,3,0.1
+BPIN15,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Tisbe,10,0.3
+BPIN15,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Scutellidium,1,0.1
+BPIN15,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Tisbe,15,0.4
+BPIN15,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Harpacticus,1,0.1
+BPIN15,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Harpacticoida,3,0.1
+BPIN15,Pink,Qualicum,Eelgrass,50-75%,Insect,Insecta,4,0.7
+BPIN15,Pink,Qualicum,Eelgrass,50-75%,Crustacean,Crustacea,1,0.2
+BPIN15,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Harpacticoida,8,0.1
+BPIN15,Pink,Qualicum,Eelgrass,50-75%,Gammarid,Orchomenella,1,0.5
+BPIN15,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Pseudobradya,1,0.1
+BPIN16,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,1,0.1
+BPIN16,Pink,Qualicum,Eelgrass,75-100%,Barnacle,Balanomorpha,6,0.3
+BPIN16,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,3,0.1
+BPIN16,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Amphiascus,1,0.1
+BPIN16,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,13,0.4
+BPIN16,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,14,0.4
+BPIN16,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,5,0.1
+BPIN16,Pink,Qualicum,Eelgrass,75-100%,Detritus,Rocks/Plastic,1,0.1
+BPIN16,Pink,Qualicum,Eelgrass,75-100%,Isopod,Isopoda,1,0.1
+BPIN16,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,2,0.1
+BPIN16,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,3,0.1
+BPIN16,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,44,0.7
+BPIN16,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,43,0.8
+BPIN16,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,50,1.3
+BPIN16,Pink,Qualicum,Eelgrass,75-100%,Digested food,Digested food,1,4.5
+BPIN17,Pink,Qualicum,Eelgrass,50-75%,Pteropod,Gastropoda,1,0.1
+BPIN17,Pink,Qualicum,Eelgrass,50-75%,Detritus,Rocks/Plastic,1,0.1
+BPIN17,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Tigriopus,4,0.1
+BPIN17,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Microsetella rosea,1,0.1
+BPIN17,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Ectinosomatidae,3,0.1
+BPIN17,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Scutellidium,1,0.1
+BPIN17,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Pseduobradya,1,0.1
+BPIN17,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Dactylopusia,1,0.1
+BPIN17,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Sarsamphiascus,2,0.1
+BPIN17,Pink,Qualicum,Eelgrass,50-75%,Barnacle,Balanus crenatus,3,0.1
+BPIN17,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Zaus,5,0.1
+BPIN17,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Ectinosoma melaniceps,6,0.1
+BPIN17,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Harpacticus,3,0.5
+BPIN17,Pink,Qualicum,Eelgrass,50-75%,Barnacle,Balanomorpha,3,0.1
+BPIN17,Pink,Qualicum,Eelgrass,50-75%,Copepod,Copepoda,2,0.1
+BPIN17,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Tisbe,43,0.3
+BPIN17,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Tisbe,38,0.3
+BPIN17,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Harpacticoida,5,0.1
+BPIN17,Pink,Qualicum,Eelgrass,50-75%,Harpacticoid,Harpacticoida,47,0.5
+BPIN17,Pink,Qualicum,Eelgrass,50-75%,Digested food,Digested food,1,1.9
+BPIN17,Pink,Qualicum,Eelgrass,50-75%,Cyphonaut,Bryozoa,1,0.1
+BPIN18,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Sarsamphiascus,1,0.1
+BPIN18,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Parathalestris bulbiseta,1,0.1
+BPIN18,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Diosaccus spinatus,1,0.1
+BPIN18,Pink,Qualicum,Eelgrass,100%,Gammarid,Gammaridea,3,0.1
+BPIN18,Pink,Qualicum,Eelgrass,100%,Cyphonaut,Bryozoa,1,0.1
+BPIN18,Pink,Qualicum,Eelgrass,100%,Calanoid,Centropages abdominalis,1,0.6
+BPIN18,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Ectinosoma melaniceps,2,0.1
+BPIN18,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tigriopus,1,0.1
+BPIN18,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Scutellidium,2,0.1
+BPIN18,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Pseudobradya,12,0.4
+BPIN18,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,16,0.4
+BPIN18,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticus,8,0.4
+BPIN18,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tisbe,128,1.6
+BPIN18,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,636,8.4
+BPIN18,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,204,0.8
+BPIN18,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Zaus,440,6.4
+BPIN18,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Zaus,124,0.4
+BPIN18,Pink,Qualicum,Eelgrass,100%,Digested food,Digested food,4,1.6
+BPIN18,Pink,Qualicum,Eelgrass,100%,Detritus,Rocks/Plastic,4,0.4
+BPIN19,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,1,0.1
+BPIN19,Pink,Qualicum,Eelgrass,100%,Malacostracan,Eumalacostraca,1,0.1
+BPIN19,Pink,Qualicum,Eelgrass,100%,Pteropod,Gastropoda,1,0.1
+BPIN19,Pink,Qualicum,Eelgrass,100%,Cladoceran,Evadne tergestina,1,0.1
+BPIN19,Pink,Qualicum,Eelgrass,100%,Barnacle,Balanus glandula,1,0.1
+BPIN19,Pink,Qualicum,Eelgrass,100%,Ostracod,Ostracoda,1,0.1
+BPIN19,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Dactylopusia,1,0.1
+BPIN19,Pink,Qualicum,Eelgrass,100%,Cyclopoid/Poecilostomatoid,Ditrichocorycaeus anglicus,1,0.1
+BPIN19,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticus,3,0.4
+BPIN19,Pink,Qualicum,Eelgrass,100%,Gammarid,Gammaridea,1,0.1
+BPIN19,Pink,Qualicum,Eelgrass,100%,Calanoid,Calanoida,3,0.4
+BPIN19,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Ectinosoma melaniceps,3,0.1
+BPIN19,Pink,Qualicum,Eelgrass,100%,Cyclopoid/Poecilostomatoid,Cyclopinidae,1,0.1
+BPIN19,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tigriopus,1,0.1
+BPIN19,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Scutellidium,12,0.4
+BPIN19,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Sarsamphiascus,4,0.4
+BPIN19,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Amphiascus,4,0.4
+BPIN19,Pink,Qualicum,Eelgrass,100%,Detritus,Rocks/Plastic,4,0.4
+BPIN19,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Pseudobradya,8,0.4
+BPIN19,Pink,Qualicum,Eelgrass,100%,Pteropod,Gastropoda,8,0.4
+BPIN19,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Zaus,16,0.4
+BPIN19,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Zaus,12,0.4
+BPIN19,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,36,0.4
+BPIN19,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,780,8.8
+BPIN19,Pink,Qualicum,Eelgrass,100%,Digested food,Digested food,4,3.2
+BPIN19,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tisbe,64,0.4
+BPIN19,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tisbe,120,1.2
+BPIN20,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Porcellidium,1,0.1
+BPIN20,Pink,Qualicum,Eelgrass,75-100%,Calanoid,Eurytemora,1,0.2
+BPIN20,Pink,Qualicum,Eelgrass,75-100%,Insect,Insecta,1,0.3
+BPIN20,Pink,Qualicum,Eelgrass,75-100%,Cyphonaut,Bryozoa,1,0.1
+BPIN20,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Sarsamphiascus,1,0.1
+BPIN20,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Amphiascus,2,0.1
+BPIN20,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,2,0.1
+BPIN20,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,1,0.1
+BPIN20,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,12,0.4
+BPIN20,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Dactylopusia,20,0.4
+BPIN20,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,8,0.4
+BPIN20,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,4,0.4
+BPIN20,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,12,1.6
+BPIN20,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,72,0.4
+BPIN20,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,168,0.4
+BPIN20,Pink,Qualicum,Eelgrass,75-100%,Pteropod,Gastropoda,4,0.4
+BPIN20,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,32,0.4
+BPIN20,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,36,0.4
+BPIN20,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,372,2
+BPIN20,Pink,Qualicum,Eelgrass,75-100%,Digested food,Digested food,4,0.8
+BPIN20,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,4,0.4
+BPIN21,Pink,Qualicum,Eelgrass,100%,Isopod,Isopoda,1,0.1
+BPIN21,Pink,Qualicum,Eelgrass,100%,Euphausiid,Euphausiidae,2,0.1
+BPIN21,Pink,Qualicum,Eelgrass,100%,Euphausiid,Euphausiidae,2,0.1
+BPIN21,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticus,2,0.1
+BPIN21,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Ectinosoma melaniceps,2,0.1
+BPIN21,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Dactylopusia,1,0.1
+BPIN21,Pink,Qualicum,Eelgrass,100%,Pteropod,Gastropoda,1,0.1
+BPIN21,Pink,Qualicum,Eelgrass,100%,Pteropod,Gastropoda,1,0.1
+BPIN21,Pink,Qualicum,Eelgrass,100%,Pteropod,Gastropoda,1,0.1
+BPIN21,Pink,Qualicum,Eelgrass,100%,Cyclopoid/Poecilostomatoid,Cyclopinidae,1,0.1
+BPIN21,Pink,Qualicum,Eelgrass,100%,Cladoceran,Podon leuckartii,1,0.1
+BPIN21,Pink,Qualicum,Eelgrass,100%,Cladoceran,Cladocera,1,0.1
+BPIN21,Pink,Qualicum,Eelgrass,100%,Barnacle,Balanus improvisus,1,0.1
+BPIN21,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Amphiascus,1,0.1
+BPIN21,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Zaus,36,0.4
+BPIN21,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Pseudobradya,8,0.4
+BPIN21,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tisbe,44,0.4
+BPIN21,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Scutellidium,8,0.4
+BPIN21,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,80,0.4
+BPIN21,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tisbe,120,0.8
+BPIN21,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Zaus,92,0.8
+BPIN21,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,652,4.8
+BPIN21,Pink,Qualicum,Eelgrass,100%,Digested food,Digested food,4,0.4
+BPIN22,Pink,Qualicum,Eelgrass,25-50%,Harpacticoid,Tisbe,2,0.1
+BPIN22,Pink,Qualicum,Eelgrass,25-50%,Pteropod,Gastropoda,1,0.1
+BPIN22,Pink,Qualicum,Eelgrass,25-50%,Pteropod,Gastropoda,1,0.1
+BPIN22,Pink,Qualicum,Eelgrass,25-50%,Harpacticoid,Harpacticus,1,0.1
+BPIN22,Pink,Qualicum,Eelgrass,25-50%,Euphausiid,Euphausiidae,2,0.2
+BPIN22,Pink,Qualicum,Eelgrass,25-50%,Euphausiid,Euphausiidae,2,0.1
+BPIN22,Pink,Qualicum,Eelgrass,25-50%,Euphausiid,Euphausiidae,6,0.5
+BPIN22,Pink,Qualicum,Eelgrass,25-50%,Calanoid,Calanus marshallae,2,1.1
+BPIN22,Pink,Qualicum,Eelgrass,25-50%,Digested food,Digested food,1,1.5
+BPIN22,Pink,Qualicum,Eelgrass,25-50%,Cladoceran,Cladocera,2,0.1
+BPIN23,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Pseudobradya,12,0.4
+BPIN23,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticus,22,2
+BPIN23,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticus,2,0.1
+BPIN23,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticus,4,0.1
+BPIN23,Pink,Qualicum,Eelgrass,100%,Cyclopoid/Poecilostomatoid,Ditrichocorycaeus anglicus,2,0.1
+BPIN23,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Ectinosoma melaniceps,3,0.1
+BPIN23,Pink,Qualicum,Eelgrass,100%,Bivalve,Modolius modolius,1,0.1
+BPIN23,Pink,Qualicum,Eelgrass,100%,Pteropod,Gastropoda,1,0.1
+BPIN23,Pink,Qualicum,Eelgrass,100%,Insect,Insecta,4,0.1
+BPIN23,Pink,Qualicum,Eelgrass,100%,Cladoceran,Podon,3,0.3
+BPIN23,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tigriopus,1,0.1
+BPIN23,Pink,Qualicum,Eelgrass,100%,Cyclopoid/Poecilostomatoid,Cyclopinidae,1,0.1
+BPIN23,Pink,Qualicum,Eelgrass,100%,Gammarid,Gammaridea,1,0.1
+BPIN23,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Thalestridae,1,0.1
+BPIN23,Pink,Qualicum,Eelgrass,100%,Cyphonaut,Bryozoa,1,0.1
+BPIN23,Pink,Qualicum,Eelgrass,100%,Euphausiid,Euphausiidae,1,0.1
+BPIN23,Pink,Qualicum,Eelgrass,100%,Malacostracan,Eumalacostraca,4,0.4
+BPIN23,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Sarsamphiascus,7,0.1
+BPIN23,Pink,Qualicum,Eelgrass,100%,Barnacle,Balanus improvisus,2,0.1
+BPIN23,Pink,Qualicum,Eelgrass,100%,Barnacle,Balanus glandula,5,0.5
+BPIN23,Pink,Qualicum,Eelgrass,100%,Barnacle,Balanus crenatus,5,0.4
+BPIN23,Pink,Qualicum,Eelgrass,100%,Barnacle,Balanus balanus,2,0.1
+BPIN23,Pink,Qualicum,Eelgrass,100%,Ostracod,Ostracoda,1,0.1
+BPIN23,Pink,Qualicum,Eelgrass,100%,Barnacle,Balanus glandula,2,0.1
+BPIN23,Pink,Qualicum,Eelgrass,100%,Barnacle,Balanomorpha,1,0.1
+BPIN23,Pink,Qualicum,Eelgrass,100%,Barnacle,Balanus crenatus,1,0.1
+BPIN23,Pink,Qualicum,Eelgrass,100%,Detritus,Phaeophyceae,3,0.1
+BPIN23,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Scutellidium,72,2.4
+BPIN23,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Zaus,88,1.2
+BPIN23,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tisbe,972,16.4
+BPIN23,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tisbe,240,5.6
+BPIN23,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,108,0.4
+BPIN23,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,920,9.2
+BPIN23,Pink,Qualicum,Eelgrass,100%,Pteropod,Gastropoda,4,5.2
+BPIN24,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,67,5.6
+BPIN24,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,5,0.3
+BPIN24,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,2,0.1
+BPIN24,Pink,Qualicum,Eelgrass,75-100%,Barnacle,Balanus crenatus,4,0.1
+BPIN24,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,3,0.1
+BPIN24,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,1,0.1
+BPIN24,Pink,Qualicum,Eelgrass,75-100%,Cyclopoid/Poecilostomatoid,Cyclopinidae,1,0.1
+BPIN24,Pink,Qualicum,Eelgrass,75-100%,Cladoceran,Podon polyphemoides,4,0.1
+BPIN24,Pink,Qualicum,Eelgrass,75-100%,Cladoceran,Podon leuckartii,2,0.1
+BPIN24,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosomatidae,2,0.1
+BPIN24,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,92,1.2
+BPIN24,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,4,0.4
+BPIN24,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,400,12.4
+BPIN24,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,216,4.8
+BPIN24,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,176,1.2
+BPIN24,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,536,7.6
+BPIN24,Pink,Qualicum,Eelgrass,75-100%,Digested food,Digested food,4,1.6
+BPIN25,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,1,0.1
+BPIN25,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,2,0.1
+BPIN25,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Huntemannia jadensis,1,0.1
+BPIN25,Pink,Qualicum,Eelgrass,75-100%,Barnacle,Balanus crenatus,1,0.1
+BPIN25,Pink,Qualicum,Eelgrass,75-100%,Barnacle,Balanus nubilus,1,0.1
+BPIN25,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,1,0.1
+BPIN25,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Dactylopusia,1,0.1
+BPIN25,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Sarsamphiascus,5,0.1
+BPIN25,Pink,Qualicum,Eelgrass,75-100%,Cyphonaut,Bryozoa,1,0.1
+BPIN25,Pink,Qualicum,Eelgrass,75-100%,Calanoid,Eurytemora affinis,1,0.1
+BPIN25,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Sarsamphiascus,1,0.1
+BPIN25,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,76,0.4
+BPIN25,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,16,0.4
+BPIN25,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,148,2
+BPIN25,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,68,0.4
+BPIN25,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,196,4
+BPIN25,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,136,2.8
+BPIN25,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,1080,17.2
+BPIN25,Pink,Qualicum,Eelgrass,75-100%,Digested food,Digested food,4,2.4
+BPIN26,Pink,Qualicum,Eelgrass,75-100%,Cyphonaut,Bryozoa,2,0.1
+BPIN26,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Dactylopusia,1,0.1
+BPIN26,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,1,0.1
+BPIN26,Pink,Qualicum,Eelgrass,75-100%,Gammarid,Gammaridea,2,0.5
+BPIN26,Pink,Qualicum,Eelgrass,75-100%,Gammarid,Gammaridea,3,0.1
+BPIN26,Pink,Qualicum,Eelgrass,75-100%,Malacostracan,Eumalacostraca,1,0.1
+BPIN26,Pink,Qualicum,Eelgrass,75-100%,Euphausiid,Euphausiidae,1,0.1
+BPIN26,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,12,0.5
+BPIN26,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,5,0.1
+BPIN26,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,1,0.1
+BPIN26,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,4,0.1
+BPIN26,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,3,0.1
+BPIN26,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosomatidae,1,0.1
+BPIN26,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Sarsamphiascus,2,0.1
+BPIN26,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Amphiascopsis,1,0.1
+BPIN26,Pink,Qualicum,Eelgrass,75-100%,Pteropod,Gastropoda,1,0.1
+BPIN26,Pink,Qualicum,Eelgrass,75-100%,Cyclopoid/Poecilostomatoid,Cyclopinidae,1,0.1
+BPIN26,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,2,0.1
+BPIN26,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Sarsamphiascus,1,0.1
+BPIN26,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,28,0.4
+BPIN26,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,52,0.4
+BPIN26,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,12,0.4
+BPIN26,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,184,1.6
+BPIN26,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,416,11.6
+BPIN26,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,240,5.2
+BPIN26,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,568,8
+BPIN26,Pink,Qualicum,Eelgrass,75-100%,Digested food,Digested food,4,1.6
+BPIN27,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,26,1.9
+BPIN27,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,7,0.5
+BPIN27,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,1,0.1
+BPIN27,Pink,Qualicum,Eelgrass,75-100%,Barnacle,Balanomorpha,1,0.1
+BPIN27,Pink,Qualicum,Eelgrass,75-100%,Decapod,Brachyura,1,0.1
+BPIN27,Pink,Qualicum,Eelgrass,75-100%,Cladoceran,Podon leuckartii,1,0.1
+BPIN27,Pink,Qualicum,Eelgrass,75-100%,Calanoid,Eurytemora affinis,1,0.3
+BPIN27,Pink,Qualicum,Eelgrass,75-100%,Calanoid,Eurytemora affinis,1,0.2
+BPIN27,Pink,Qualicum,Eelgrass,75-100%,Cumacean,Cumacea,1,0.2
+BPIN27,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,8,0.3
+BPIN27,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,2,0.1
+BPIN27,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Amphiascus,1,0.1
+BPIN27,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,2,0.1
+BPIN27,Pink,Qualicum,Eelgrass,75-100%,Detritus,Rocks/Plastic,1,0.1
+BPIN27,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,3,0.1
+BPIN27,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,32,0.4
+BPIN27,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,41,0.3
+BPIN27,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,160,3.2
+BPIN27,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,54,1
+BPIN27,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,232,3.7
+BPIN27,Pink,Qualicum,Eelgrass,75-100%,Digested food,Digested food,1,0.3
+BPIN35,Pink,Qualicum,Noneelgrass,100%,Gammarid,Polycheria,1,0.2
+BPIN35,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Harpacticus,3,0.5
+BPIN35,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Sarsamphiascus,1,0.1
+BPIN35,Pink,Qualicum,Noneelgrass,100%,Pteropod,Gastropoda,4,2
+BPIN35,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Dactylopusia,4,0.4
+BPIN35,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Scutellidium,24,0.4
+BPIN35,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Zaus,44,0.4
+BPIN35,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Zaus,16,0.4
+BPIN35,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Pseudobradya,24,0.4
+BPIN35,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Microsetella norvegica,8,0.4
+BPIN35,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Ectinosoma melaniceps,12,0.4
+BPIN35,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Tisbe,40,0.4
+BPIN35,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Tisbe,28,0.4
+BPIN35,Pink,Qualicum,Noneelgrass,100%,Barnacle,Balanus glandula,8,0.4
+BPIN35,Pink,Qualicum,Noneelgrass,100%,Barnacle,Balanus crenatus,4,0.4
+BPIN35,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Harpacticoida,96,0.4
+BPIN35,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Harpacticoida,792,5.2
+BPIN36,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Harpacticus,1,0.1
+BPIN36,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Sarsamphiascus,1,0.1
+BPIN36,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Tigriopus,4,0.4
+BPIN36,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,4,0.4
+BPIN36,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Zaus,48,0.4
+BPIN36,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Zaus,100,0.4
+BPIN36,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Scutellidium,16,0.4
+BPIN36,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Tisbe,136,0.8
+BPIN36,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Harpacticoida,56,0.4
+BPIN36,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Harpacticoida,304,3.6
+BPIN36,Pink,Qualicum,Noneelgrass,75-100%,Crustacean,Crustacea,4,1.2
+BPIN37,Pink,Qualicum,Noneelgrass,75-100%,Gammarid,Polycheria,1,0.6
+BPIN37,Pink,Qualicum,Noneelgrass,75-100%,Gammarid,Cyphocaris,1,0.1
+BPIN37,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Harpacticus,2,0.1
+BPIN37,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Harpacticus,2,0.1
+BPIN37,Pink,Qualicum,Noneelgrass,75-100%,Cyclopoid/Poecilostomatoid,Cyclopinidae,1,0.1
+BPIN37,Pink,Qualicum,Noneelgrass,75-100%,Barnacle,Balanus crenatus,1,0.1
+BPIN37,Pink,Qualicum,Noneelgrass,75-100%,Pteropod,Gastropoda,2,0.1
+BPIN37,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Dactylopusia,1,0.1
+BPIN37,Pink,Qualicum,Noneelgrass,75-100%,Crustacean,Crustacea,1,0.1
+BPIN37,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Scutellidium,9,0.1
+BPIN37,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Tisbe,45,0.2
+BPIN37,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Zaus,113,0.3
+BPIN37,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,8,0.1
+BPIN37,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Harpacticoida,11,0.1
+BPIN37,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Tigriopus,1,0.1
+BPIN37,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Zaus,48,0.1
+BPIN37,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Harpacticoida,225,2.3
+BPIN37,Pink,Qualicum,Noneelgrass,75-100%,Digested food,Digested food,1,0.7
+BPIN38,Pink,Qualicum,Noneelgrass,75-100%,Calanoid,Eurytemora affinis,1,0.1
+BPIN38,Pink,Qualicum,Noneelgrass,75-100%,Cyclopoid/Poecilostomatoid,Ditrichocorycaeus anglicus,1,0.1
+BPIN38,Pink,Qualicum,Noneelgrass,75-100%,Detritus,Rocks/Plastic,3,0.1
+BPIN38,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,3,0.1
+BPIN38,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Pseudobradya,1,0.1
+BPIN38,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Zaus,92,0.4
+BPIN38,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Zaus,176,2
+BPIN38,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Tigriopus,36,0.4
+BPIN38,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Harpacticoida,28,0.4
+BPIN38,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Scutellidium,8,0.4
+BPIN38,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Tisbe,20,0.4
+BPIN38,Pink,Qualicum,Noneelgrass,75-100%,Pteropod,Gastropoda,4,0.4
+BPIN38,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Harpacticoida,292,2.4
+BPIN39,Pink,Qualicum,Noneelgrass,100%,Detritus,Phaeophyceae,1,0.1
+BPIN39,Pink,Qualicum,Noneelgrass,100%,Detritus,Rocks/Plastic,2,0.1
+BPIN39,Pink,Qualicum,Noneelgrass,100%,Cyclopoid/Poecilostomatoid,Oncaea borealis,1,0.1
+BPIN39,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Harpacticus,1,0.1
+BPIN39,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Sarsamphiascus,1,0.1
+BPIN39,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Ectinosoma melaniceps,1,0.1
+BPIN39,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Huntemannia jadensis,1,0.1
+BPIN39,Pink,Qualicum,Noneelgrass,100%,Cyclopoid/Poecilostomatoid,Cyclopinidae,1,0.1
+BPIN39,Pink,Qualicum,Noneelgrass,100%,Barnacle,Semibalanus balanoides,1,0.1
+BPIN39,Pink,Qualicum,Noneelgrass,100%,Barnacle,Balanus glandula,4,0.1
+BPIN39,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Pseudobradya,4,0.4
+BPIN39,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Scutellidium,48,0.4
+BPIN39,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Zaus,116,0.4
+BPIN39,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Zaus,240,1.2
+BPIN39,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Tisbe,148,0.4
+BPIN39,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Harpacticoida,188,0.4
+BPIN39,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Tisbe,32,0.4
+BPIN39,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Harpacticoida,160,0.4
+BPIN39,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Harpacticoida,1020,8.4
+BPIN39,Pink,Qualicum,Noneelgrass,100%,Digested food,Digested food,4,0.4
+BPIN39,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Tigriopus,4,0.4
+BPIN40,Pink,Qualicum,Noneelgrass,50-75%,Harpacticoid,Harpacticus,1,0.1
+BPIN40,Pink,Qualicum,Noneelgrass,50-75%,Harpacticoid,Harpacticus,1,0.1
+BPIN40,Pink,Qualicum,Noneelgrass,50-75%,Harpacticoid,Amphiascopsis,1,0.1
+BPIN40,Pink,Qualicum,Noneelgrass,50-75%,Harpacticoid,Sarsamphiascus,2,0.1
+BPIN40,Pink,Qualicum,Noneelgrass,50-75%,Harpacticoid,Pseudobradya,4,0.1
+BPIN40,Pink,Qualicum,Noneelgrass,50-75%,Harpacticoid,Microsetella norvegica,2,0.1
+BPIN40,Pink,Qualicum,Noneelgrass,50-75%,Harpacticoid,Ectinosoma melaniceps,5,0.1
+BPIN40,Pink,Qualicum,Noneelgrass,50-75%,Harpacticoid,Scutellidium,17,0.1
+BPIN40,Pink,Qualicum,Noneelgrass,50-75%,Harpacticoid,Zaus,41,0.3
+BPIN40,Pink,Qualicum,Noneelgrass,50-75%,Harpacticoid,Zaus,89,1
+BPIN40,Pink,Qualicum,Noneelgrass,50-75%,Harpacticoid,Tisbe,74,0.6
+BPIN40,Pink,Qualicum,Noneelgrass,50-75%,Harpacticoid,Harpacticoida,12,0.1
+BPIN40,Pink,Qualicum,Noneelgrass,50-75%,Harpacticoid,Harpacticoida,245,2.5
+BPIN40,Pink,Qualicum,Noneelgrass,50-75%,Pteropod,Gastropoda,1,0.1
+BPIN41,Pink,Qualicum,Noneelgrass,75-100%,Detritus,Rocks/Plastic,1,0.1
+BPIN41,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Harpacticus,12,1.5
+BPIN41,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Harpacticus,1,0.1
+BPIN41,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Pseudobradya,2,0.1
+BPIN41,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,1,0.1
+BPIN41,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Tigriopus,1,0.1
+BPIN41,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Zaus,55,1.1
+BPIN41,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Zaus,10,0.1
+BPIN41,Pink,Qualicum,Noneelgrass,75-100%,Fish,Neopterygii,4,3.2
+BPIN41,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Scutellidium,21,0.4
+BPIN41,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Harpacticoida,54,0.7
+BPIN41,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Tisbe,44,1.5
+BPIN41,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Tisbe,41,1.6
+BPIN41,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Harpacticoida,133,2
+BPIN41,Pink,Qualicum,Noneelgrass,75-100%,Crustacean,Crustacea,1,0.1
+BPIN42,Pink,Qualicum,Eelgrass,75-100%,Cumacean,Cumacea,5,3
+BPIN42,Pink,Qualicum,Eelgrass,75-100%,Cumacean,Cumacea,2,0.4
+BPIN42,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,10,0.1
+BPIN42,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,18,0.1
+BPIN42,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,13,0.1
+BPIN42,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,16,0.4
+BPIN42,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,1,0.6
+BPIN42,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,12,0.5
+BPIN42,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,6,0.3
+BPIN42,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,5,0.1
+BPIN43,Pink,Qualicum,Eelgrass,100%,Barnacle,Balanus glandula,1,0.1
+BPIN43,Pink,Qualicum,Eelgrass,100%,Cyclopoid/Poecilostomatoid,Ditrichocorycaeus anglicus,1,0.1
+BPIN43,Pink,Qualicum,Eelgrass,100%,Gammarid,Cyphocaris,2,0.4
+BPIN43,Pink,Qualicum,Eelgrass,100%,Detritus,Phaeophyceae,5,0.1
+BPIN43,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticus,2,0.1
+BPIN43,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Diosaccus spinatus,3,0.1
+BPIN43,Pink,Qualicum,Eelgrass,100%,Calanoid,Pseudocalanus newmani,1,0.1
+BPIN43,Pink,Qualicum,Eelgrass,100%,Calanoid,Eurytemora affinis,1,0.3
+BPIN43,Pink,Qualicum,Eelgrass,100%,Calanoid,Eurytemora,2,0.1
+BPIN43,Pink,Qualicum,Eelgrass,100%,Calanoid,Scolecithricella minor,1,0.1
+BPIN43,Pink,Qualicum,Eelgrass,100%,Digested food,Digested food,1,1
+BPIN43,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,268,2.5
+BPIN43,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,25,0.1
+BPIN43,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Harpacticoida,20,0.1
+BPIN43,Pink,Qualicum,Eelgrass,100%,Polychaete,Polychaeta,1,0.3
+BPIN43,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Ectinosoma melaniceps,16,0.1
+BPIN43,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Zaus,26,0.4
+BPIN43,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Scutellidium patellarum,23,0.8
+BPIN43,Pink,Qualicum,Eelgrass,100%,Calanoid,Pseudocalanus,2,0.1
+BPIN43,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Sarsamphiascus,3,0.1
+BPIN43,Pink,Qualicum,Eelgrass,100%,Calanoid,Calanoida,3,0.1
+BPIN43,Pink,Qualicum,Eelgrass,100%,Cyclopoid/Poecilostomatoid,Spinoncaea ivlevi,3,0.1
+BPIN43,Pink,Qualicum,Eelgrass,100%,Cyclopoid/Poecilostomatoid,Oncaea borealis,3,0.1
+BPIN43,Pink,Qualicum,Eelgrass,100%,Cyclopoid/Poecilostomatoid,Cyclopoida,2,0.1
+BPIN43,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Tisbe,32,0.4
+BPIN43,Pink,Qualicum,Eelgrass,100%,Cyclopoid/Poecilostomatoid,Cyclopinidae,3,0.1
+BPIN43,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Pseudobradya,4,0.1
+BPIN43,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Pseudobradya,3,0.1
+BPIN43,Pink,Qualicum,Eelgrass,100%,Harpacticoid,Diathrodes,2,0.1
+BPIN44,Pink,Qualicum,Eelgrass,75-100%,Barnacle,Balanus glandula,1,0.1
+BPIN44,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,1,0.1
+BPIN44,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,1,0.1
+BPIN44,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,10,0.4
+BPIN44,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium patellarum,5,0.1
+BPIN44,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,5,0.1
+BPIN44,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,25,0.1
+BPIN44,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,50,0.9
+BPIN44,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,63,1.2
+BPIN44,Pink,Qualicum,Eelgrass,75-100%,Detritus,Rocks/Plastic,1,0.1
+BPIN45,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,3,0.2
+BPIN45,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,13,0.1
+BPIN45,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,6,0.1
+BPIN45,Pink,Qualicum,Eelgrass,75-100%,Fish,Neopterygii,1,0.1
+BPIN45,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,19,0.3
+BPIN45,Pink,Qualicum,Eelgrass,75-100%,Polychaete,Polychaeta,1,1.6
+BPIN45,Pink,Qualicum,Eelgrass,75-100%,Calanoid,Calanus pacificus,1,0.5
+BPIN45,Pink,Qualicum,Eelgrass,75-100%,Calanoid,Calanus pacificus,1,0.7
+BPIN45,Pink,Qualicum,Eelgrass,75-100%,Calanoid,Calanoida,5,1.1
+BPIN45,Pink,Qualicum,Eelgrass,75-100%,Pteropod,Gastropoda,6,0.3
+BPIN45,Pink,Qualicum,Eelgrass,75-100%,Pteropod,Gastropoda,3,0.5
+BPIN45,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,42,0.5
+BPIN45,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,29,0.4
+BPIN45,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,6,0.3
+BPIN45,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Dactylopusia,1,0.1
+BPIN45,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,2,0.3
+BPIN45,Pink,Qualicum,Eelgrass,75-100%,Barnacle,Balanus glandula,3,0.1
+BPIN45,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,8,0.2
+BPIN45,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,20,0.6
+BPIN45,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,77,1.9
+BPIN45,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,43,1
+BPIN45,Pink,Qualicum,Eelgrass,75-100%,Barnacle,Balanomorpha,6,0.1
+BPIN45,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,2,0.1
+BPIN45,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Microsetella rosea,2,0.1
+BPIN46,Pink,Qualicum,Eelgrass,75-100%,Cumacean,Cumacea,1,0.1
+BPIN46,Pink,Qualicum,Eelgrass,75-100%,Polychaete,Polychaeta,1,3
+BPIN46,Pink,Qualicum,Eelgrass,75-100%,Polychaete,Polychaeta,4,0.9
+BPIN46,Pink,Qualicum,Eelgrass,75-100%,Barnacle,Balanus glandula,11,0.5
+BPIN46,Pink,Qualicum,Eelgrass,75-100%,Barnacle,Balanus crenatus,9,0.6
+BPIN46,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Ectinosoma melaniceps,7,0.1
+BPIN46,Pink,Qualicum,Eelgrass,75-100%,Euphausiid,Euphausiidae,1,0.2
+BPIN46,Pink,Qualicum,Eelgrass,75-100%,Euphausiid,Euphausiidae,1,0.1
+BPIN46,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,26,0.1
+BPIN46,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,1,0.1
+BPIN46,Pink,Qualicum,Eelgrass,75-100%,Barnacle,Semibalanus balanoides,1,0.2
+BPIN46,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Pseudobradya,2,0.1
+BPIN46,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tigriopus,1,0.1
+BPIN46,Pink,Qualicum,Eelgrass,75-100%,Calanoid,Eurytemora affinis,1,0.1
+BPIN46,Pink,Qualicum,Eelgrass,75-100%,Fish,Neopterygii,1,0.1
+BPIN46,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,71,0.6
+BPIN46,Pink,Qualicum,Eelgrass,75-100%,Gammarid,Gammaridea,3,0.5
+BPIN46,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium patellarum,2,0.1
+BPIN46,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,2,0.1
+BPIN47,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,98,9
+BPIN47,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,16,1.1
+BPIN47,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticus,5,0.1
+BPIN47,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Parathalestris bulbiseta,1,0.1
+BPIN47,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Sarsamphiascus,1,0.1
+BPIN47,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Amphiascus,1,0.1
+BPIN47,Pink,Qualicum,Eelgrass,75-100%,Detritus,Rocks/Plastic,1,0.1
+BPIN47,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Dactylopusia,2,0.1
+BPIN47,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Microsetella,1,0.1
+BPIN47,Pink,Qualicum,Eelgrass,75-100%,Cyclopoid/Poecilostomatoid,Ditrichocorycaeus anglicus,4,0.1
+BPIN47,Pink,Qualicum,Eelgrass,75-100%,Calanoid,Calanoida,1,0.1
+BPIN47,Pink,Qualicum,Eelgrass,75-100%,Malacostracan,Eumalacostraca,1,0.1
+BPIN47,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Scutellidium,9,0.1
+BPIN47,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Zaus,11,0.1
+BPIN47,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,18,0.1
+BPIN47,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,181,4.3
+BPIN47,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Tisbe,79,2.1
+BPIN47,Pink,Qualicum,Eelgrass,75-100%,Harpacticoid,Harpacticoida,199,5.1
+BPIN47,Pink,Qualicum,Eelgrass,75-100%,Pteropod,Gastropoda,1,0.1
+BPIN49,Pink,Qualicum,Eelgrass,0-25,Harpacticoid,Harpacticoida,1,0.1
+BPIN49,Pink,Qualicum,Eelgrass,0-25,Detritus,Rocks/Plastic,4,0.1
+BPIN50,Pink,Qualicum,Noneelgrass,25-50%,Harpacticoid,Harpacticus,2,0.1
+BPIN50,Pink,Qualicum,Noneelgrass,25-50%,Harpacticoid,Scutellidium,1,0.1
+BPIN50,Pink,Qualicum,Noneelgrass,25-50%,Harpacticoid,Harpacticus,1,0.1
+BPIN50,Pink,Qualicum,Noneelgrass,25-50%,Fish,Neopterygii,1,4.9
+BPIN51,Pink,Qualicum,Noneelgrass,0-25%,Harpacticoid,Tisbe,1,0.1
+BPIN51,Pink,Qualicum,Noneelgrass,0-25%,Calanoid,Eurytemora affinis,1,0.1
+BPIN51,Pink,Qualicum,Noneelgrass,0-25%,Harpacticoid,Tisbe,4,0.1
+BPIN51,Pink,Qualicum,Noneelgrass,0-25%,Ostracod,Ostracoda,1,0.1
+BPIN51,Pink,Qualicum,Noneelgrass,0-25%,Fish,Neopterygii,2,0.8
+BPIN52,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Tisbe,13,0.1
+BPIN52,Pink,Qualicum,Noneelgrass,75-100%,Gammarid,Gammaridea,7,0.9
+BPIN52,Pink,Qualicum,Noneelgrass,75-100%,Gammarid,Gammaridea,11,1.8
+BPIN52,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Harpacticoida,2,0.1
+BPIN52,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Tisbe,28,1.9
+BPIN52,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Pseudobradya,1,0.1
+BPIN52,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Zaus,2,0.1
+BPIN52,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Harpacticus,1,0.1
+BPIN52,Pink,Qualicum,Noneelgrass,75-100%,Cumacean,Cumacea,1,0.4
+BPIN52,Pink,Qualicum,Noneelgrass,75-100%,Insect,Insecta,1,0.1
+BPIN52,Pink,Qualicum,Noneelgrass,75-100%,Barnacle,Balanomorpha,1,0.1
+BPIN52,Pink,Qualicum,Noneelgrass,75-100%,Barnacle,Balanus glandula,4,0.1
+BPIN52,Pink,Qualicum,Noneelgrass,75-100%,Cyclopoid/Poecilostomatoid,Oncaea borealis,1,0.1
+BPIN52,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Harpacticoida,14,0.1
+BPIN52,Pink,Qualicum,Noneelgrass,75-100%,Polychaete,Polychaeta,8,0.9
+BPIN52,Pink,Qualicum,Noneelgrass,75-100%,Polychaete,Polychaeta,1,10.2
+BPIN52,Pink,Qualicum,Noneelgrass,75-100%,Fish,Neopterygii,1,0.3
+BPIN52,Pink,Qualicum,Noneelgrass,75-100%,Fish,Neopterygii,13,17.2
+BPIN53,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Harpacticus,6,0.8
+BPIN53,Pink,Qualicum,Noneelgrass,75-100%,Barnacle,Balanus crenatus,1,0.1
+BPIN53,Pink,Qualicum,Noneelgrass,75-100%,Cnidarian,Medusozoa,1,5.2
+BPIN53,Pink,Qualicum,Noneelgrass,75-100%,Detritus,Rocks/Plastic,2,0.1
+BPIN53,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Sarsamphiascus,1,0.1
+BPIN53,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Zaus,188,2
+BPIN53,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Zaus,52,0.4
+BPIN53,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Harpacticoida,112,0.4
+BPIN53,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Scutellidium,8,0.4
+BPIN53,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Tisbe,52,0.4
+BPIN53,Pink,Qualicum,Noneelgrass,75-100%,Harpacticoid,Harpacticoida,228,2.4
+BPIN53,Pink,Qualicum,Noneelgrass,75-100%,Digested food,Digested food,4,4.8
+BPIN54,Pink,Qualicum,Noneelgrass,100%,Fish,Neopterygii,3,0.1
+BPIN54,Pink,Qualicum,Noneelgrass,100%,Fish,Neopterygii,15,3.2
+BPIN54,Pink,Qualicum,Noneelgrass,100%,Fish,Neopterygii,58,4.6
+BPIN54,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Harpacticoida,5,0.1
+BPIN54,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Harpacticoida,17,0.1
+BPIN54,Pink,Qualicum,Noneelgrass,100%,Cladoceran,Evadne tergestina,1,0.1
+BPIN54,Pink,Qualicum,Noneelgrass,100%,Cladoceran,Evadne,3,0.1
+BPIN54,Pink,Qualicum,Noneelgrass,100%,Polychaete,Polychaeta,12,0.7
+BPIN54,Pink,Qualicum,Noneelgrass,100%,Polychaete,Polychaeta,1,14
+BPIN54,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Harpacticoida,60,2
+BPIN54,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Harpacticoida,16,0.3
+BPIN54,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Harpacticus,6,0.4
+BPIN54,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Tisbe,65,1.9
+BPIN54,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Zaus,1,0.1
+BPIN54,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Pseudobradya,1,0.1
+BPIN54,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Pseudobradya,1,0.1
+BPIN54,Pink,Qualicum,Noneelgrass,100%,Harpacticoid,Zaus,29,0.1
+BCHIN1,Chinook,Qualicum,Noneelgrass,75-100%,Barnacle,Balanomorpha,1,5.2
+BCHIN1,Chinook,Qualicum,Noneelgrass,75-100%,Insect,Insecta,1,9.9
+BCHIN1,Chinook,Qualicum,Noneelgrass,75-100%,Fish,Neopterygii,1,24.5
+BCHIN1,Chinook,Qualicum,Noneelgrass,75-100%,Gammarid,Polycheria,4,10.4
+BCHIN1,Chinook,Qualicum,Noneelgrass,75-100%,Gammarid,Gammarus,23,89.9
+BCHIN1,Chinook,Qualicum,Noneelgrass,75-100%,Gammarid,Gammarus,3,13.3
+BCHIN1,Chinook,Qualicum,Noneelgrass,75-100%,Gammarid,Gammarus,26,67.9
+BCHIN2,Chinook,Qualicum,Noneelgrass,75-100%,Decapod,Pagurus granosimanus,2,2.3
+BCHIN2,Chinook,Qualicum,Noneelgrass,75-100%,Decapod,Paguridae,34,65.7
+BCHIN2,Chinook,Qualicum,Noneelgrass,75-100%,Decapod,Anomura,12,24.3
+BCHIN2,Chinook,Qualicum,Noneelgrass,75-100%,Gammarid,Gammarus,3,18.5
+BCHIN2,Chinook,Qualicum,Noneelgrass,75-100%,Gammarid,Polycheria,1,9.8
+BCHIN2,Chinook,Qualicum,Noneelgrass,75-100%,Gammarid,Gammaridea,9,24
+BCHIN2,Chinook,Qualicum,Noneelgrass,75-100%,Insect,Simuliidae,1,0.1
+BCHIN2,Chinook,Qualicum,Noneelgrass,75-100%,Insect,Formicidae,4,1.3
+BCHIN2,Chinook,Qualicum,Noneelgrass,75-100%,Insect,Coleoptera,6,0.1
+BCHIN2,Chinook,Qualicum,Noneelgrass,75-100%,Insect,Formicidae,3,1.9
+BCHIN2,Chinook,Qualicum,Noneelgrass,75-100%,Insect,Insecta,1,7
+BCHIN1348,Chinook,Fraser,Eelgrass,25-50%,Cumacean,Cumacea,4,0.4
+BCHIN1348,Chinook,Fraser,Eelgrass,25-50%,Cumacean,Cumacea,1,0.1
+BCHIN1348,Chinook,Fraser,Eelgrass,25-50%,Decapod,Porcellanidae,1,0.1
+BCHIN1348,Chinook,Fraser,Eelgrass,25-50%,Decapod,Porcellanidae,1,1.3
+BCHIN1348,Chinook,Fraser,Eelgrass,25-50%,Decapod,Porcellanidae,1,0.7
+BCHIN1348,Chinook,Fraser,Eelgrass,25-50%,Insect,Simuliidae,2,0.2
+BCHIN1529,Chinook,Fraser,Eelgrass,0-25%,Digested food,Digested food,1,3.7
+BCHIN1477,Chinook,Fraser,Eelgrass,50-75%,Barnacle,Balanus crenatus,2,0.1
+BCHIN1477,Chinook,Fraser,Eelgrass,50-75%,Barnacle,Balanus glandula,3,0.1
+BCHIN1477,Chinook,Fraser,Eelgrass,50-75%,Barnacle,Balanomorpha,17,0.7
+BCHIN1477,Chinook,Fraser,Eelgrass,50-75%,Decapod,Porcellanidae,1,0.4
+BCHIN1477,Chinook,Fraser,Eelgrass,50-75%,Euphausiid,Euphausiidae,1,0.1
+BCHIN1477,Chinook,Fraser,Eelgrass,50-75%,Decapod,Pleocyemata,1,0.2
+BCHIN1477,Chinook,Fraser,Eelgrass,50-75%,Harpacticoid,Dactylopusia,1,0.1
+BCHIN1477,Chinook,Fraser,Eelgrass,50-75%,Harpacticoid,Zaus,1,0.1
+BCHIN1477,Chinook,Fraser,Eelgrass,50-75%,Harpacticoid,Harpacticus,3,0.1
+BCHIN1477,Chinook,Fraser,Eelgrass,50-75%,Harpacticoid,Parathalestris bulbiseta,1,0.1
+BCHIN1477,Chinook,Fraser,Eelgrass,50-75%,Digested food,Digested food,1,1.8
+BCHIN1477,Chinook,Fraser,Eelgrass,50-75%,Harpacticoid,Harpacticus,2,0.1
+BCHIN1477,Chinook,Fraser,Eelgrass,50-75%,Barnacle,Balanomorpha,56,2.1
+BCHIN1528-1,Chinook,Fraser,Noneelgrass,50-75%,Decapod,Brachyura,2,0.9
+BCHIN1528-1,Chinook,Fraser,Noneelgrass,50-75%,Insect,Culicomorpha,13,11.7
+BCHIN1528-1,Chinook,Fraser,Noneelgrass,50-75%,Insect,Culicomorpha,3,1.2
+BCHIN1528-1,Chinook,Fraser,Noneelgrass,50-75%,Detritus,Phaeophyceae,1,0.1
+BCHIN1528-1,Chinook,Fraser,Noneelgrass,50-75%,Insect,Insecta,1,0.1
+BCHIN4995,Chinook,Fraser,Noneelgrass,25-50%,Insect,Culicomorpha,7,6.6
+BCHIN4995,Chinook,Fraser,Noneelgrass,25-50%,Insect,Culicomorpha,9,10.4
+BCHIN4995,Chinook,Fraser,Noneelgrass,25-50%,Insect,Insecta,1,5
+BCHIN1528-2,Chinook,Fraser,Noneelgrass,25-50%,Insect,Culicomorpha,7,17.5
+BCHIN1528-2,Chinook,Fraser,Noneelgrass,25-50%,Insect,Insecta,1,0.1
+BCHIN9195,Chinook,Fraser,Noneelgrass,0-25%,Ostracod,Ostracoda,1,4.1
+BCHIN9195,Chinook,Fraser,Noneelgrass,0-25%,Insect,Insecta,2,1.3
+BCHIN9195,Chinook,Fraser,Noneelgrass,0-25%,Insect,Insecta,1,0.3
+BCHIN9195,Chinook,Fraser,Noneelgrass,0-25%,Barnacle,Balanormorpha,1,0.6
+BCHIN9195,Chinook,Fraser,Noneelgrass,0-25%,Digested food,Digested food,1,1.1
+BCHIN9585,Chinook,Fraser,Eelgrass,50-75%,Cladoceran,Podon,48,1
+BCHIN9585,Chinook,Fraser,Eelgrass,50-75%,Cladoceran,Podon leuckartii,60,1.5
+BCHIN9585,Chinook,Fraser,Eelgrass,50-75%,Cladoceran,Evadne,104,2.8
+BCHIN9585,Chinook,Fraser,Eelgrass,50-75%,Cladoceran,Evadne tergestina,1,0.1
+BCHIN9585,Chinook,Fraser,Eelgrass,50-75%,Cladoceran,Evadne normandii,123,2.4
+BCHIN9585,Chinook,Fraser,Eelgrass,50-75%,Insect,Insecta,2,0.6
+BCHIN9585,Chinook,Fraser,Eelgrass,50-75%,Insect,Insecta,2,2.7
+BCHIN9585,Chinook,Fraser,Eelgrass,50-75%,Harpacticoid,Tigriopus,9,0.1
+BCHIN9585,Chinook,Fraser,Eelgrass,50-75%,Detritus,Rocks/Plastic,1,0.1
+BCHIN9585,Chinook,Fraser,Eelgrass,50-75%,Decapod,Pleocyemata,3,1.2
+BCHIN9585,Chinook,Fraser,Eelgrass,50-75%,Digested food,Digested food,1,0.7
+BCHIN19343,Chinook,Fraser,Eelgrass,75-100%,Decapod,Pleocyemata,8,2.6
+BCHIN19343,Chinook,Fraser,Eelgrass,75-100%,Decapod,Porcellanidae,1,0.4
+BCHIN19343,Chinook,Fraser,Eelgrass,75-100%,Decapod,Anomura,12,11.1
+BCHIN19343,Chinook,Fraser,Eelgrass,75-100%,Decapod,Anomura,3,2.5
+BCHIN19343,Chinook,Fraser,Eelgrass,75-100%,Decapod,Pleocyemata,1,16.3
+BCHIN19343,Chinook,Fraser,Eelgrass,75-100%,Euphausiid,Euphausiidae,1,1.6
+BCHIN19343,Chinook,Fraser,Eelgrass,75-100%,Gammarid,Gammaridea,1,0.1
+BCHIN19343,Chinook,Fraser,Eelgrass,75-100%,Harpacticoid,Harpacticus,1,0.1
+BCHIN19343,Chinook,Fraser,Eelgrass,75-100%,Insect,Insecta,1,0.1
+BCHIN19343,Chinook,Fraser,Eelgrass,75-100%,Insect,Insecta,1,15.4
+BCHIN2099,Chinook,Fraser,Eelgrass,50-75%,Fish,Neopterygii,1,21
+BCHIN2099,Chinook,Fraser,Eelgrass,50-75%,Fish,Neopterygii,1,25.1
+BCHIN5977,Chinook,Fraser,Eelgrass,50-75%,Decapod,Pleocyemata,1,0.1
+BCHIN5977,Chinook,Fraser,Eelgrass,50-75%,Arachnid,Araneae,1,0.8
+BCHIN5977,Chinook,Fraser,Eelgrass,50-75%,Arachnid,Araneae,1,1.1
+BCHIN5977,Chinook,Fraser,Eelgrass,50-75%,Insect,Culicomorpha,4,1
+BCHIN5977,Chinook,Fraser,Eelgrass,50-75%,Insect,Simuliidae,1,0.5
+BCHIN5977,Chinook,Fraser,Eelgrass,50-75%,Insect,Insecta,1,6.6
+BCHIN5978,Chinook,Fraser,Eelgrass,75-100%,Decapod,Cancer productus,1,0.8
+BCHIN5978,Chinook,Fraser,Eelgrass,75-100%,Decapod,Cancer oregonensis,1,2.2
+BCHIN5978,Chinook,Fraser,Eelgrass,75-100%,Decapod,Cancer magister,1,2
+BCHIN5978,Chinook,Fraser,Eelgrass,75-100%,Decapod,Brachyura,4,4
+BCHIN5978,Chinook,Fraser,Eelgrass,75-100%,Decapod,Pleocyemata,3,1.2
+BCHIN5978,Chinook,Fraser,Eelgrass,75-100%,Insect,Simuliidae,1,0.5
+BCHIN5978,Chinook,Fraser,Eelgrass,75-100%,Insect,Culicomorpha,4,1.1
+BCHIN5978,Chinook,Fraser,Eelgrass,75-100%,Insect,Insecta,1,8.9
+BCHIN11406,Chinook,Fraser,Eelgrass,0-25%,Decapod,Cancridae,1,23.7
+BCHIN11406,Chinook,Fraser,Eelgrass,0-25%,Insect,Culicomorpha,1,9.6
+BCHIN1091,Chinook,Fraser,Eelgrass,75-100%,Decapod,Porcellanidae,12,31.1
+BCHIN1091,Chinook,Fraser,Eelgrass,75-100%,Decapod,Porcellanidae,9,18
+BCHIN1091,Chinook,Fraser,Eelgrass,75-100%,Decapod,Porcellanidae,17,32.2
+BCHIN18656,Chinook,Fraser,Eelgrass,75-100%,Insect,Formicidae,1,3.6
+BCHIN18656,Chinook,Fraser,Eelgrass,75-100%,Insect,Simuliidae,1,0.5
+BCHIN18656,Chinook,Fraser,Eelgrass,75-100%,Insect,Simuliidae,3,7
+BCHIN18656,Chinook,Fraser,Eelgrass,75-100%,Insect,Culicomorpha,2,15.8
+BCHIN18656,Chinook,Fraser,Eelgrass,75-100%,Insect,Culicomorpha,3,1.8
+BCHIN18656,Chinook,Fraser,Eelgrass,75-100%,Insect,Culicomorpha,1,1.3
+BCHIN18656,Chinook,Fraser,Eelgrass,75-100%,Insect,Insecta,1,66
+BCHIN18656,Chinook,Fraser,Eelgrass,75-100%,Decapod,Pleocyemata,1,0.1
+BCHIN22452,Chinook,Fraser,Eelgrass,100%,Fish,Gasterosteidae,1,587.2
+BCHIN4187,Chinook,Fraser,Noneelgrass,100%,Fish,Perciformes,1,12
+BCHIN4187,Chinook,Fraser,Noneelgrass,100%,Fish,Neopterygii,1,7.6
+BCHIN4187,Chinook,Fraser,Noneelgrass,100%,Fish,Neopterygii,1,8.6
+BCHIN4187,Chinook,Fraser,Noneelgrass,100%,Insect,Culicomorpha,5,3.7
+BCHIN4187,Chinook,Fraser,Noneelgrass,100%,Decapod,Porcellanidae,6,11.4
+BCHIN4187,Chinook,Fraser,Noneelgrass,100%,Euphausiid,Euphausiidae,13,4.9
+BCHIN4187,Chinook,Fraser,Noneelgrass,100%,Decapod,Pleocyemata,2,3.5
+BCHIN4187,Chinook,Fraser,Noneelgrass,100%,Malacostracan,Eumalacostraca,11,4.1
+BCHIN4187,Chinook,Fraser,Noneelgrass,100%,Malacostracan,Eumalacostraca,17,0.6
+BCHIN4187,Chinook,Fraser,Noneelgrass,100%,Calanoid,Epilabidocera amphrites,1,0.5
+BCHIN4187,Chinook,Fraser,Noneelgrass,100%,Calanoid,Calanoida,8,2.3
+BCHIN4187,Chinook,Fraser,Noneelgrass,100%,Crustacean,Crustacea,1,7.9
+BCHIN4990,Chinook,Fraser,Noneelgrass,0%,,0,,
+BCHIN4991,Chinook,Fraser,Noneelgrass,50-75%,Fish,Engraulidae,1,24.5
+BCHIN4992,Chinook,Fraser,Noneelgrass,50-75%,Harpacticoid,Huntemannia jadensis,1,0.1
+BCHIN4992,Chinook,Fraser,Noneelgrass,50-75%,Harpacticoid,Ectinosomatidae,1,0.1
+BCHIN4992,Chinook,Fraser,Noneelgrass,50-75%,Insect,Ceratopoginidae,1,0.5
+BCHIN4992,Chinook,Fraser,Noneelgrass,50-75%,Insect,Culicomorpha,1,0.5
+BCHIN4992,Chinook,Fraser,Noneelgrass,50-75%,Insect,Culicomorpha,5,2.5
+BCHIN4992,Chinook,Fraser,Noneelgrass,50-75%,Insect,Insecta,1,7
+BCHIN4993,Chinook,Fraser,Noneelgrass,25-50%,Insect,Culicomorpha,2,5.6
+BCHIN4993,Chinook,Fraser,Noneelgrass,25-50%,Insect,Insecta,1,4.4
+G2701,Chinook,Bedwell,Noneelgrass,100%,Cyclopoid/Poecilostomatoid,Ditrichocorycaeus anglicus,1,0.1
+G2701,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Harpacticus,102,12.2
+G2701,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Tigriopus,75,3.8
+G2701,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Tisbe,4,0.1
+G2701,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Harpacticoida,7,0.3
+G2701,Chinook,Bedwell,Noneelgrass,100%,Gammarid,Gammarus,2,0.1
+G2701,Chinook,Bedwell,Noneelgrass,100%,Gammarid,Gammarus,9,0.7
+G2701,Chinook,Bedwell,Noneelgrass,100%,Insect,Chironomidae,2,0.6
+G2701,Chinook,Bedwell,Noneelgrass,100%,Insect,Chironomidae,32,19.3
+G2701,Chinook,Bedwell,Noneelgrass,100%,Insect,Chironomidae,1,0.1
+G2702,Chinook,Bedwell,Noneelgrass,50-75%,Harpacticoid,Harpacticus,4,0.5
+G2702,Chinook,Bedwell,Noneelgrass,50-75%,Harpacticoid,Tigriopus,3,0.1
+G2702,Chinook,Bedwell,Noneelgrass,50-75%,Gammarid,Gammarus,4,2.8
+G2702,Chinook,Bedwell,Noneelgrass,50-75%,Insect,Chironomidae,2,0.4
+G2702,Chinook,Bedwell,Noneelgrass,50-75%,Insect,Chironomidae,2,0.6
+G2702,Chinook,Bedwell,Noneelgrass,50-75%,Digested food,Digested food,1,1.2
+G2703,Chinook,Bedwell,Noneelgrass,50-75%,Octopus,Octopoda,1,0.4
+G2703,Chinook,Bedwell,Noneelgrass,50-75%,Insect,Chironomidae,1,0.3
+G2703,Chinook,Bedwell,Noneelgrass,50-75%,Insect,Insecta,1,1.5
+G2704,Chinook,Bedwell,Noneelgrass,100%,Cyclopoid/Poecilostomatoid,Ditrichocorycaeus anglicus,1,0.1
+G2704,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Harpacticus,3,0.4
+G2704,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Ectinosomatidae,1,0.1
+G2704,Chinook,Bedwell,Noneelgrass,100%,Calanoid,Eurytemora affinis,1,0.1
+G2704,Chinook,Bedwell,Noneelgrass,100%,Gammarid,Gammarus,2,2.7
+G2704,Chinook,Bedwell,Noneelgrass,100%,Insect,Chironomidae,3,0.5
+G2704,Chinook,Bedwell,Noneelgrass,100%,Insect,Chironomidae,7,3
+G2704,Chinook,Bedwell,Noneelgrass,100%,Mysid,Neomysis mercedis,1,22.6
+G2705,Chinook,Bedwell,Noneelgrass,100%,Insect,Chironomidae,1,0.1
+G2705,Chinook,Bedwell,Noneelgrass,100%,Insect,Chironomidae,7,0.6
+G2705,Chinook,Bedwell,Noneelgrass,100%,Insect,Chironomidae,2,0.3
+G2705,Chinook,Bedwell,Noneelgrass,100%,Insect,Chironomidae,18,12.1
+G3024,Chinook,Bedwell,Noneelgrass,100%,Gammarid,Gammarus,12,0.5
+G3024,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Harpacticus,157,14.2
+G3024,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Tigriopus,15,0.6
+G3024,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Tisbe,52,1.3
+G3024,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Dactylopusia,7,0.3
+G3024,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Pseudobradya,3,0.1
+G3024,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Harpacticoida,20,0.9
+G3024,Chinook,Bedwell,Noneelgrass,100%,Barnacle,Balanus improvisus,1,0.1
+G3024,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Harpacticoida,25,0.7
+G3039,Chinook,Bedwell,Noneelgrass,100%,Detritus,Rocks/Plastic,2,0.1
+G3039,Chinook,Bedwell,Noneelgrass,100%,Chaetognath,Parasagitta elegans,3,1.2
+G3039,Chinook,Bedwell,Noneelgrass,100%,Insect,Culicoides,3,1
+G3039,Chinook,Bedwell,Noneelgrass,100%,Insect,Culicomorpha,2,0.3
+G3039,Chinook,Bedwell,Noneelgrass,100%,Euphausiid,Euphausiidae,3,0.1
+G3039,Chinook,Bedwell,Noneelgrass,100%,Euphausiid,Euphausiidae,1,0.6
+G3039,Chinook,Bedwell,Noneelgrass,100%,Gammarid,Gammarus,52,2.5
+G3039,Chinook,Bedwell,Noneelgrass,100%,Gammarid,Gammarus,7,0.4
+G3039,Chinook,Bedwell,Noneelgrass,100%,Calanoid,Clausocalanus parapergens,1,0.1
+G3039,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Harpacticus,348,28.5
+G3039,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Tigriopus,86,4.1
+G3039,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Tisbe,32,0.7
+G3039,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Dactylopusia,5,0.1
+G3039,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Harpacticoida,34,1.1
+G3039,Chinook,Bedwell,Noneelgrass,100%,Larvacean,Oikopleura,4,0.1
+G3051,Chinook,Bedwell,Noneelgrass,100%,Chaetognath,Parasagitta elegans,3,0.5
+G3051,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Harpacticus,298,28.4
+G3051,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Tigriopus,81,4.7
+G3051,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Tisbe,10,0.3
+G3051,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Dactylopusia,8,0.3
+G3051,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Laophontidae,3,0.1
+G3051,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Harpacticus,50,1.4
+G3051,Chinook,Bedwell,Noneelgrass,100%,Gammarid,Gammarus,30,1.5
+G3051,Chinook,Bedwell,Noneelgrass,100%,Gammarid,Gammarus,1,0.8
+G3051,Chinook,Bedwell,Noneelgrass,100%,Decapod,Brachyura,1,0.1
+G3051,Chinook,Bedwell,Noneelgrass,100%,Insect,Chironomidae,1,0.2
+G3051,Chinook,Bedwell,Noneelgrass,100%,Insect,Ceratopoginidae,1,0.4
+G3052,Chinook,Bedwell,Noneelgrass,100%,Arachnid,Hydrachnidia,1,0.1
+G3052,Chinook,Bedwell,Noneelgrass,100%,Insect,Culicoides,7,2.4
+G3052,Chinook,Bedwell,Noneelgrass,100%,Insect,Ceratopoginidae,1,0.1
+G3052,Chinook,Bedwell,Noneelgrass,100%,Gammarid,Gammarus,70,4.5
+G3052,Chinook,Bedwell,Noneelgrass,100%,Gammarid,Gammarus,2,1.3
+G3052,Chinook,Bedwell,Noneelgrass,100%,Gammarid,Gammarus,9,0.3
+G3052,Chinook,Bedwell,Noneelgrass,100%,Corophiid,Corophium,1,0.6
+G3052,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Harpacticus,490,38.2
+G3052,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Tigriopus,271,15.2
+G3052,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Harpacticidae,13,0.8
+G3052,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Tisbe,10,0.4
+G3052,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Dactylopusia,7,0.4
+G3052,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Harpacticoida,34,0.8
+G3053,Chinook,Bedwell,Noneelgrass,100%,Calanoid,Eurytemora pacifica,1,0.1
+G3053,Chinook,Bedwell,Noneelgrass,100%,Larvacean,Oikopleura,1,0.1
+G3053,Chinook,Bedwell,Noneelgrass,100%,Insect,Chironomidae,1,0.1
+G3053,Chinook,Bedwell,Noneelgrass,100%,Insect,Culicoides,5,2.1
+G3053,Chinook,Bedwell,Noneelgrass,100%,Cladoceran,Podon polyphemoides,1,0.1
+G3053,Chinook,Bedwell,Noneelgrass,100%,Cladoceran,Cladocera,1,0.1
+G3053,Chinook,Bedwell,Noneelgrass,100%,Gammarid,Gammarus,86,3.8
+G3053,Chinook,Bedwell,Noneelgrass,100%,Gammarid,Gammarus,33,0.7
+G3053,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Harpacticus,225,14.6
+G3053,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Tigriopus,115,5.8
+G3053,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Tisbe,489,14.8
+G3053,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Dactylopusia,12,0.3
+G3053,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Sarsamphiascus,1,0.1
+G3053,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Ectinosomatidae,6,0.1
+G3053,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Harpacticoida,72,0.8
+G3053,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Harpacticoida,71,0.6
+G3053,Chinook,Bedwell,Noneelgrass,100%,Digested food,Digested food,1,0.8
+G3053,Chinook,Bedwell,Noneelgrass,100%,Insect,Chironomidae,1,0.1
+G3054,Chinook,Bedwell,Noneelgrass,100%,Fish,Neopterygii,1,0.1
+G3054,Chinook,Bedwell,Noneelgrass,100%,Cladoceran,Podon polyphemoides,1,0.1
+G3054,Chinook,Bedwell,Noneelgrass,100%,Cladoceran,Evadne tergestina,1,0.1
+G3054,Chinook,Bedwell,Noneelgrass,100%,Cladoceran,Cladocera,2,0.1
+G3054,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Harpacticus,141,15
+G3054,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Tigriopus,53,2.6
+G3054,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Dactylopusia,22,0.8
+G3054,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Tisbe,15,0.1
+G3054,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Pseudobradya,1,0.1
+G3054,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Ectinosomatidae,4,0.1
+G3054,Chinook,Bedwell,Noneelgrass,100%,Harpacticoid,Harpacticoida,20,0.3
+G3054,Chinook,Bedwell,Noneelgrass,100%,Gammarid,Gammarus,11,0.5
+G3054,Chinook,Bedwell,Noneelgrass,100%,Gammarid,Gammarus,9,0.1
+BCOHO1,Coho,Qualicum,Noneelgrass,75-100%,Cumacean,Cumacea,1,0.4
+BCOHO1,Coho,Qualicum,Noneelgrass,75-100%,Hyperiid,Themisto,1,1.6
+BCOHO1,Coho,Qualicum,Noneelgrass,75-100%,Decapod,Pleocyemata,1,0.1
+BCOHO1,Coho,Qualicum,Noneelgrass,75-100%,Decapod,Caridea,1,0.6
+BCOHO1,Coho,Qualicum,Noneelgrass,75-100%,Caprellid,Caprellidae,2,3.9
+BCOHO1,Coho,Qualicum,Noneelgrass,75-100%,Fish,Neopterygii,1,1.4
+BCOHO1,Coho,Qualicum,Noneelgrass,75-100%,Caprellid,Caprellidae,1,3.2
+BCOHO1,Coho,Qualicum,Noneelgrass,75-100%,Gammarid,Gammaridea,4,3.7
+BCOHO1,Coho,Qualicum,Noneelgrass,75-100%,Detritus,Zostera,4,4.9
+BCOHO1,Coho,Qualicum,Noneelgrass,75-100%,Crustacean,Crustacea,3,3.6
+BCOHO1,Coho,Qualicum,Noneelgrass,75-100%,Gammarid,Gammarus,2,1.1
+BCOHO1,Coho,Qualicum,Noneelgrass,75-100%,Amphipod,Amphipoda,1,4.9
+BCOHO1,Coho,Qualicum,Noneelgrass,75-100%,Harpacticoid,Tisbe,1,0.1
+BCOHO1,Coho,Qualicum,Noneelgrass,75-100%,Gammarid,Gammaridea,4,4
+BCOHO1,Coho,Qualicum,Noneelgrass,75-100%,Gammarid,Orchomenella,6,5.9
+BCOHO1,Coho,Qualicum,Noneelgrass,75-100%,Gammarid,Polycheria,6,10.5
+BCOHO1,Coho,Qualicum,Noneelgrass,75-100%,Gammarid,Cyphocaris,4,3.4
+BCOHO1,Coho,Qualicum,Noneelgrass,75-100%,Gammarid,Cyphocaris,22,6.9
+BCOHO2,Coho,Koeye,Noneelgrass,100%,Barnacle,Balanomorpha,1,6.5
+BCOHO2,Coho,Koeye,Noneelgrass,100%,Barnacle,Balanomorpha,1,4.4
+BCOHO2,Coho,Koeye,Noneelgrass,100%,Gammarid,Polycheria,1,0.7
+BCOHO2,Coho,Koeye,Noneelgrass,100%,Parasite,Nematoda,2,0.4
+BCOHO2,Coho,Koeye,Noneelgrass,100%,Decapod,Cancer magister,1,44.3
+BCOHO2,Coho,Koeye,Noneelgrass,100%,Decapod,Cancer magister,1,44.4
+BCOHO2,Coho,Koeye,Noneelgrass,100%,Decapod,Pachygrapsus crassipes,1,33.3
+BCOHO2,Coho,Koeye,Noneelgrass,100%,Decapod,Cancer antennarius,1,6.7
+BCOHO2,Coho,Koeye,Noneelgrass,100%,Decapod,Decapoda,1,6.7
+BCOHO2,Coho,Koeye,Noneelgrass,100%,Decapod,Decapoda,1,44.7
+BCOHO3,Coho,Koeye,Noneelgrass,75-100%,Isopod,Isopoda,1,24.9
+BCOHO3,Coho,Koeye,Noneelgrass,75-100%,Insect,Coleoptera,1,1.2
+BCOHO3,Coho,Koeye,Noneelgrass,75-100%,Insect,Simuliidae,1,11.5
+BCOHO3,Coho,Koeye,Noneelgrass,75-100%,Gammarid,Gammaridea,1,33.5
+BCOHO3,Coho,Koeye,Noneelgrass,75-100%,Decapod,Cancer magister,1,42
+BCOHO3,Coho,Koeye,Noneelgrass,75-100%,Decapod,Cancer magister,1,39.7
+BCOHO3,Coho,Koeye,Noneelgrass,75-100%,Decapod,Cancer productus,5,87
+BCOHO3,Coho,Koeye,Noneelgrass,75-100%,Decapod,Cancer antennarius,3,40.9
+BCOHO3,Coho,Koeye,Noneelgrass,75-100%,Decapod,Cancer gracilis,2,25.4
+BCOHO3,Coho,Koeye,Noneelgrass,75-100%,Decapod,Pleocyemata,1,3.3
+BCOHO3,Coho,Koeye,Noneelgrass,75-100%,Arthropod,Arthropoda,1,3.9
+BCOHO4,Coho,Koeye,Noneelgrass,100%,Barnacle,Balanomorpha,1,37.6
+BCOHO4,Coho,Koeye,Noneelgrass,100%,Barnacle,Balanomorpha,17,38
+BCOHO4,Coho,Koeye,Noneelgrass,100%,Detritus,Rocks/Plastic,10,4.4
+BCOHO4,Coho,Koeye,Noneelgrass,100%,Isopod,Gnorimosphaeroma,3,84.8
+BCOHO4,Coho,Koeye,Noneelgrass,100%,Gammarid,Gammaridea,1,57.7
+BCOHO4,Coho,Koeye,Noneelgrass,100%,Corophiid,Corophium,2,6.3
+BCOHO4,Coho,Koeye,Noneelgrass,100%,Decapod,Paguridae,1,0.8
+BCOHO4,Coho,Koeye,Noneelgrass,100%,Parasite,Nematoda,1,0.1
+BCOHO4,Coho,Koeye,Noneelgrass,100%,Digested food,Digested food,1,3.5
+BCOHO5,Coho,Koeye,Noneelgrass,50-75%,Detritus,Rocks/Plastic,4,0.1
+BCOHO5,Coho,Koeye,Noneelgrass,50-75%,Barnacle,Balamorpha,1,2.3
+BCOHO5,Coho,Koeye,Noneelgrass,50-75%,Parasite,Nematoda,2,0.1
+BCOHO5,Coho,Koeye,Noneelgrass,50-75%,Insect,Insecta,1,2.9
+BCOHO5,Coho,Koeye,Noneelgrass,50-75%,Decapod,Oregonia gracilis,1,3.3
+BCOHO5,Coho,Koeye,Noneelgrass,50-75%,Decapod,Cancer antennarius,4,56.5
+BCOHO5,Coho,Koeye,Noneelgrass,50-75%,Decapod,Cancer gracilis,3,28.9
+BCOHO5,Coho,Koeye,Noneelgrass,50-75%,Decapod,Cancer,4,30.5
+BCOHO5,Coho,Koeye,Noneelgrass,50-75%,Decapod,Cancer,1,33
+BCOHO6,Coho,Koeye,Noneelgrass,50-75%,Corophiid,Corophium,1,1.7
+BCOHO6,Coho,Koeye,Noneelgrass,50-75%,Barnacle,Balanomorpha,1,0.6
+BCOHO6,Coho,Koeye,Noneelgrass,50-75%,Barnacle,Balanomorpha,1,5.2
+BCOHO6,Coho,Koeye,Noneelgrass,50-75%,Insect,Insecta,1,0.2
+BCOHO6,Coho,Koeye,Noneelgrass,50-75%,Parasite,Nematoda,1,3.3
+BCOHO6,Coho,Koeye,Noneelgrass,50-75%,Decapod,Cancer antennarius,2,17.7
+BCOHO6,Coho,Koeye,Noneelgrass,50-75%,Decapod,Cancer gracilis,5,51
+BCOHO6,Coho,Koeye,Noneelgrass,50-75%,Decapod,Cancer,2,17.3
+BCOHO6,Coho,Koeye,Noneelgrass,50-75%,Decapod,Brachyura,1,0.1
+BCOHO6,Coho,Koeye,Noneelgrass,50-75%,Decapod,Brachyura,1,36.3
+BCOHO6,Coho,Koeye,Noneelgrass,50-75%,Decapod,Pleocyemata,18,0.1
+BCOHO6,Coho,Koeye,Noneelgrass,50-75%,Decapod,Pleocyemata,5,1.2
+BCOHO6,Coho,Koeye,Noneelgrass,50-75%,Digested food,Digested food,1,13.1
+BCOHO6,Coho,Koeye,Noneelgrass,50-75%,Detritus,Rocks/Plastic,2,0.1
+BCOHO7,Coho,Koeye,Noneelgrass,25-50%,Gammarid,Gammaridea,1,1.1
+BCOHO7,Coho,Koeye,Noneelgrass,25-50%,Insect,Culicomorpha,1,9.3
+BCOHO7,Coho,Koeye,Noneelgrass,25-50%,Insect,Culicomorpha,3,0.8
+BCOHO7,Coho,Koeye,Noneelgrass,25-50%,Insect,Insecta,1,15.2
+BCOHO7,Coho,Koeye,Noneelgrass,25-50%,Insect,Insecta,1,26.4
+BCOHO8,Coho,Koeye,Noneelgrass,50-75%,Decapod,Decapoda,1,0.1
+BCOHO8,Coho,Koeye,Noneelgrass,50-75%,Gammarid,Gammarus,1,1.7
+BCOHO8,Coho,Koeye,Noneelgrass,50-75%,Gammarid,Gammarus,1,8.8
+BCOHO8,Coho,Koeye,Noneelgrass,50-75%,Cumacean,Cumacea,1,0.2
+BCOHO8,Coho,Koeye,Noneelgrass,50-75%,Isopod,Gnorimosphaeroma,1,0.4
+BCOHO8,Coho,Koeye,Noneelgrass,50-75%,Insect,Coleoptera,1,1.1
+BCOHO8,Coho,Koeye,Noneelgrass,50-75%,Arachnid,Araneae,1,0.1
+BCOHO8,Coho,Koeye,Noneelgrass,50-75%,Insect,Ceratopoginidae,4,0.9
+BCOHO8,Coho,Koeye,Noneelgrass,50-75%,Insect,Culicomorpha,3,4
+BCOHO8,Coho,Koeye,Noneelgrass,50-75%,Insect,Insecta,1,16.7
+BCOHO9,Coho,Koeye,Noneelgrass,25-50%,Decapod,Pleocyemata,1,0.1
+BCOHO9,Coho,Koeye,Noneelgrass,25-50%,Gammarid,Gammaridea,1,0.4
+BCOHO9,Coho,Koeye,Noneelgrass,25-50%,Cumacean,Cumacea,1,0.1
+BCOHO9,Coho,Koeye,Noneelgrass,25-50%,Isopod,Idotea,1,0.1
+BCOHO9,Coho,Koeye,Noneelgrass,25-50%,Detritus,Rocks/Plastic,6,0.1
+BCOHO9,Coho,Koeye,Noneelgrass,25-50%,Insect,Simuliidae,1,0.4
+BCOHO9,Coho,Koeye,Noneelgrass,25-50%,Insect,Culicomorpha,1,0.4
+BCOHO9,Coho,Koeye,Noneelgrass,25-50%,Insect,Formicidae,1,1.2
+BCOHO9,Coho,Koeye,Noneelgrass,25-50%,Insect,Insecta,1,25.8
+BCOHO9,Coho,Koeye,Noneelgrass,25-50%,Barnacle,Balanomorpha,6,14.9
+BCOHO9,Coho,Koeye,Noneelgrass,25-50%,Barnacle,Balanomorpha,1,17.6
+BCOHO10,Coho,Koeye,Noneelgrass,25-50%,Insect,Formicidae,1,0.3
+BCOHO10,Coho,Koeye,Noneelgrass,25-50%,Insect,Insecta,1,9.9
+BCOHO10,Coho,Koeye,Noneelgrass,25-50%,Insect,Insecta,1,27.4
+BCOHO11,Coho,Koeye,Noneelgrass,50-75%,Insect,Culicomorpha,3,5.3
+BCOHO11,Coho,Koeye,Noneelgrass,50-75%,Insect,Formicidae,1,18.8
+BCOHO11,Coho,Koeye,Noneelgrass,50-75%,Insect,Formicidae,6,19.8
+BCOHO11,Coho,Koeye,Noneelgrass,50-75%,Insect,Insecta,1,28.8
+BCOHO12,Coho,Koeye,Eelgrass,25-50%,Corophiid,Corophium,1,2.9
+BCOHO12,Coho,Koeye,Eelgrass,25-50%,Gammarid,Polycheria,1,8.9
+BCOHO12,Coho,Koeye,Eelgrass,25-50%,Isopod,Gnorimosphaeroma,1,20.5
+BCOHO12,Coho,Koeye,Eelgrass,25-50%,Insect,Insecta,1,6.5
+BCOHO13,Coho,Koeye,Eelgrass,100%,Barnacle,Balanomorpha,1,2.8
+BCOHO13,Coho,Koeye,Eelgrass,100%,Barnacle,Balanomorpha,1,1.3
+BCOHO13,Coho,Koeye,Eelgrass,100%,Parasite,Nematoda,3,0.6
+BCOHO13,Coho,Koeye,Eelgrass,100%,Gammarid,Gammaridea,2,20.6
+BCOHO13,Coho,Koeye,Eelgrass,100%,Insect,Culicomorpha,3,3.6
+BCOHO13,Coho,Koeye,Eelgrass,100%,Insect,Culicomorpha,1,18.2
+BCOHO13,Coho,Koeye,Eelgrass,100%,Cumacean,Cumacea,1,0.3
+BCOHO13,Coho,Koeye,Eelgrass,100%,Decapod,Fabia subquadrata,1,0.6
+BCOHO13,Coho,Koeye,Eelgrass,100%,Decapod,Cancer,1,1.4
+BCOHO13,Coho,Koeye,Eelgrass,100%,Decapod,Cancer antennarius,2,27.8
+BCOHO13,Coho,Koeye,Eelgrass,100%,Decapod,Pleocyemata,1,0.1
+BCOHO13,Coho,Koeye,Eelgrass,100%,Decapod,Pleocyemata,1,0.1
+BCOHO13,Coho,Koeye,Eelgrass,100%,Decapod,Cancer magister,4,191.1
+BCOHO13,Coho,Koeye,Eelgrass,100%,Decapod,Cancer magister,4,135.4
+BCOHO14,Coho,Koeye,Eelgrass,75-100%,Parasite,Nematoda,2,5
+BCOHO14,Coho,Koeye,Eelgrass,75-100%,Corophiid,Corophium,2,2.3
+BCOHO14,Coho,Koeye,Eelgrass,75-100%,Gammarid,Polycheria,1,6
+BCOHO14,Coho,Koeye,Eelgrass,75-100%,Decapod,Cancer antennarius,1,17.1
+BCOHO14,Coho,Koeye,Eelgrass,75-100%,Decapod,Cancer gracilis,1,9.8
+BCOHO14,Coho,Koeye,Eelgrass,75-100%,Decapod,Cancer,1,8.9
+BCOHO14,Coho,Koeye,Eelgrass,75-100%,Decapod,Cancer magister,4,183
+BCOHO14,Coho,Koeye,Eelgrass,75-100%,Decapod,Cancer magister,1,65.8
+BCOHO15,Coho,Koeye,Eelgrass,25-50%,Parasite,Nematoda,1,0.1
+BCOHO15,Coho,Koeye,Eelgrass,25-50%,Insect,Insecta,1,57.9
+BCOHO16,Coho,Koeye,Eelgrass,50-75%,Decapod,Cancer antennarius,1,12.3
+BCOHO16,Coho,Koeye,Eelgrass,50-75%,Decapod,Brachyura,1,5.8
+BCOHO16,Coho,Koeye,Eelgrass,50-75%,Decapod,Pleocyemata,7,0.1
+BCOHO16,Coho,Koeye,Eelgrass,50-75%,Decapod,Pleocyemata,1,0.1
+BCOHO16,Coho,Koeye,Eelgrass,50-75%,Insect,Culicomorpha,1,1
+BCOHO16,Coho,Koeye,Eelgrass,50-75%,Insect,Culicomorpha,1,0.1
+BCOHO16,Coho,Koeye,Eelgrass,50-75%,Arachnid,Araneae,1,36.4
+BCOHO16,Coho,Koeye,Eelgrass,50-75%,Digested food,Digested food,1,45.4
+BCOHO17,Coho,Koeye,Eelgrass,75-100%,Barnacle,Balanomorpha,1,1.6
+BCOHO17,Coho,Koeye,Eelgrass,75-100%,Gammarid,Gammarus,1,1.1
+BCOHO17,Coho,Koeye,Eelgrass,75-100%,Gammarid,Gammaridea,1,1
+BCOHO17,Coho,Koeye,Eelgrass,75-100%,Corophiid,Corophium,1,1
+BCOHO17,Coho,Koeye,Eelgrass,75-100%,Corophiid,Corophium,1,0.6
+BCOHO17,Coho,Koeye,Eelgrass,75-100%,Cumacean,Cumacea,1,0.1
+BCOHO17,Coho,Koeye,Eelgrass,75-100%,Parasite,Nematoda,1,0.1
+BCOHO17,Coho,Koeye,Eelgrass,75-100%,Insect,Coleoptera,2,0.1
+BCOHO17,Coho,Koeye,Eelgrass,75-100%,Arachnid,Araneae,1,0.1
+BCOHO17,Coho,Koeye,Eelgrass,75-100%,Insect,Culicomorpha,2,0.6
+BCOHO17,Coho,Koeye,Eelgrass,75-100%,Insect,Culicomorpha,4,2.5
+BCOHO17,Coho,Koeye,Eelgrass,75-100%,Insect,Ceratopoginidae,10,5.9
+BCOHO17,Coho,Koeye,Eelgrass,75-100%,Insect,Ceratopoginidae,20,3
+BCOHO17,Coho,Koeye,Eelgrass,75-100%,Insect,Simuliidae,2,5.7
+BCOHO17,Coho,Koeye,Eelgrass,75-100%,Insect,Simuliidae,3,33.4
+BCOHO17,Coho,Koeye,Eelgrass,75-100%,Digested food,Digested food,1,43.7
+BCOHO18,Coho,Koeye,Eelgrass,75-100%,Insect,Ceratopoginidae,66,24.3
+BCOHO18,Coho,Koeye,Eelgrass,75-100%,Insect,Ceratopoginidae,61,16.2
+BCOHO18,Coho,Koeye,Eelgrass,75-100%,Insect,Brachycera,1,3.5
+BCOHO18,Coho,Koeye,Eelgrass,75-100%,Corophiid,Corophium,1,0.1
+BCOHO18,Coho,Koeye,Eelgrass,75-100%,Isopod,Isopoda,1,0.1
+BCOHO18,Coho,Koeye,Eelgrass,75-100%,Gammarid,Gammarus,1,0.8
+BCOHO18,Coho,Koeye,Eelgrass,75-100%,Gammarid,Gammaridea,3,0.5
+BCOHO18,Coho,Koeye,Eelgrass,75-100%,Cumacean,Cumacea,1,0.1
+BCOHO18,Coho,Koeye,Eelgrass,75-100%,Cumacean,Cumacea,4,0.6
+BCOHO18,Coho,Koeye,Eelgrass,75-100%,Insect,Culicomorpha,7,1.5
+BCOHO18,Coho,Koeye,Eelgrass,75-100%,Arachnid,Araneae,1,0.5
+BCOHO18,Coho,Koeye,Eelgrass,75-100%,Insect,Coleoptera,1,0.1
+BCOHO18,Coho,Koeye,Eelgrass,75-100%,Insect,Simuliidae,13,17.9
+BCOHO18,Coho,Koeye,Eelgrass,75-100%,Insect,Simuliidae,1,16.7
+BCOHO18,Coho,Koeye,Eelgrass,75-100%,Insect,Simuliidae,6,14.4
+BCOHO18,Coho,Koeye,Eelgrass,75-100%,Insect,Insecta,1,57.7
+BCOHO19,Coho,Koeye,Eelgrass,75-100%,Detritus,Rocks/Plastic,2,0.5
+BCOHO19,Coho,Koeye,Eelgrass,75-100%,Parasite,Nematoda,1,0.1
+BCOHO19,Coho,Koeye,Eelgrass,75-100%,Cumacean,Cumacea,3,0.4
+BCOHO19,Coho,Koeye,Eelgrass,75-100%,Cumacean,Cumacea,8,1
+BCOHO19,Coho,Koeye,Eelgrass,75-100%,Isopod,Isopoda,1,28.4
+BCOHO19,Coho,Koeye,Eelgrass,75-100%,Gammarid,Gammarus,1,15.3
+BCOHO19,Coho,Koeye,Eelgrass,75-100%,Decapod,Pleocyemata,1,0.1
+BCOHO19,Coho,Koeye,Eelgrass,75-100%,Barnacle,Balanomorpha,1,1.3
+BCOHO19,Coho,Koeye,Eelgrass,75-100%,Arachnid,Araneae,2,1.4
+BCOHO19,Coho,Koeye,Eelgrass,75-100%,Insect,Culicomorpha,3,1.3
+BCOHO19,Coho,Koeye,Eelgrass,75-100%,Insect,Culicomorpha,6,1.3
+BCOHO19,Coho,Koeye,Eelgrass,75-100%,Insect,Ceratopoginidae,3,0.6
+BCOHO19,Coho,Koeye,Eelgrass,75-100%,Insect,Simuliidae,10,8.7
+BCOHO19,Coho,Koeye,Eelgrass,75-100%,Insect,Simuliidae,6,6.8
+BCOHO19,Coho,Koeye,Eelgrass,75-100%,Insect,Insecta,1,57.6
+BCOHO20,Coho,Koeye,Eelgrass,50-75%,Barnacle,Balanomorpha,1,1.8
+BCOHO20,Coho,Koeye,Eelgrass,50-75%,Barnacle,Balanomorpha,1,2.8
+BCOHO20,Coho,Koeye,Eelgrass,50-75%,Parasite,Nematoda,1,0.1
+BCOHO20,Coho,Koeye,Eelgrass,50-75%,Isopod,Isopoda,1,3.5
+BCOHO20,Coho,Koeye,Eelgrass,50-75%,Corophiid,Corophium,1,0.7
+BCOHO20,Coho,Koeye,Eelgrass,50-75%,Corophiid,Corophium,3,3.5
+BCOHO20,Coho,Koeye,Eelgrass,50-75%,Gammarid,Gammaridea,3,1.4
+BCOHO20,Coho,Koeye,Eelgrass,50-75%,Decapod,Decapoda,3,0.5
+BCOHO20,Coho,Koeye,Eelgrass,50-75%,Insect,Coleoptera,1,0.1
+BCOHO20,Coho,Koeye,Eelgrass,50-75%,Insect,Simuliidae,1,0.1
+BCOHO20,Coho,Koeye,Eelgrass,50-75%,Insect,Ceratopoginidae,2,0.1
+BCOHO20,Coho,Koeye,Eelgrass,50-75%,Insect,Culicomorpha,1,6.6
+BCOHO20,Coho,Koeye,Eelgrass,50-75%,Insect,Simuliidae,2,1.3
+BCOHO20,Coho,Koeye,Eelgrass,50-75%,Insect,Simuliidae,1,17.1
+BCOHO20,Coho,Koeye,Eelgrass,50-75%,Insect,Simuliidae,10,19.9
+BCOHO20,Coho,Koeye,Eelgrass,50-75%,Insect,Insecta,1,23.5
+BCOHO20,Coho,Koeye,Eelgrass,50-75%,Detritus,Rocks/Plastic,1,0.1
+BCOHO21,Coho,Koeye,Eelgrass,0-25%,Insect,Simuliidae,1,9.4
