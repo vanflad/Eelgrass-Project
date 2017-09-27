@@ -57,19 +57,20 @@ ggplot(gut, aes(x=Eelgrass, y=GFI, fill=Eelgrass))+
 #this is the most I can do to modify this, ask for feedback...
 
 #working on a t-test for GFI values (not including bedwell)
-y1 <- filter(gut, Eelgrass == "Eelgrass")
-ya <- as.vector(y1[["GFI"]])
+#y1 <- filter(gut, Eelgrass == "Eelgrass")
+#ya <- as.vector(y1[["GFI"]])
 #create first vector for eelgrass
-y2 <- filter(gut, Eelgrass == "Noneelgrass")
-yb <- as.vector(y2[["GFI"]])
+#y2 <- filter(gut, Eelgrass == "Noneelgrass")
+#yb <- as.vector(y2[["GFI"]])
 #create second vector for noneelgrass
-yc <- length(ya)-length(yb)
-yd <- rep_len(NA, yc)
+#yc <- length(ya)-length(yb)
+#yd <- rep_len(NA, yc)
 #have to have same sample sizes, difference calculated using length
-ye <- c(yb, yd)
+#ye <- c(yb, yd)
 #our completed noneelgrass vector with the right sample size
-t.test(ya, ye)
+#t.test(ya, ye)
 #results give p-value=0.02529, are able to reject null hypothesis!
+#hash-tagged out because I don't need to keep running this code.
 
 #switching it up to isotope work now ~
 
@@ -120,9 +121,9 @@ eel$Group[which(eel$Group=="Octopus")] <- "Other"
 eel$Group[which(eel$Group=="Cyphonaut")] <- "Other"
 eel$Group[which(eel$Group=="Bivalve")] <- "Other"
 eel$Group[which(eel$Group=="Chaetognath")] <- "Other"
-eel$Group[which(eel$Group=="Mysid")] <- "Arthropod"
-eel$Group[which(eel$Group=="Ostracod")] <- "Arthropod"
-eel$Group[which(eel$Group=="Cladoceran")] <- "Arthropod"
+eel$Group[which(eel$Group=="Polychaete")] <- "Other"
+eel$Group[which(eel$Group=="Pteropod")] <- "Other"
+eel$Group[which(eel$Group=="Cnidarian")] <- "Other"
 eel$Group[which(eel$Group=="Cumacean")] <- "Arthropod"
 eel$Group[which(eel$Group=="Euphausiid")] <- "Arthropod"
 eel$Group[which(eel$Group=="Isopod")] <- "Arthropod"
@@ -140,8 +141,7 @@ amph <- filt %>%
   group_by(filt$ID) %>%
   summarize(ID=first(ID), abd=sum(Abundance), bio=sum(Biomass), Group=first(Group),
             Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(ID, abd, bio, Group, Eelsite, Eelgrass, Site) %>%
-  print(head(amph))
+  select(ID, abd, bio, Group, Eelsite, Eelgrass, Site)
 #HOLY GUACAMOLE I THINK I GOT IT TO FINALLY WOOOOORK! FOR REAL THO!
 
 filt <- filter(eel, Group=="Arthropod")
@@ -149,8 +149,7 @@ arth <- filt %>%
   group_by(filt$ID) %>%
   summarize(ID=first(ID), abd=sum(Abundance), bio=sum(Biomass), Group=first(Group),
             Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(ID, abd, bio, Group, Eelsite, Eelgrass, Site) %>%
-  print(head(arth))
+  select(ID, abd, bio, Group, Eelsite, Eelgrass, Site)
 #first amphipod then arthropod then repeat manually for each prey
 
 filt <- filter(eel, Group=="Barnacle")
@@ -158,24 +157,21 @@ barn <- filt %>%
   group_by(filt$ID) %>%
   summarize(ID=first(ID), abd=sum(Abundance), bio=sum(Biomass), Group=first(Group),
             Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(ID, abd, bio, Group, Eelsite, Eelgrass, Site) %>%
-  print(head(barn))
+  select(ID, abd, bio, Group, Eelsite, Eelgrass, Site)
 
-filt <- filter(eel, Group=="Cnidarian")
-cnid <- filt %>%
+filt <- filter(eel, Group=="Cladoceran")
+clad <- filt %>%
   group_by(filt$ID) %>%
   summarize(ID=first(ID), abd=sum(Abundance), bio=sum(Biomass), Group=first(Group),
             Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(ID, abd, bio, Group, Eelsite, Eelgrass, Site) %>%
-  print(head(cnid))
+  select(ID, abd, bio, Group, Eelsite, Eelgrass, Site)
 
 filt <- filter(eel, Group=="Copepod")
 cope <- filt %>%
   group_by(filt$ID) %>%
   summarize(ID=first(ID), abd=sum(Abundance), bio=sum(Biomass), Group=first(Group),
             Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(ID, abd, bio, Group, Eelsite, Eelgrass, Site) %>%
-  print(head(cope))
+  select(ID, abd, bio, Group, Eelsite, Eelgrass, Site)
 
 filt <- filter(eel, Group=="Decapod")
 deca <- filt %>%
@@ -190,50 +186,44 @@ digf <- filt %>%
   group_by(filt$ID) %>%
   summarize(ID=first(ID), abd=sum(Abundance), bio=sum(Biomass), Group=first(Group),
             Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(ID, abd, bio, Group, Eelsite, Eelgrass, Site) %>%
-  print(head(digf))
+  select(ID, abd, bio, Group, Eelsite, Eelgrass, Site)
 
 filt <- filter(eel, Group=="Fish")
 fish <- filt %>%
   group_by(filt$ID) %>%
   summarize(ID=first(ID), abd=sum(Abundance), bio=sum(Biomass), Group=first(Group),
             Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(ID, abd, bio, Group, Eelsite, Eelgrass, Site) %>%
-  print(head(fish))
+  select(ID, abd, bio, Group, Eelsite, Eelgrass, Site)
 
 filt <- filter(eel, Group=="Insect")
 inse <- filt %>%
   group_by(filt$ID) %>%
   summarize(ID=first(ID), abd=sum(Abundance), bio=sum(Biomass), Group=first(Group),
             Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(ID, abd, bio, Group, Eelsite, Eelgrass, Site) %>%
-  print(head(inse))
+  select(ID, abd, bio, Group, Eelsite, Eelgrass, Site)
 
 filt <- filter(eel, Group=="Other")
 othr <- filt %>%
   group_by(filt$ID) %>%
   summarize(ID=first(ID), abd=sum(Abundance), bio=sum(Biomass), Group=first(Group),
             Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(ID, abd, bio, Group, Eelsite, Eelgrass, Site) %>%
-  print(head(othr))
+  select(ID, abd, bio, Group, Eelsite, Eelgrass, Site)
 
-filt <- filter(eel, Group=="Polychaete")
-polyc <- filt %>%
+filt <- filter(eel, Group=="Mysid")
+mysd <- filt %>%
   group_by(filt$ID) %>%
   summarize(ID=first(ID), abd=sum(Abundance), bio=sum(Biomass), Group=first(Group),
             Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(ID, abd, bio, Group, Eelsite, Eelgrass, Site) %>%
-  print(head(polyc))
+  select(ID, abd, bio, Group, Eelsite, Eelgrass, Site)
 
-filt <- filter(eel, Group=="Pteropod")
-pter <- filt %>%
+filt <- filter(eel, Group=="Ostracod")
+ostr <- filt %>%
   group_by(filt$ID) %>%
   summarize(ID=first(ID), abd=sum(Abundance), bio=sum(Biomass), Group=first(Group),
             Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(ID, abd, bio, Group, Eelsite, Eelgrass, Site) %>%
-  print(head(pter))
+  select(ID, abd, bio, Group, Eelsite, Eelgrass, Site)
 
-neweel <- rbind(amph, arth, barn, cnid, cope, deca, digf, fish, inse, othr, polyc, pter)
+neweel <- rbind(amph, arth, barn, clad, cope, deca, digf, fish, inse, othr, ostr, mysd)
 #my fabulous new dataframe with prey abd and biom grouped together!
 
 str(neweel)
@@ -245,8 +235,7 @@ Amph <- filt %>%
   group_by(filt$Eelsite) %>%
   summarize(Eelsite=first(Eelsite), Abd=mean(abd), Bio=mean(bio),
             Group=first(Group),Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(Eelsite, Abd, Bio, Group, Eelgrass, Site) %>%
-  print(head(Amph))
+  select(Eelsite, Abd, Bio, Group, Eelgrass, Site)
 #copying the layout of the last transformation but for diff purpose
 
 filt <- filter(neweel, Group=="Arthropod")
@@ -254,8 +243,7 @@ Arth <- filt %>%
   group_by(filt$Eelsite) %>%
   summarize(Eelsite=first(Eelsite), Abd=mean(abd), Bio=mean(bio),
             Group=first(Group),Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(Eelsite, Abd, Bio, Group, Eelgrass, Site) %>%
-  print(head(Arth))
+  select(Eelsite, Abd, Bio, Group, Eelgrass, Site)
 #first amphipod then arthropod then repeat manually for each prey
 
 filt <- filter(neweel, Group=="Barnacle")
@@ -263,82 +251,72 @@ Barn <- filt %>%
   group_by(filt$Eelsite) %>%
   summarize(Eelsite=first(Eelsite), Abd=mean(abd), Bio=mean(bio),
             Group=first(Group),Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(Eelsite, Abd, Bio, Group, Eelgrass, Site) %>%
-  print(head(Barn))
+  select(Eelsite, Abd, Bio, Group, Eelgrass, Site)
 
-filt <- filter(neweel, Group=="Cnidarian")
-Cnid <- filt %>%
+filt <- filter(neweel, Group=="Cladoceran")
+Clad <- filt %>%
   group_by(filt$Eelsite) %>%
   summarize(Eelsite=first(Eelsite), Abd=mean(abd), Bio=mean(bio),
             Group=first(Group),Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(Eelsite, Abd, Bio, Group, Eelgrass, Site) %>%
-  print(head(Cnid))
+  select(Eelsite, Abd, Bio, Group, Eelgrass, Site)
 
 filt <- filter(neweel, Group=="Copepod")
 Cope <- filt %>%
   group_by(filt$Eelsite) %>%
   summarize(Eelsite=first(Eelsite), Abd=mean(abd), Bio=mean(bio),
             Group=first(Group),Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(Eelsite, Abd, Bio, Group, Eelgrass, Site) %>%
-  print(head(Cope))
+  select(Eelsite, Abd, Bio, Group, Eelgrass, Site)
 
 filt <- filter(neweel, Group=="Decapod")
 Deca <- filt %>%
   group_by(filt$Eelsite) %>%
   summarize(Eelsite=first(Eelsite), Abd=mean(abd), Bio=mean(bio),
             Group=first(Group),Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(Eelsite, Abd, Bio, Group, Eelgrass, Site) %>%
-  print(head(Deca))
+  select(Eelsite, Abd, Bio, Group, Eelgrass, Site)
 
 filt <- filter(neweel, Group=="Digested food")
 Digf <- filt %>%
   group_by(filt$Eelsite) %>%
   summarize(Eelsite=first(Eelsite), Abd=mean(abd), Bio=mean(bio),
             Group=first(Group),Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(Eelsite, Abd, Bio, Group, Eelgrass, Site) %>%
-  print(head(Digf))
+  select(Eelsite, Abd, Bio, Group, Eelgrass, Site)
 
 filt <- filter(neweel, Group=="Fish")
 Fish <- filt %>%
   group_by(filt$Eelsite) %>%
   summarize(Eelsite=first(Eelsite), Abd=mean(abd), Bio=mean(bio),
             Group=first(Group),Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(Eelsite, Abd, Bio, Group, Eelgrass, Site) %>%
-  print(head(Fish))
+  select(Eelsite, Abd, Bio, Group, Eelgrass, Site)
 
 filt <- filter(neweel, Group=="Insect")
 Inse <- filt %>%
   group_by(filt$Eelsite) %>%
   summarize(Eelsite=first(Eelsite), Abd=mean(abd), Bio=mean(bio),
             Group=first(Group),Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(Eelsite, Abd, Bio, Group, Eelgrass, Site) %>%
-  print(head(Inse))
+  select(Eelsite, Abd, Bio, Group, Eelgrass, Site)
 
 filt <- filter(neweel, Group=="Other")
 Othr <- filt %>%
   group_by(filt$Eelsite) %>%
   summarize(Eelsite=first(Eelsite), Abd=mean(abd), Bio=mean(bio),
             Group=first(Group),Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(Eelsite, Abd, Bio, Group, Eelgrass, Site) %>%
-  print(head(Othr))
+  select(Eelsite, Abd, Bio, Group, Eelgrass, Site)
 
-filt <- filter(neweel, Group=="Polychaete")
-Polyc <- filt %>%
+filt <- filter(neweel, Group=="Mysid")
+Mysd <- filt %>%
   group_by(filt$Eelsite) %>%
   summarize(Eelsite=first(Eelsite), Abd=mean(abd), Bio=mean(bio),
             Group=first(Group),Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(Eelsite, Abd, Bio, Group, Eelgrass, Site) %>%
-  print(head(Polyc))
+  select(Eelsite, Abd, Bio, Group, Eelgrass, Site)
 
-filt <- filter(neweel, Group=="Pteropod")
-Pter <- filt %>%
+filt <- filter(neweel, Group=="Ostracod")
+Ostr <- filt %>%
   group_by(filt$Eelsite) %>%
   summarize(Eelsite=first(Eelsite), Abd=mean(abd), Bio=mean(bio),
             Group=first(Group),Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(Eelsite, Abd, Bio, Group, Eelgrass, Site) %>%
-  print(head(Pter))
+  select(Eelsite, Abd, Bio, Group, Eelgrass, Site)
 
-eelgr <- rbind(Amph, Arth, Barn, Cnid, Cope, Deca, Digf, Fish, Inse, Othr, Polyc, Pter)
+eelgr <- rbind(Amph, Arth, Barn, Clad, Cope, Deca, Digf, Fish, Inse, Othr, Ostr, Mysd)
 #my fabulous new dataframe with prey Abd and Biom averaged together
 
 str(eelgr)
@@ -350,45 +328,49 @@ eelgr$Eelgrass <- factor(eelgr$Eelgrass, levels(eelgr$Eelgrass)[c(2, 1)])
 eelgr$Eelsite <- as.factor(eelgr$Eelsite)
 #rearranging levels for site and eelgrass
 
-levels(eelgr$Eelsite)
-#needs to be reordered for graphs!
 eelgr$Eelsite <- factor(eelgr$Eelsite, levels(eelgr$Eelsite)[c(5, 4, 3, 2, 1, 7, 6)])
-#that re-ordering to make it look nice
+#re-ordering levels to make it look nice for graphs!
 
 #Raw Abundance Graph
 eelgr %>%
   ggplot(aes(Eelsite, Abd))+
   geom_bar(aes(fill=Group), stat="identity")+
-  theme(axis.text.x = element_text(angle=45, hjust=1))+
+  theme(axis.text.x = element_text(angle=45, hjust=1),
+        axis.ticks=element_blank(),
+        panel.grid.major = element_blank())+
   coord_flip()
 #looks amaze now
 
 #Relative Abundance Graph (100% y scale)
 ggplot(eelgr, aes(Eelsite, Abd)) +
   geom_bar(aes(fill=Group), position="fill", stat="identity")+
-  theme(axis.text.x = element_text(angle=45, hjust=1))+
+  theme(axis.text.x = element_text(angle=45, hjust=1),
+        axis.ticks=element_blank(),
+        panel.grid.major = element_blank())+
   coord_flip()
-
-#idea: put cladocera back in, take out cnidarian and/or polyc/ptero
-
-#if want to have sites graphed separately:
-#add "+facet_wrap(~Site)" and change "Eelsite" to "Eelgrass"
 
 #Raw Biomass Graph
 eelgr %>%
   ggplot(aes(Eelsite, Bio))+
   geom_bar(aes(fill=Group), stat="identity")+
-  theme(axis.text.x = element_text(angle=45, hjust=1))+
+  theme(axis.text.x = element_text(angle=45, hjust=1),
+        axis.ticks=element_blank(),
+        panel.grid.major = element_blank())+
   coord_flip()
 
 #Relative Biomass Graph
 eelgr %>%
   ggplot(aes(Eelsite, Bio))+
   geom_bar(aes(fill=Group), position="fill", stat="identity")+
-  theme(axis.text.x = element_text(angle=45, hjust=1))+
+  theme(axis.text.x = element_text(angle=45, hjust=1),
+        axis.ticks=element_blank(),
+        panel.grid.major = element_blank())+
   coord_flip()
 
-#still to do: flip axis, background, titles, color, groups, facet?
+#if want to have sites graphed separately:
+#add "+facet_wrap(~Site)" and change "Eelsite" to "Eelgrass"
+
+#still to do: titles, color, groups, facet?
 
 setwd("~/Eelgrass Project")
 #in order to commit to Github and track saves and changes and etc!
