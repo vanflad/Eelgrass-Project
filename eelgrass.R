@@ -324,7 +324,7 @@ eelgr %>%
   labs(title="Relative Prey Biomass", x=NULL, y=NULL)+
   guides(fill=guide_legend(title="Prey Group"))+
   scale_y_continuous(labels=scales::percent)
-
+ggsave(file="RelB.pdf")
 #still to do: group order? axis!
 
 setwd("~/Eelgrass Project")
