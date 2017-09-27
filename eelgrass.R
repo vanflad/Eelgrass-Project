@@ -347,11 +347,29 @@ str(eelgr)
 eelgr$Eelgrass <- factor(eelgr$Eelgrass, levels(eelgr$Eelgrass)[c(2, 1)])
 #putting eelgrass before noneelgrass for this particular plot
 
+eelgr$Eelsite <- as.factor(eelgr$Eelsite)
+#rearranging levels for site and eelgrass
+
+levels(eelgr$Eelsite)
+#needs to be reordered for graphs!
+eelgr$Eelsite <- factor(eelgr$Eelsite, levels(eelgr$Eelsite)[c(5, 4, 3, 2, 1, 7, 6)])
+#that re-ordering to make it look nice
+
 #Raw Abundance Graph
 eelgr %>%
   ggplot(aes(Eelsite, Abd))+
   geom_bar(aes(fill=Group), stat="identity")+
-  theme(axis.text.x = element_text(angle=45, hjust=1))
+  theme(axis.text.x = element_text(angle=45, hjust=1))+
+  coord_flip()
+#looks amaze now
+
+#Relative Abundance Graph (100% y scale)
+ggplot(eelgr, aes(Eelsite, Abd)) +
+  geom_bar(aes(fill=Group), position="fill", stat="identity")+
+  theme(axis.text.x = element_text(angle=45, hjust=1))+
+  coord_flip()
+
+#idea: put cladocera back in, take out cnidarian and/or polyc/ptero
 
 #if want to have sites graphed separately:
 #add "+facet_wrap(~Site)" and change "Eelsite" to "Eelgrass"
@@ -360,9 +378,17 @@ eelgr %>%
 eelgr %>%
   ggplot(aes(Eelsite, Bio))+
   geom_bar(aes(fill=Group), stat="identity")+
-  theme(axis.text.x = element_text(angle=45, hjust=1))
+  theme(axis.text.x = element_text(angle=45, hjust=1))+
+  coord_flip()
 
-#next step is fixing up abundance and biomass graphs!!
+#Relative Biomass Graph
+eelgr %>%
+  ggplot(aes(Eelsite, Bio))+
+  geom_bar(aes(fill=Group), position="fill", stat="identity")+
+  theme(axis.text.x = element_text(angle=45, hjust=1))+
+  coord_flip()
+
+#still to do: flip axis, background, titles, color, groups, facet?
 
 setwd("~/Eelgrass Project")
 #in order to commit to Github and track saves and changes and etc!
