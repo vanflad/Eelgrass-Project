@@ -286,16 +286,21 @@ eelgr %>%
   theme(axis.text.x = element_text(angle=45, hjust=1),
         axis.ticks=element_blank(),
         panel.grid.major = element_blank())+
-  coord_flip()
+  coord_flip() +
+  labs(title="Average Prey Abundance", x=NULL,
+       y="Ave. Abundance (# of organisms)")+
+  guides(fill=guide_legend(title="Prey Group"))
 #looks amaze now
 
 #Relative Abundance Graph (100% y scale)
 ggplot(eelgr, aes(Eelsite, Abd)) +
   geom_bar(aes(fill=Group), position="fill", stat="identity")+
-  theme(axis.text.x = element_text(angle=45, hjust=1),
-        axis.ticks=element_blank(),
+  theme(axis.ticks=element_blank(),
         panel.grid.major = element_blank())+
-  coord_flip()
+  coord_flip() +
+  labs(title="Relative Prey Abundance", x=NULL, y=NULL)+
+  guides(fill=guide_legend(title="Prey Group"))+
+  scale_y_continuous(labels=scales::percent)
 
 #Raw Biomass Graph
 eelgr %>%
@@ -304,18 +309,23 @@ eelgr %>%
   theme(axis.text.x = element_text(angle=45, hjust=1),
         axis.ticks=element_blank(),
         panel.grid.major = element_blank())+
-  coord_flip()
+  coord_flip() +
+  labs(title="Average Prey Biomass", x=NULL,
+       y="Ave. Biomass (Wet weight, mg)")+
+  guides(fill=guide_legend(title="Prey Group"))
 
 #Relative Biomass Graph
 eelgr %>%
   ggplot(aes(Eelsite, Bio))+
-  geom_bar(aes(fill=Group), position="fill", stat = "identity")+
-  theme(axis.text.x = element_text(angle=45, hjust=1),
-        axis.ticks=element_blank(),
+  geom_bar(aes(fill=Group), position = "fill", stat = "identity")+
+  theme(axis.ticks=element_blank(),
         panel.grid.major = element_blank())+
-  coord_flip()
+  coord_flip() +
+  labs(title="Relative Prey Biomass", x=NULL, y=NULL)+
+  guides(fill=guide_legend(title="Prey Group"))+
+  scale_y_continuous(labels=scales::percent)
 
-#still to do: titles, group order, axis, facet?
+#still to do: group order? axis!
 
 setwd("~/Eelgrass Project")
 #in order to commit to Github and track saves and changes and etc!
