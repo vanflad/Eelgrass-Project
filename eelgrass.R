@@ -50,11 +50,15 @@ ggplot(gut, aes(x=Eelgrass, y=GFI, fill=Eelgrass))+
        title="Eelgrass vs. Non-eelgrass: Salmon Gut Fullness")+
   theme(axis.text.x=element_blank(), axis.ticks=element_blank(),
         legend.position = "bottom", legend.title = element_blank(),
-        panel.grid.major.x = element_blank())+
+        panel.grid.major.x = element_blank(),
+        axis.text = element_text(size=20),
+        axis.title = element_text(size=20),
+        legend.text = element_text(size=20),
+        title = element_text(size=20))+
   scale_x_discrete(limits=c("Eelgrass", "Noneelgrass")) +
   scale_fill_discrete(breaks=c("Eelgrass", "Noneelgrass"))+
   geom_jitter(width=0.2)
-#this is the most I can do to modify this, ask for feedback...
+#NEED TO CHANGE PANEL TITLES SOMEHOW! *****
 
 #working on a t-test for GFI values (not including bedwell)
 #y1 <- filter(gut, Eelgrass == "Eelgrass")
@@ -93,9 +97,13 @@ ggplot(iso, aes(carb, nitro))+
        y=expression(paste(delta^"15","N")),
        title= "Stable Isotopes of Salmon Muscle Tissue")+
   theme(axis.ticks=element_blank(), legend.title=element_blank(),
-        panel.grid.major = element_blank())+
+        panel.grid.major = element_blank(),
+        axis.title = element_text(size=20),
+        axis.text = element_text(size=15),
+        legend.text = element_text(size=15),
+        title = element_text(size=20))+
   guides(color = guide_legend(reverse = TRUE))
-#A beautiful scatterplot plot with all the right features (finally)
+#Still need to change panel titles for this graph too! *****
 
 #working on diet data now, to graph abundance and whatnot! ~
 
@@ -285,7 +293,10 @@ eelgr %>%
   geom_bar(aes(fill=Group), stat="identity")+
   theme(axis.text.x = element_text(angle=45, hjust=1),
         axis.ticks=element_blank(),
-        panel.grid.major = element_blank())+
+        panel.grid.major = element_blank(),
+        title = element_text(size=20),
+        axis.text = element_text(size=15),
+        legend.text = element_text(size=15))+
   coord_flip() +
   labs(title="Average Prey Abundance", x=NULL,
        y="Ave. Abundance (# of organisms)")+
@@ -296,7 +307,10 @@ eelgr %>%
 ggplot(eelgr, aes(Eelsite, Abd)) +
   geom_bar(aes(fill=Group), position="fill", stat="identity")+
   theme(axis.ticks=element_blank(),
-        panel.grid.major = element_blank())+
+        panel.grid.major = element_blank(),
+        title = element_text(size=20),
+        axis.text = element_text(size=15),
+        legend.text = element_text(size=15))+
   coord_flip() +
   labs(title="Relative Prey Abundance", x=NULL, y=NULL)+
   guides(fill=guide_legend(title="Prey Group"))+
@@ -308,7 +322,10 @@ eelgr %>%
   geom_bar(aes(fill=Group), stat="identity")+
   theme(axis.text.x = element_text(angle=45, hjust=1),
         axis.ticks=element_blank(),
-        panel.grid.major = element_blank())+
+        panel.grid.major = element_blank(),
+        title = element_text(size=20),
+        axis.text = element_text(size=15),
+        legend.text = element_text(size=15))+
   coord_flip() +
   labs(title="Average Prey Biomass", x=NULL,
        y="Ave. Biomass (Wet weight, mg)")+
@@ -319,7 +336,10 @@ eelgr %>%
   ggplot(aes(Eelsite, Bio))+
   geom_bar(aes(fill=Group), position = "fill", stat = "identity")+
   theme(axis.ticks=element_blank(),
-        panel.grid.major = element_blank())+
+        panel.grid.major = element_blank(),
+        title = element_text(size=20),
+        axis.text = element_text(size=15),
+        legend.text = element_text(size=15))+
   coord_flip() +
   labs(title="Relative Prey Biomass", x=NULL, y=NULL)+
   guides(fill=guide_legend(title="Prey Group"))+
@@ -327,3 +347,5 @@ eelgr %>%
 
 setwd("~/Eelgrass Project")
 #in order to commit to Github and track saves and changes and etc!
+
+#next step is prey selectivity! then nmds analysis and stuff? idk!
