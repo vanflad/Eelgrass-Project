@@ -48,13 +48,15 @@ ggplot(gut, aes(x=Eelgrass, y=GFI, fill=Eelgrass))+
   facet_wrap(~Site)+
   labs(y="Gut Fullness Index", x=NULL, caption="p-value = 0.025",
        title="Eelgrass vs. Non-eelgrass: Salmon Gut Fullness")+
+  theme_bw()+
   theme(axis.text.x=element_blank(), axis.ticks=element_blank(),
         legend.position = "bottom", legend.title = element_blank(),
-        panel.grid.major.x = element_blank(),
-        axis.text = element_text(size=20),
-        axis.title = element_text(size=20),
-        legend.text = element_text(size=20),
-        title = element_text(size=20))+
+        panel.grid = element_blank(),
+        axis.text = element_text(size=15),
+        axis.title = element_text(size=15),
+        legend.text = element_text(size=15),
+        title = element_text(size=15),
+        strip.text = element_text(size=15, face="bold"))+
   scale_x_discrete(limits=c("Eelgrass", "Noneelgrass")) +
   scale_fill_discrete(breaks=c("Eelgrass", "Noneelgrass"))+
   geom_jitter(width=0.2)
@@ -96,12 +98,15 @@ ggplot(iso, aes(carb, nitro))+
   labs(x=expression(paste(delta^"13","C")),
        y=expression(paste(delta^"15","N")),
        title= "Stable Isotopes of Salmon Muscle Tissue")+
+  theme_bw()+
   theme(axis.ticks=element_blank(), legend.title=element_blank(),
         panel.grid.major = element_blank(),
-        axis.title = element_text(size=20),
+        axis.title = element_text(size=15),
         axis.text = element_text(size=15),
+        axis.title.y = element_text(angle = 0, vjust = 0.5),
         legend.text = element_text(size=15),
-        title = element_text(size=20))+
+        title = element_text(size=15),
+        strip.text = element_text(size=15, face="bold"))+
   guides(color = guide_legend(reverse = TRUE))
 #Still need to change panel titles for this graph too! *****
 
@@ -291,12 +296,12 @@ eelgr$Eelsite <- factor(eelgr$Eelsite, levels(eelgr$Eelsite)[c(5, 4, 3, 2, 1, 7,
 eelgr %>%
   ggplot(aes(Eelsite, Abd))+
   geom_bar(aes(fill=Group), stat="identity")+
-  theme(axis.text.x = element_text(angle=45, hjust=1),
-        axis.ticks=element_blank(),
+  theme_minimal()+
+  theme(axis.ticks=element_blank(),
         panel.grid.major = element_blank(),
-        title = element_text(size=20),
+        title = element_text(size=15),
         axis.text = element_text(size=15),
-        legend.text = element_text(size=15))+
+        legend.text = element_text(size=12))+
   coord_flip() +
   labs(title="Average Prey Abundance", x=NULL,
        y="Ave. Abundance (# of organisms)")+
@@ -306,24 +311,27 @@ eelgr %>%
 #Relative Abundance Graph (100% y scale)
 ggplot(eelgr, aes(Eelsite, Abd)) +
   geom_bar(aes(fill=Group), position="fill", stat="identity")+
+  theme_minimal()+
   theme(axis.ticks=element_blank(),
-        panel.grid.major = element_blank(),
-        title = element_text(size=20),
+        panel.grid = element_blank(),
+        title = element_text(size=15),
         axis.text = element_text(size=15),
         legend.text = element_text(size=15))+
   coord_flip() +
-  labs(title="Relative Prey Abundance", x=NULL, y=NULL)+
+  labs(title="Relative Prey Abundance", x=NULL,
+       y="Relative Abundance (%)")+
   guides(fill=guide_legend(title="Prey Group"))+
-  scale_y_continuous(labels=scales::percent)
+  scale_y_continuous(labels=scales::unit_format("", 100))
 
 #Raw Biomass Graph
 eelgr %>%
   ggplot(aes(Eelsite, Bio))+
   geom_bar(aes(fill=Group), stat="identity")+
-  theme(axis.text.x = element_text(angle=45, hjust=1),
+  theme_minimal()+
+  theme(axis.text.x = element_text(),
         axis.ticks=element_blank(),
         panel.grid.major = element_blank(),
-        title = element_text(size=20),
+        title = element_text(size=15),
         axis.text = element_text(size=15),
         legend.text = element_text(size=15))+
   coord_flip() +
@@ -335,15 +343,17 @@ eelgr %>%
 eelgr %>%
   ggplot(aes(Eelsite, Bio))+
   geom_bar(aes(fill=Group), position = "fill", stat = "identity")+
+  theme_minimal()+
   theme(axis.ticks=element_blank(),
-        panel.grid.major = element_blank(),
-        title = element_text(size=20),
+        panel.grid = element_blank(),
+        title = element_text(size=15),
         axis.text = element_text(size=15),
         legend.text = element_text(size=15))+
   coord_flip() +
-  labs(title="Relative Prey Biomass", x=NULL, y=NULL)+
+  labs(title="Relative Prey Biomass", x=NULL,
+       y="Relative Biomass (%)")+
   guides(fill=guide_legend(title="Prey Group"))+
-  scale_y_continuous(labels=scales::percent)
+  scale_y_continuous(labels=scales::unit_format("", 100))
 
 setwd("~/Eelgrass Project")
 #in order to commit to Github and track saves and changes and etc!
@@ -602,9 +612,9 @@ sites <- rbind(QE, QN, FE, FN, KE, KN, BN)
 str(sites)
 #make sure it worked
 
-sites$inpro <- invert$Proportion[match(sites$Eelsite, invert$Eelsite)]
+#sites$inpro <- invert$Proportion[match(sites$Eelsite, invert$Eelsite)]
 #match info from dataframes together, not correct way to do it?
 
-str(sites$inpro)
-summary(sites$inpro)
+#str(sites$inpro)
+#summary(sites$inpro)
 #check if it worked, it didn't, I give up for now...
