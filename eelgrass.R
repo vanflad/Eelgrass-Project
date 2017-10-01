@@ -132,7 +132,7 @@ eel$Group[which(eel$Group=="Bivalve")] <- "Digested/Other"
 eel$Group[which(eel$Group=="Chaetognath")] <- "Digested/Other"
 eel$Group[which(eel$Group=="Polychaete")] <- "Digested/Other"
 eel$Group[which(eel$Group=="Pteropod")] <- "Digested/Other"
-eel$Group[which(eel$Group=="Cnidarian")] <- "Digested/Other"
+eel$Group[which(eel$Group=="Jellyfish")] <- "Digested/Other"
 eel$Group[which(eel$Group=="Cumacean")] <- "Arthropod"
 eel$Group[which(eel$Group=="Euphausiid")] <- "Arthropod"
 eel$Group[which(eel$Group=="Isopod")] <- "Arthropod"
@@ -349,3 +349,262 @@ setwd("~/Eelgrass Project")
 #in order to commit to Github and track saves and changes and etc!
 
 #next step is prey selectivity! then nmds analysis and stuff? idk!
+
+setwd("~/Desktop")
+#reset working directory to find new file
+
+invert <- read.csv(file="invertebrates.csv", stringsAsFactors=FALSE, strip.white=TRUE, na.strings=c("NA",""))
+#read in invertebrate file
+
+invert $Group <- as.factor(invert$Group)
+#change to factor
+
+levels(invert$Group)
+#check the groups
+
+eelgrass <- mutate(eelgrass, Eelsite = paste(Site, Eelgrass, sep = " "))
+#mutate this dataframe with eelsite as well
+
+eelgrass$Group <- as.factor(eelgrass$Group)
+#turn into factor
+
+#change groups to match inverts
+eelgrass$Group[which(eelgrass$Group=="Arachnid")] <- "Insect"
+eelgrass$Group <- as.character(eelgrass$Group) #change to create new "level"
+eelgrass$Group[which(eelgrass$Group=="Crustacean")] <- "Digested/Other"
+eelgrass$Group[which(eelgrass$Group=="Corophiid")] <- "Digested/Other"
+eelgrass$Group[which(eelgrass$Group=="Malacostracan")] <- "Digested/Other"
+eelgrass$Group[which(eelgrass$Group=="Digested food")] <- "Digested/Other"
+eelgrass$Group[which(eelgrass$Group=="Detritus")] <- "Digested/Other"
+eelgrass$Group[which(eelgrass$Group=="Diatom")] <- "Digested/Other"
+eelgrass$Group[which(eelgrass$Group=="Parasite")] <- "Digested/Other"
+eelgrass$Group[which(eelgrass$Group=="Octopus")] <- "Digested/Other"
+eelgrass$Group[which(eelgrass$Group=="Cyphonaut")] <- "Digested/Other"
+eelgrass$Group[which(eelgrass$Group=="Chaetognath")] <- "Digested/Other"
+eelgrass$Group[which(eelgrass$Group=="Isopod")] <- "Digested/Other"
+eelgrass$Group[which(eelgrass$Group=="Arthropod")] <- "Digested/Other"
+eelgrass$Group[which(eelgrass$Group=="Amphipod")] <- "Digested/Other"
+eelgrass$Group[which(eelgrass$Group=="Copepod")] <- "Digested/Other"
+#switching the class back and forth gets rid of empty levels
+eelgrass$Group <- as.factor(eelgrass$Group)
+eelgrass$Group <- as.character(eelgrass$Group)
+eelgrass$Group <- as.factor(eelgrass$Group)
+levels(eelgrass$Group)
+#there, inverts and stom data have matching groups now
+
+#group prey together so there's no repeating rows
+filt <- filter(eelgrass, Group=="Barnacle")
+barn <- filt %>%
+  group_by(filt$ID) %>%
+  summarize(ID=first(ID), abd=sum(Abundance), Group=first(Group),
+            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
+  select(ID, abd, Group, Eelsite, Eelgrass, Site)
+#manually repeating each step is the best way I know how to do it.
+filt <- filter(eelgrass, Group=="Bivalve")
+biv <- filt %>%
+  group_by(filt$ID) %>%
+  summarize(ID=first(ID), abd=sum(Abundance), Group=first(Group),
+            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
+  select(ID, abd, Group, Eelsite, Eelgrass, Site)
+
+filt <- filter(eelgrass, Group=="Calanoid")
+cal <- filt %>%
+  group_by(filt$ID) %>%
+  summarize(ID=first(ID), abd=sum(Abundance), Group=first(Group),
+            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
+  select(ID, abd, Group, Eelsite, Eelgrass, Site)
+
+filt <- filter(eelgrass, Group=="Caprellid")
+capr <- filt %>%
+  group_by(filt$ID) %>%
+  summarize(ID=first(ID), abd=sum(Abundance), Group=first(Group),
+            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
+  select(ID, abd, Group, Eelsite, Eelgrass, Site)
+
+filt <- filter(eelgrass, Group=="Cladoceran")
+clad <- filt %>%
+  group_by(filt$ID) %>%
+  summarize(ID=first(ID), abd=sum(Abundance), Group=first(Group),
+            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
+  select(ID, abd, Group, Eelsite, Eelgrass, Site)
+
+filt <- filter(eelgrass, Group=="Cumacean")
+cuma <- filt %>%
+  group_by(filt$ID) %>%
+  summarize(ID=first(ID), abd=sum(Abundance), Group=first(Group),
+            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
+  select(ID, abd, Group, Eelsite, Eelgrass, Site)
+
+filt <- filter(eelgrass, Group=="Cyclopoid/Poecilostomatoid")
+cycl <- filt %>%
+  group_by(filt$ID) %>%
+  summarize(ID=first(ID), abd=sum(Abundance), Group=first(Group),
+            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
+  select(ID, abd, Group, Eelsite, Eelgrass, Site)
+
+filt <- filter(eelgrass, Group=="Decapod")
+deca <- filt %>%
+  group_by(filt$ID) %>%
+  summarize(ID=first(ID), abd=sum(Abundance), Group=first(Group),
+            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
+  select(ID, abd, Group, Eelsite, Eelgrass, Site)
+
+filt <- filter(eelgrass, Group=="Digested/Other")
+digf <- filt %>%
+  group_by(filt$ID) %>%
+  summarize(ID=first(ID), abd=sum(Abundance), Group=first(Group),
+            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
+  select(ID, abd, Group, Eelsite, Eelgrass, Site)
+
+filt <- filter(eelgrass, Group=="Euphausiid")
+euph <- filt %>%
+  group_by(filt$ID) %>%
+  summarize(ID=first(ID), abd=sum(Abundance), Group=first(Group),
+            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
+  select(ID, abd, Group, Eelsite, Eelgrass, Site)
+
+filt <- filter(eelgrass, Group=="Fish")
+fish <- filt %>%
+  group_by(filt$ID) %>%
+  summarize(ID=first(ID), abd=sum(Abundance), Group=first(Group),
+            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
+  select(ID, abd, Group, Eelsite, Eelgrass, Site)
+
+filt <- filter(eelgrass, Group=="Gammarid")
+gam <- filt %>%
+  group_by(filt$ID) %>%
+  summarize(ID=first(ID), abd=sum(Abundance), Group=first(Group),
+            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
+  select(ID, abd, Group, Eelsite, Eelgrass, Site)
+
+filt <- filter(eelgrass, Group=="Harpacticoid")
+harp <- filt %>%
+  group_by(filt$ID) %>%
+  summarize(ID=first(ID), abd=sum(Abundance), Group=first(Group),
+            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
+  select(ID, abd, Group, Eelsite, Eelgrass, Site)
+
+filt <- filter(eelgrass, Group=="Hyperiid")
+hyp <- filt %>%
+  group_by(filt$ID) %>%
+  summarize(ID=first(ID), abd=sum(Abundance), Group=first(Group),
+            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
+  select(ID, abd, Group, Eelsite, Eelgrass, Site)
+
+filt <- filter(eelgrass, Group=="Insect")
+ins <- filt %>%
+  group_by(filt$ID) %>%
+  summarize(ID=first(ID), abd=sum(Abundance), Group=first(Group),
+            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
+  select(ID, abd, Group, Eelsite, Eelgrass, Site)
+
+filt <- filter(eelgrass, Group=="Jellyfish")
+jell <- filt %>%
+  group_by(filt$ID) %>%
+  summarize(ID=first(ID), abd=sum(Abundance), Group=first(Group),
+            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
+  select(ID, abd, Group, Eelsite, Eelgrass, Site)
+
+filt <- filter(eelgrass, Group=="Larvacean")
+larv <- filt %>%
+  group_by(filt$ID) %>%
+  summarize(ID=first(ID), abd=sum(Abundance), Group=first(Group),
+            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
+  select(ID, abd, Group, Eelsite, Eelgrass, Site)
+
+filt <- filter(eelgrass, Group=="Mysid")
+mys <- filt %>%
+  group_by(filt$ID) %>%
+  summarize(ID=first(ID), abd=sum(Abundance), Group=first(Group),
+            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
+  select(ID, abd, Group, Eelsite, Eelgrass, Site)
+
+filt <- filter(eelgrass, Group=="Ostracod")
+ostr <- filt %>%
+  group_by(filt$ID) %>%
+  summarize(ID=first(ID), abd=sum(Abundance), Group=first(Group),
+            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
+  select(ID, abd, Group, Eelsite, Eelgrass, Site)
+
+filt <- filter(eelgrass, Group=="Polychaete")
+poly <- filt %>%
+  group_by(filt$ID) %>%
+  summarize(ID=first(ID), abd=sum(Abundance), Group=first(Group),
+            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
+  select(ID, abd, Group, Eelsite, Eelgrass, Site)
+
+filt <- filter(eelgrass, Group=="Pteropod")
+pter <- filt %>%
+  group_by(filt$ID) %>%
+  summarize(ID=first(ID), abd=sum(Abundance), Group=first(Group),
+            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
+  select(ID, abd, Group, Eelsite, Eelgrass, Site)
+
+eelgrass2 <- rbind(barn, biv, cal, capr, clad, cuma, cycl, deca,
+                   digf, euph, fish, gam, harp, hyp, ins, jell,
+                   larv, mys, ostr, poly, pter) #new dataframe!
+
+str(eelgrass2)
+#check that it all worked out okay
+
+#now we need the proportions for each site to compare w inverts!
+filt <- filter(eelgrass2, Eelsite == "Qualicum Eelgrass")
+QE <- filt %>%
+  group_by(Group) %>%
+  summarize(Abd=mean(abd), Total=sum(abd), Proportion=Abd/Total*100,
+            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
+  select(Eelsite, Proportion, Group, Eelgrass, Site)
+#one for each site
+filt <- filter(eelgrass2, Eelsite == "Qualicum Noneelgrass")
+QN <- filt %>%
+  group_by(Group) %>%
+  summarize(Abd=mean(abd), Total=sum(abd), Proportion=Abd/Total*100,
+            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
+  select(Eelsite, Proportion, Group, Eelgrass, Site)
+
+filt <- filter(eelgrass2, Eelsite == "Fraser Eelgrass")
+FE <- filt %>%
+  group_by(Group) %>%
+  summarize(Abd=mean(abd), Total=sum(abd), Proportion=Abd/Total*100,
+            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
+  select(Eelsite, Proportion, Group, Eelgrass, Site)
+
+filt <- filter(eelgrass2, Eelsite == "Fraser Noneelgrass")
+FN <- filt %>%
+  group_by(Group) %>%
+  summarize(Abd=mean(abd), Total=sum(abd), Proportion=Abd/Total*100,
+            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
+  select(Eelsite, Proportion, Group, Eelgrass, Site)
+
+filt <- filter(eelgrass2, Eelsite == "Koeye Eelgrass")
+KE <- filt %>%
+  group_by(Group) %>%
+  summarize(Abd=mean(abd), Total=sum(abd), Proportion=Abd/Total*100,
+            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
+  select(Eelsite, Proportion, Group, Eelgrass, Site)
+
+filt <- filter(eelgrass2, Eelsite == "Koeye Noneelgrass")
+KN <- filt %>%
+  group_by(Group) %>%
+  summarize(Abd=mean(abd), Total=sum(abd), Proportion=Abd/Total*100,
+            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
+  select(Eelsite, Proportion, Group, Eelgrass, Site)
+
+filt <- filter(eelgrass2, Eelsite == "Bedwell noneelgrass")
+BN <- filt %>%
+  group_by(Group) %>%
+  summarize(Abd=mean(abd), Total=sum(abd), Proportion=Abd/Total*100,
+            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
+  select(Eelsite, Proportion, Group, Eelgrass, Site)
+
+sites <- rbind(QE, QN, FE, FN, KE, KN, BN)
+#combine into dataframe
+str(sites)
+#make sure it worked
+
+sites$inpro <- invert$Proportion[match(sites$Eelsite, invert$Eelsite)]
+#match info from dataframes together, not correct way to do it?
+
+str(sites$inpro)
+summary(sites$inpro)
+#check if it worked, it didn't, I give up for now...
