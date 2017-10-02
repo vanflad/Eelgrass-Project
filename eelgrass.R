@@ -316,7 +316,7 @@ ggplot(eelgr, aes(Eelsite, Abd)) +
         panel.grid = element_blank(),
         title = element_text(size=15),
         axis.text = element_text(size=15),
-        legend.text = element_text(size=15))+
+        legend.text = element_text(size=12))+
   coord_flip() +
   labs(title="Relative Prey Abundance", x=NULL,
        y="Relative Abundance (%)")+
@@ -333,7 +333,7 @@ eelgr %>%
         panel.grid.major = element_blank(),
         title = element_text(size=15),
         axis.text = element_text(size=15),
-        legend.text = element_text(size=15))+
+        legend.text = element_text(size=12))+
   coord_flip() +
   labs(title="Average Prey Biomass", x=NULL,
        y="Ave. Biomass (Wet weight, mg)")+
@@ -348,13 +348,13 @@ eelgr %>%
         panel.grid = element_blank(),
         title = element_text(size=15),
         axis.text = element_text(size=15),
-        legend.text = element_text(size=15))+
+        legend.text = element_text(size=12))+
   coord_flip() +
   labs(title="Relative Prey Biomass", x=NULL,
        y="Relative Biomass (%)")+
   guides(fill=guide_legend(title="Prey Group"))+
   scale_y_continuous(labels=scales::unit_format("", 100))
-
+ggsave("RELB.jpeg")
 setwd("~/Eelgrass Project")
 #in order to commit to Github and track saves and changes and etc!
 
