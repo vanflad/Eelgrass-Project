@@ -46,7 +46,7 @@ gut <- eel %>%
 ggplot(gut, aes(x=Eelgrass, y=GFI, fill=Eelgrass))+ 
   geom_boxplot()+
   facet_wrap(~Site)+
-  labs(y="Gut Fullness Index", x=NULL, caption="p-value = 0.025",
+  labs(y="Gut Fullness Index (%)", x=NULL, caption="p-value = 0.025",
        title="Eelgrass vs. Non-eelgrass: Salmon Gut Fullness")+
   theme_bw()+
   theme(axis.text.x=element_blank(), axis.ticks=element_blank(),
@@ -60,7 +60,6 @@ ggplot(gut, aes(x=Eelgrass, y=GFI, fill=Eelgrass))+
   scale_x_discrete(limits=c("Eelgrass", "Noneelgrass")) +
   scale_fill_discrete(breaks=c("Eelgrass", "Noneelgrass"))+
   geom_jitter(width=0.2)
-#NEED TO CHANGE PANEL TITLES SOMEHOW! *****
 
 #working on a t-test for GFI values (not including bedwell)
 #y1 <- filter(gut, Eelgrass == "Eelgrass")
