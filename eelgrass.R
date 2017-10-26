@@ -1,5 +1,7 @@
 #EEEEELGRAAAAASS PROOOOOJEEEEECT
 
+##### First, Gut Fullness
+
 setwd("~/Desktop")
 #so it knows where to find my gosh darn files! :)
 
@@ -77,7 +79,7 @@ ggplot(gut, aes(x=Eelgrass, y=GFI, fill=Eelgrass))+
 #results give p-value=0.02529, are able to reject null hypothesis!
 #hash-tagged out because I don't need to keep running this code.
 
-#switching it up to isotope work now ~
+##### ISOTOPES!
 
 isotope <- read.csv(file="iso.csv", stringsAsFactors=FALSE, strip.white=TRUE, na.strings=c("NA",""))
 #loading/reading isotope data in
@@ -109,7 +111,7 @@ ggplot(iso, aes(carb, nitro))+
   guides(color = guide_legend(reverse = TRUE))
 #Still need to change panel titles for this graph too! *****
 
-#working on diet data now, to graph abundance and whatnot! ~
+##### DIET DATA WOOOOO!
 
 eel$Group <- as.factor(eel$Group)
 #changing to factor to reflect the different "levels" of prey items
@@ -371,6 +373,8 @@ invert $Group <- as.factor(invert$Group)
 levels(invert$Group)
 #check the groups
 
+##### NDMS TIME #####
+
 eelgrass <- mutate(eelgrass, Eelsite = paste(Site, Eelgrass, sep = " "))
 #mutate this dataframe with eelsite as well
 
@@ -553,67 +557,69 @@ eelgrass2 <- rbind(barn, biv, cal, capr, clad, cuma, cycl, deca,
                    digf, euph, fish, gam, harp, hyp, ins, jell,
                    larv, mys, ostr, poly, pter) #new dataframe!
 
-str(eelgrass2)
+head(eelgrass2)
 #check that it all worked out okay
 
-#now we need the proportions for each site to compare w inverts!
-filt <- filter(eelgrass2, Eelsite == "Qualicum Eelgrass")
-QE <- filt %>%
-  group_by(Group) %>%
-  summarize(Abd=mean(abd), Total=sum(abd), Proportion=Abd/Total*100,
-            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(Eelsite, Proportion, Group, Eelgrass, Site)
-#one for each site
-filt <- filter(eelgrass2, Eelsite == "Qualicum Noneelgrass")
-QN <- filt %>%
-  group_by(Group) %>%
-  summarize(Abd=mean(abd), Total=sum(abd), Proportion=Abd/Total*100,
-            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(Eelsite, Proportion, Group, Eelgrass, Site)
+eelwide <- eelgrass2 %>%
+  spread(Group, abd, fill=0, sep = NULL)
+#spread into wide format (*need to double check groups=appropriate!)
 
-filt <- filter(eelgrass2, Eelsite == "Fraser Eelgrass")
-FE <- filt %>%
-  group_by(Group) %>%
-  summarize(Abd=mean(abd), Total=sum(abd), Proportion=Abd/Total*100,
-            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(Eelsite, Proportion, Group, Eelgrass, Site)
+head(eelwide)
+#double check that it worked, it finally did!
 
-filt <- filter(eelgrass2, Eelsite == "Fraser Noneelgrass")
-FN <- filt %>%
-  group_by(Group) %>%
-  summarize(Abd=mean(abd), Total=sum(abd), Proportion=Abd/Total*100,
-            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(Eelsite, Proportion, Group, Eelgrass, Site)
+library(vegan)
+#load ecology transformation library
 
-filt <- filter(eelgrass2, Eelsite == "Koeye Eelgrass")
-KE <- filt %>%
-  group_by(Group) %>%
-  summarize(Abd=mean(abd), Total=sum(abd), Proportion=Abd/Total*100,
-            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(Eelsite, Proportion, Group, Eelgrass, Site)
+eelnum <- eelwide %>%
+  select(Barnacle:Pteropod)
+#just the matrix of abundance numbers, ID and eel/site are in eelwide.
 
-filt <- filter(eelgrass2, Eelsite == "Koeye Noneelgrass")
-KN <- filt %>%
-  group_by(Group) %>%
-  summarize(Abd=mean(abd), Total=sum(abd), Proportion=Abd/Total*100,
-            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(Eelsite, Proportion, Group, Eelgrass, Site)
+head(eelnum)
+#check that it is as it should be
 
-filt <- filter(eelgrass2, Eelsite == "Bedwell noneelgrass")
-BN <- filt %>%
-  group_by(Group) %>%
-  summarize(Abd=mean(abd), Total=sum(abd), Proportion=Abd/Total*100,
-            Eelsite=first(Eelsite), Eelgrass=first(Eelgrass), Site=first(Site)) %>%
-  select(Eelsite, Proportion, Group, Eelgrass, Site)
+eelinfo <- eelwide %>%
+  select(ID, Eelsite, Eelgrass, Site)
+#just the meta data on fish and site, no abundance info whatsoever here
 
-sites <- rbind(QE, QN, FE, FN, KE, KN, BN)
-#combine into dataframe
-str(sites)
+head(eelinfo)
 #make sure it worked
 
-#sites$inpro <- invert$Proportion[match(sites$Eelsite, invert$Eelsite)]
-#match info from dataframes together, not correct way to do it?
+eelpa.mat <- decostand(eelnum, method = "pa")
+#turn abundance data into presence absence data (in a matrix-like df)
 
-#str(sites$inpro)
-#summary(sites$inpro)
-#check if it worked, it didn't, I give up for now...
+head(eelpa.mat)
+#make sure it worked
+
+eelpa <- cbind(eelpa.mat, eelinfo)
+#combine presence-absence matrix with info columns to get p-a dataset
+
+head(eelpa)
+#make sure it worked
+
+logeel <- decostand(eelnum, method = "log")
+#does log+1 for non-zeros and leaves zeros as zeros
+
+head(logeel)
+#make sure it worked
+
+eelid <- eelinfo %>%
+  select(ID)
+#just a column denoting ID values
+
+head(eelid)
+#make sure it worked
+
+#eelsp <- cbind(eelid, eelnum)
+#not what I wanted to do
+
+sp <- metaMDS(logeel, trymax = 100, autotransform = FALSE)
+#need to figure out if I'm even doing this right, who knows
+
+stressplot(sp)
+#a plot of something??
+
+nmds <- data.frame(NMDS1=sp$points[,1], NMDS2=sp$points[,2], group=eelinfo$Eelsite)
+eelmean <- aggregate(. ~  group, nmds, mean)
+#no errors, is it right tho? who knows
+#ord <- ordiellipse(sp, eelinfo$Eelsite, display="sites",kind="se",conf=0.95,label=T)
+#error, no idea how to fix and don't know how to go from here.
