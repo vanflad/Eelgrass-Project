@@ -623,3 +623,5 @@ eelmean <- aggregate(. ~  group, nmds, mean)
 #no errors, is it right tho? who knows
 #ord <- ordiellipse(sp, eelinfo$Eelsite, display="sites",kind="se",conf=0.95,label=T)
 #error, no idea how to fix and don't know how to go from here.
+
+#note these dataframes have 133 fish (not incl. totally empty one)
