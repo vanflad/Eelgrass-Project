@@ -5,11 +5,6 @@ library(lattice)
 library(dplyr)
 library(ggplot2)
 
-# By ordering by centile, we ensure that the (comparatively rare) SuperZIPs
-# will be drawn last and thus be easier to see
-widedata <- widedata[order(widedata$Region, decreasing = TRUE),]
-# in this case, we'll order by region so SSOG is first, NCBC is drawn last!
-
 function(input, output, session) {
   
   ## Interactive Map ###########################################
@@ -21,10 +16,10 @@ function(input, output, session) {
         urlTemplate = "//{s}.tiles.mapbox.com/v3/jcheng.map-5ebohr46/{z}/{x}/{y}.png",
         attribution = 'Maps by <a href="http://www.mapbox.com/">Mapbox</a>'
       ) %>%
-      setView(lng = -123, lat = 49, zoom = 4)
+      setView(lng = -127, lat = 51.5, zoom = 7)
   })#try diff lat longs if not quite right!
   
-  # A reactive expression that returns the set of zips that are
+  # A reactive expression that returns the set of cleanups that are
   # in bounds right now
   trashInBounds <- reactive({
     if (is.null(input$map_bounds))
@@ -34,32 +29,30 @@ function(input, output, session) {
     lngRng <- range(bounds$east, bounds$west)
     #reactive to cleanups in bounds
     
-    subset(longdata,
+      subset(longdata,
            Latitude >= latRng[1] & Latitude <= latRng[2] &
-             Longitude >= lngRng[1] & Longitude <= lngRng[2])
-  })
+             Longitude >= lngRng[1] & Longitude <= lngRng[2] &
+             Year_ %in% input$year & Litter %in% input$litter &
+             Regions %in% input$region & ED_NAME %in% input$district)
+  }) #see if any issues arise here, reactive expressions are tricky!!
+  #changed from region | ED_NAME to region & ED_NAME to see if that helps it work better?
   
   output$sourceprofile <- renderPlot({
     # If no zipcodes are in view, don't plot
     if (nrow(trashInBounds()) == 0)
       return(NULL)
     
-    gar <- trash %>%
-      group_by(Nearest_Ci, Region, Litter, Source, Material) %>%
-      summarise(num=sum(Number))
-    
     trashInBounds() %>%
-      group_by(Nearest_Ci, Region, Litter, Source, Material) %>%
+      group_by(Source) %>%
       summarise(num=sum(Number)) %>%
-      ggplot(aes(Region, num))+
-      geom_bar(aes(fill=Source), position = "fill", stat="identity")+
-      labs(x="Region", y=NULL, title="Source of Litter (by count)")+
-      theme(legend.position = "right", axis.title.x = element_text(size=14),
+      ggplot(aes(x=factor(""), y=num))+
+      geom_bar(aes(fill=Source), stat="identity")+
+      labs(x=NULL, y=NULL, title="Source of Litter (by count)")+
+      theme(legend.position = "right", axis.title.x = element_blank(),
             axis.text.y = element_text(size = 16), axis.title = element_text(size=14),
-            legend.text = element_text(size=16), title = element_text(size=18),
-            legend.title = element_text(size=16), axis.text.x = element_text(size=14))+
-      scale_y_continuous(labels=scales::unit_format("%", 100))+
-      scale_fill_manual(values = brewer.pal(n=4, "Set1"))
+            legend.text = element_text(size=16), title = element_text(size=16),
+            legend.title = element_text(size=16), axis.text.x = element_blank())+
+      scale_fill_brewer(type = "qual", palette = "Set1")
     
   })
   
@@ -69,60 +62,48 @@ function(input, output, session) {
       return(NULL)
     
     trashInBounds() %>%
-      group_by(Nearest_Ci, Region, Litter, Source, Material) %>%
+      group_by(Material) %>%
       summarise(num=sum(Number)) %>%
-      ggplot(aes(Region, num))+
-      geom_bar(aes(fill=Material), position = "fill", stat="identity")+
-      labs(x="Region", y=NULL, title="Material of Litter (by count)")+
-      scale_y_continuous(labels=scales::unit_format("%", 100))+
-      scale_fill_manual(values = brewer.pal(n=2, "Dark2"))+
-      theme(legend.position = "right", axis.title.x = element_text(size=14),
+      ggplot(aes(x=factor(""), y=num))+
+      geom_bar(aes(fill=Material), stat="identity")+
+      labs(x=NULL, y=NULL, title="Material of Litter (by count)")+
+      theme(legend.position = "right", axis.title.x = element_blank(),
             axis.text.y = element_text(size = 16), axis.title = element_text(size=14),
-            legend.text = element_text(size=16), title = element_text(size=18),
-            legend.title = element_text(size=16), axis.text.x = element_text(size=14))
+            legend.text = element_text(size=16), title = element_text(size=16),
+            legend.title = element_text(size=16), axis.text.x = element_blank())+
+      scale_fill_brewer(type = "qual", palette = "Dark2")
     
-  }) #change this to the trash profile bar plot!
-  #also include the trash profile bar plot for selected (clicked) cleanup
-  #And/or (?) change it to a line graph showing changes over time?????
-  
+  })
+  #also include the trash profile bar plot for clicked on cleanup (figure out how later!*)
+
   ##### IRRELEVANT COLOR AND SIZE STUFF????? #####
   # This observer is responsible for maintaining the circles and legend,
   # according to the variables the user has chosen to map to color and size.
   observe({
-    colorBy <- input$color
-    sizeBy <- input$size
-    
-    colorData <- widedata[[colorBy]]
-      pal <- colorBin("viridis", colorData, 7, pretty = FALSE)
-    
-      radius <- widedata[[sizeBy]] / max(widedata[[sizeBy]]) * 30000
-      #maybe use the size stuff to make big circles for many cleanups?????
     
     leafletProxy("map", data = widedata) %>%
       clearShapes() %>%
-      addCircles(~Longitude, ~Latitude, radius=radius, layerId=~ED_NAME,
-                 stroke=FALSE, fillOpacity=0.4, fillColor=pal(colorData)) %>%
-      addLegend("bottomleft", pal=pal, values=colorData, title=colorBy,
-                layerId="colorLegend")
+      addCircles(~Longitude, ~Latitude, layerId=~FID,
+                 stroke=FALSE, fillOpacity=0.7, radius = 500, color = "dark purple")
   }) # I don't know, work out later how we might incorporate this shit here...
-  
+
   # Show a popup at the given location
-  showTrashPopup <- function(ED_NAME, Latitude, Longitude) {
-    selectedED <- widedata[widedata$ED_NAME == ED_NAME,]
+  showTrashPopup <- function(FID, Latitude, Longitude) {
+    selectedFID <- widedata[widedata$FID == FID,]
     #figure out how to select individual cleanups or group together by city???
     
     content <- as.character(tagList(
       tags$h4("Nearest City:", as.character(widedata$Nearest_Ci)),
       #change to region name or ED name or city or something here instead?????
-      tags$strong(HTML(sprintf("%s, %s %s",
-                               selectedED$ED_NAME, selectedED$Region
+      tags$strong(HTML(sprintf("%s, %s",
+                               selectedFID$ED_NAME, selectedFID$Region
       #change to region name or ED name or city or something here instead?????
       ))), tags$br(),
-      sprintf("Number of volunteers: %s", as.integer(selectedED$Volunteers)), tags$br(),
-      sprintf("Kg of trash cleaned: %s%%", as.integer(selectedED$Kilograms)), tags$br(),
-      sprintf("Km of shoreline cleaned: %s", as.integer(selectedED$Kilometers))
+      sprintf("Number of volunteers: %s", as.integer(selectedFID$Volunteers)), tags$br(),
+      sprintf("Kg of trash cleaned: %s", as.integer(selectedFID$Kilograms)), tags$br(),
+      sprintf("Km of shoreline cleaned: %s", as.integer(selectedFID$Kilometers))
     )) #change to # volunteers, # cleanups(?), # km, # kg, top 3 or 5 items?
-    leafletProxy("map") %>% addPopups(lng, lat, content, layerId = ED_NAME)
+    leafletProxy("map") %>% addPopups(Longitude, Latitude, content, layerId = FID)
   } #change layerId to whatever is relevant here, region? ED? whatever it is.
   
   # When map is clicked, show a popup with city info
@@ -141,40 +122,117 @@ function(input, output, session) {
   ## Data Explorer ###########################################
   
   observe({
-    ED_NAME <- if (is.null(input$Region)) character(0) else {
-      filter(widedata, Region %in% input$Region) %>%
-        `$`('ED_NAME') %>%
-        unique() %>%
-        sort()
-    }
-  })
-  
-  observe({
     if (is.null(input$goto))
       return()
     isolate({
       map <- leafletProxy("map")
       map %>% clearPopups()
       dist <- 0.5
-      Region <- input$goto$Region
-      ED_NAME <- input$goto$ED_NAME
+      FID <- input$goto$FID
       Latitude <- input$goto$Latitude
       Longitude <- input$goto$Longitude
-      showTrashPopup(ED_NAME, Latitude, Longitude)
+      showTrashPopup(FID, Latitude, Longitude)
       map %>% fitBounds(Longitude - dist, Latitude - dist, Longitude + dist, Latitude + dist)
     })
+  }) # this may cause trouble with the cleanup ID vs Region/district business
+  #it does cause trouble! hash out for now to implement rough draft then find out how to fix!
+  
+  trashdataA <- reactive({
+    if (input$locationA=="Region")
+      longdata %>%
+      filter(Year_ %in% input$yearA, Litter %in% input$litterA,
+             Region == input$regionA)
+    
+    longdata %>% 
+      filter(Year_ %in% input$yearA, Litter %in% input$litterA,
+             ED_NAME == input$districtA)
+  })
+  #reactive dataframe here for filtered and selected option for A
+  #if it doesn't work try getting rid of the "if" statement and switch to "Region == input$regionA | ED_NAME == input$districtA"?????
+  
+  output$sourceprofileA <- renderPlot({
+    # If no cleanups are in chosen dataset, don't plot!
+    if (nrow(trashdataA()) == 0)
+      return(NULL)
+    
+    trashdataA() %>%
+      group_by(Source) %>%
+      summarise(num=sum(Number)) %>%
+      ggplot(aes(x=factor(""), y=num))+
+      geom_bar(aes(fill=Source), stat="identity")+
+      labs(x=NULL, y=NULL, title="Source of Litter (by count)")+
+      theme(legend.position = "right", axis.title.x = element_blank(),
+            axis.text.y = element_text(size = 16), axis.title = element_text(size=14),
+            legend.text = element_text(size=16), title = element_text(size=16),
+            legend.title = element_text(size=16), axis.text.x = element_blank())+
+      scale_fill_brewer(type = "qual", palette = "Set1")
+  }) #resume here, try to figure out how to have a reactive expression and bar plots and action items and descriptions (table?)
+  
+  output$materialprofileA <- renderPlot({
+    # If no cleanups are in chosen dataset, don't plot!
+    if (nrow(trashdataA()) == 0)
+      return(NULL)
+    
+    trashdataA() %>%
+      group_by(Material) %>%
+      summarise(num=sum(Number)) %>%
+      ggplot(aes(x=factor(""), y=num))+
+      geom_bar(aes(fill=Material), stat="identity")+
+      labs(x=NULL, y=NULL, title="Material of Litter (by count)")+
+      theme(legend.position = "right", axis.title.x = element_blank(),
+            axis.text.y = element_text(size = 16), axis.title = element_text(size=14),
+            legend.text = element_text(size=16), title = element_text(size=16),
+            legend.title = element_text(size=16), axis.text.x = element_blank())+
+      scale_fill_brewer(type = "qual", palette = "Dark2")
   })
   
-  output$trashtable <- DT::renderDataTable({
-    df <- widedata %>%
-      filter(
-        is.null(input$Region) | Region %in% input$Region,
-        is.null(input$ED_NAME) | ED_NAME %in% input$ED_NAME
-      ) %>%
-      mutate(Action = paste('<a class="go-map" href="" data-lat="', Latitude, '" data-long="', Longitude, '"><i class="fa fa-crosshairs"></i></a>', sep=""))
-    action <- DT::dataTableAjax(session, df)
+  trashdataB <- reactive({
+    if (input$locationB=="Region")
+    longdata %>%
+      filter(Year_ %in% input$yearA, Litter %in% input$litterA,
+             Region == input$regionB)
     
-    DT::datatable(df, options = list(ajax = list(url = action)), escape = FALSE)
+    longdata %>% 
+      filter(Year_ %in% input$yearA, Litter %in% input$litterA,
+             ED_NAME == input$districtB)
   })
-} #change this part to the comparison idea with two bar charts and tables *
-#might need to sort out lat/long namings and ED_NAME/Region namings (follow superzip?)
+  #reactive dataframe here for filtered and selected option for B
+  #if it doesn't work try getting rid of the "if" statement and switch to "Region == input$regionB | ED_NAME == input$districtB"?????
+  
+  output$sourceprofileB <- renderPlot({ 
+    # If no cleanups are in chosen dataset, don't plot!
+    if (nrow(trashdataB()) == 0)
+      return(NULL)
+    
+    trashdataB() %>%
+      group_by(Source) %>%
+      summarise(num=sum(Number)) %>%
+      ggplot(aes(x=factor(""), y=num))+
+      geom_bar(aes(fill=Source), stat="identity")+
+      labs(x=NULL, y=NULL, title="Source of Litter (by count)")+
+      theme(legend.position = "right", axis.title.x = element_blank(),
+            axis.text.y = element_text(size = 16), axis.title = element_text(size=14),
+            legend.text = element_text(size=16), title = element_text(size=16),
+            legend.title = element_text(size=16), axis.text.x = element_blank())+
+      scale_fill_brewer(type = "qual", palette = "Set1")
+  }) #resume here, try to figure out how to have a reactive expression and bar plots and action items and descriptions (table?)
+  
+  output$materialprofileB <- renderPlot({
+    # If no cleanups are in chosen dataset, don't plot!
+    if (nrow(trashdataB()) == 0)
+      return(NULL)
+    
+    trashdataB() %>%
+      group_by(Material) %>%
+      summarise(num=sum(Number)) %>%
+      ggplot(aes(x=factor(""), y=num))+
+      geom_bar(aes(fill=Material), stat="identity")+
+      labs(x=NULL, y=NULL, title="Material of Litter (by count)")+
+      theme(legend.position = "right", axis.title.x = element_blank(),
+            axis.text.y = element_text(size = 16), axis.title = element_text(size=14),
+            legend.text = element_text(size=16), title = element_text(size=16),
+            legend.title = element_text(size=16), axis.text.x = element_blank())+
+      scale_fill_brewer(type = "qual", palette = "Dark2")
+  })
+
+  }

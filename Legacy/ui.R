@@ -1,20 +1,7 @@
 library(leaflet)
 
-#random notes to self: figure out how to deal with 0's/NA's, "Data not avail."
-#maybe write out a short term game plan for how to tackle all this shit?????
-#today get basic thing running, sat troubleshoot improvements, sun rough draft
-#monday do edits/troubleshooting/talk to group, and then tues/wed final touches
-
-# Choices for drop-downs
-vars <- c(
-  "Volunteers" = "Volunteers",
-  "Kilograms" = "Kilograms",
-  "Kilometers" = "Kilometers"
-) #add number of cleanups (?) or exclude this size/color business altogether
-#maybe try to get simple copycat version of superzip working then modify?????
-
 location_vars <- c(
-  "Region" = "Region",
+  "Region" = "Regions",
   "District" = "ED_NAME"
   )
 
@@ -70,22 +57,15 @@ litter_vars <- c(
 #maybe merge any categories separated by material type?
 #Also: figure out how to rearrange by dominant items not alphabetical? *
 #Even if it means rearranging manually, it shouldn't be alphabetical.
+#and definitely need Cassandra's help to include polygons in here...
+#also ask team if we should simplify our material categories?????
 
-widedata$Region <- as.character(widedata$Region)
-#update with relevant datafile name! to change the names of regions.
-
-region_vars <- c(
-  "North Coast B.C." = "1",
-  "Inner Coast Vancouver Island" = "2",
-  "West Coast Vancouver Island" = "3",
-  "Southern Strait of Georgia" = "4"
-)
+region_vars <- sort(unique(widedata$Regions))
   
-district_vars <- unique(widedata$ED_NAME)
+district_vars <- sort(unique(widedata$ED_NAME))
 #Update with relevant datafile name!
 
-# Need to figure out how to include Region polygons when region is chosen
-# And how to include ED polygons when ED is chosen (region by default for BC)
+year_vars <- c("2013", "2014", "2015", "2016")
 
 navbarPage("Towards Cleaner Shores", id="nav",
            
@@ -101,15 +81,32 @@ navbarPage("Towards Cleaner Shores", id="nav",
                         # If not using custom CSS, set height of leafletOutput to a number instead of percent
                         leafletOutput("map", width="100%", height="100%"),
                         
-                        # Shiny versions prior to 0.11 should use class = "modal" instead.
                         absolutePanel(id = "controls", class = "panel panel-default", fixed = TRUE,
                                       draggable = TRUE, top = 60, left = "auto", right = 20, bottom = "auto",
                                       width = 330, height = "auto",
+                          h2("Litter Explorer"),
+                          selectInput("location", "Region or District?", location_vars, selected = "Regions"),
+                          #view polygons and breakdowns of data and potential filtering by 4 regions or 34 districts
+                          sliderInput("year", "Select Years", 2013, 2016, c(2013, 2016), 1, sep = ""),
+                          #give slider input for choosing 2013-2016, 2014-2015, single year only, 3 years, etc.
+                          conditionalPanel("input.location=='Regions'",
+                                           checkboxGroupInput("region", "Choose Regions", region_vars, region_vars)),
+                          #if region is selected give user an option to select/deselect from 4 options
+                          conditionalPanel("input.location=='ED_NAME'",
+                                           radioButtons("edyn", "Choose certain districts?", c("Yes", "No"), "No")),
+                          conditionalPanel("input.location=='ED_NAME' & input.edyn=='Yes'",
+                                           checkboxGroupInput("district", "Choose Districts", district_vars, district_vars)),
+                          #if district is selected give user an option to select/deselect from 34 options
+                          selectInput("litter", "Remove Litter Items to Simulate Prevention", litter_vars, multiple = TRUE)
+                          #give prompt to see effect of changes in policy/behaviour by "removing" litter
+                        ),
+                        
+                        # Shiny versions prior to 0.11 should use class = "modal" instead.
+                        absolutePanel(id = "controls", class = "panel panel-default", fixed = TRUE,
+                                      draggable = TRUE, top = 60, left = "auto", right = 350, bottom = "auto",
+                                      width = 330, height = "auto",
                                       
-                                      h2("Litter explorer"),
-                                      #put in inputs for filtering here instead:
-                                      selectInput("color", "Color", vars),
-                                      selectInput("size", "Size", vars, selected = "Volunteers"),
+                                      h2("Litter Results"),
                                       
                                       plotOutput("sourceprofile", height = 200),
                                       plotOutput("materialprofile", height = 200)
@@ -117,25 +114,52 @@ navbarPage("Towards Cleaner Shores", id="nav",
                         ),
                         
                         tags$div(id="cite",
-                                 'Data provided by ', tags$em('The Great Canadian Shoreline Cleanup'), ' App created by Fladmark, V., Konecny, C. and De la Puente, S.'
+                                 'Data provided by ', tags$em('The Great Canadian Shoreline Cleanup;'), ' App created by Fladmark, V., Konecny, C. and De la Puente, S.'
                         ) #change this to say data provided by GCSC, app by us
                     )
            ),
            
-           tabPanel("Comparisons", #change inputs to relevant region/ed choice
+           tabPanel("Comparisons",
                     fluidRow(
-                      column(3,
-                             selectInput("Region", "Regions", c("All regions"="")
+                      column(2,
+                             sliderInput("yearA", "Select Years", 2013, 2016, c(2013, 2016), 1, sep = ""),
+                             #give slider input for choosing 2013-2016, 2014-2015, single year only, 3 years, etc.
+                             selectInput("litter", "Remove Litter Items to Simulate Prevention", litter_vars, multiple = TRUE)
+                             #give prompt to see effect of changes in policy/behaviour by "removing" litter
+                      ), 
+                      #first column have filtering options! and text and whatever else here.
+                      column(4,
+                             selectInput("locationA", "Region or District?", location_vars, "Regions"),
+                             #choose whether to view a large region or relatively smaller district for comparison
+                             conditionalPanel("input.locationA=='Regions'",
+                                              selectInput("regionA", "Choose Region", region_vars, "Southern Strait of Georgia")),
+                             #if region is selected give user an option to choose from 4 options
+                             conditionalPanel("input.locationA=='ED_NAME'",
+                                              selectInput("districtA", "Choose District", district_vars, "Vancouver-West End")),
+                             #if district is selected give user an option to choose from 34 options
+                             plotOutput("sourceprofileA", height = 200),
+                             plotOutput("materialprofileA", height = 200)
                       ),
-                      column(3,
-                             conditionalPanel("input.Region",
-                                              selectInput("ED_NAME", "Electoral District", c("All districts"=""))
-                             )
-                      ),
-                    hr(),
-                    DT::dataTableOutput("trashtable")
-           ), #change to print out bar chart and relevant info here instead!
+                      #second column is the selection and display of the first chosen region/district
+                      column(4,
+                             selectInput("locationB", "Region or District?", location_vars, "Regions"),
+                             #choose whether to view a large region or relatively smaller district for comparison
+                             conditionalPanel("input.locationB=='Regions'",
+                                              selectInput("regionB", "Choose Region", region_vars, "North Coast B.C.")),
+                             #if region is selected give user an option to choose from 4 options
+                             conditionalPanel("input.locationB=='ED_NAME'",
+                                              selectInput("districtB", "Choose District", district_vars, "North Island")),
+                             #if district is selected give user an option to choose from 34 options
+                             plotOutput("sourceprofileB", height = 200),
+                             plotOutput("materialprofileB", height = 200))
+                      )
+                      #third column is the selection and display of the second chosen region/district
+           ), #maybe include list of nearest cities so people know where these districts are without the map?
+           #be sure to double check any nearest city data because data isn't 100% consistent in this column.
            
            conditionalPanel("false", icon("crosshair"))
-           ))) #might need to fix this fucked up comma and bracket situation
-           
+) #when this is working, make sure to add visit a cleanup near you stuff
+#and maybe the note that says this is cleaned litter not everything on shores
+#maybe cite our inspiration from Superzip somewhere if possible and appropriate
+#give GCSC a bigger shoutout? Like they're a big organization with WWF & Van Aqua
+#then try to add those tricky polygons/e-mail rough draft and set up Monday meeting
