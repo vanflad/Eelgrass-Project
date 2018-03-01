@@ -1,0 +1,12 @@
+name: Legacy
+title: Legacy
+username:
+account: vanflad
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 288358
+bundleId: 1241483
+url: https://vanflad.shinyapps.io/Legacy/
+when: 1519689114.78145
+asMultiple: FALSE
+asStatic: FALSE
