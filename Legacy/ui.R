@@ -1,7 +1,7 @@
 library(leaflet)
 library(shinyjs)
 library(DT)
-
+#
 ##### Variables for Inputs #####
 
 location_vars <- c(
@@ -61,7 +61,9 @@ region_vars <- sort(unique(widedata$Regions))
   
 district_vars <- sort(unique(widedata$ED_NAME))
 
-year_vars <- c("2013", "2014", "2015", "2016")
+#year_vars <- c("2013", "2014", "2015", "2016")
+
+year_vars <- sort(unique(widedata$Year_))
 
 ##### Map Display #####
 
@@ -80,9 +82,10 @@ navbarPage("Towards Cleaner Shores", id="nav",
                         
                         leafletOutput("map", width="100%", height="100%"),
                         
+                        # Litter Explorer
                         absolutePanel(id = "controls", class = "panel panel-default", fixed = TRUE,
-                                      draggable = TRUE, top = 60, left = "auto", right = 300, bottom = "auto",
-                                      width = 300, height = "auto", style = "overflow-y:scroll; max-height: 600px",
+                                      draggable = TRUE, top = 60, left = "auto", right = 320, bottom = "auto",
+                                      width = 320, height = "auto", style = "overflow-y:scroll; max-height: 600px",
                           h2("Litter Explorer"),
                           selectInput("location", "Region or District?", choices = location_vars, selected = "Regions"),
 
@@ -94,24 +97,22 @@ navbarPage("Towards Cleaner Shores", id="nav",
                                            checkboxGroupInput("region", "Choose Regions", choices = region_vars, selected = region_vars)),
           
                           conditionalPanel("input.location=='ED_NAME'",
-                                           radioButtons("edyn", "Choose certain districts?", choices = list("Yes"=TRUE, "No"=FALSE), selected = FALSE)),
+                                           checkboxGroupInput("district", "Choose Districts", choices = district_vars, selected = district_vars)),
+                                           #radioButtons("edyn", "Choose certain districts?", choices = list("Yes"=TRUE, "No"=FALSE), selected = FALSE)),
                           uiOutput("conditionalReset")
               
                         ),
                         
-                     
+                        # Litter Results
                         absolutePanel(id = "controls", class = "panel panel-default", fixed = TRUE,
                                       draggable = TRUE, top = 60, left = "auto", right = 20, bottom = "auto",
                                       width = 300, height = "auto",
                                       
                                       h2("Litter Results"),
                                       
-                                      plotOutput("sourceprofile", height = 175),
-                                      plotOutput("materialprofile", height = 175),
-                                      textOutput("basictext"),
-                                      plotOutput("sourceclicked", height = 125),
-                                      plotOutput("materialclicked", height = 125),
-                                      textOutput("barplotinfo")
+                                      plotOutput("sourceprofile", height = 200),
+                                      plotOutput("materialprofile", height = 200),
+                                      DT::dataTableOutput("trashsummary")
                         ),
                         
                         tags$div(id="cite",
@@ -120,7 +121,11 @@ navbarPage("Towards Cleaner Shores", id="nav",
                     )
            ),
            
+##### Comparison Tab #####
+           
            tabPanel("Comparisons",
+                    
+                    # Filtering options
                     fluidRow(
                       column(3,
                              sliderInput("yearA", "Select Years", 2013, 2016, c(2013, 2016), 1, sep = "")),
@@ -129,9 +134,10 @@ navbarPage("Towards Cleaner Shores", id="nav",
                              selectInput("litterA", "Remove Litter Items to Simulate Prevention", litter_vars, multiple = TRUE)
                              
                       )), 
-              
-                      fluidRow(  
-                      column(5,
+                    
+                    # left hand side graphs and summary table
+                    fluidRow(  
+                      column(4,
                              selectInput("locationA", "Region or District?", location_vars, "Regions"),
                            
                              conditionalPanel("input.locationA=='Regions'",
@@ -144,8 +150,9 @@ navbarPage("Towards Cleaner Shores", id="nav",
                              plotOutput("materialprofileA", height = 200),
                              DT::dataTableOutput("trashtableA")
                       ),
-                   
-                      column(5,
+                      
+                      # right hand side graphs and summary table
+                      column(4,
                              selectInput("locationB", "Region or District?", location_vars, "Regions"),
                           
                              conditionalPanel("input.locationB=='Regions'",
@@ -160,9 +167,10 @@ navbarPage("Towards Cleaner Shores", id="nav",
                        
                              plotOutput("sourceprofileB", height = 200),
                              plotOutput("materialprofileB", height = 200),
-                             DT::dataTableOutput("trashtableB"))
+                             DT::dataTableOutput("trashtableB"),
+                             offset = 1)
                       )
            ), 
            
            conditionalPanel("false", icon("crosshair"))
-) #fluid page and figure out data table situation!
+)
